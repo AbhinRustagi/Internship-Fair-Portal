@@ -27,6 +27,7 @@ function Profile() {
     resume: null,
     proofOfResume: null,
     admission: null,
+    companyLimit: 0,
   });
 
   useEffect(async () => {
@@ -89,12 +90,13 @@ function Profile() {
 
   const History = useHistory();
 
-  const logOut = () => {
-    dispatch({
-      action: "REMOVE_USER",
+  const logOut = async () => {
+    await auth.signOut().then(() => {
+      dispatch({
+        action: "REMOVE_USER",
+      });
+      History.push("/");
     });
-
-    History.push("/");
   };
 
   const onFileUpload = async ({ target: { files, name } }) => {
@@ -200,6 +202,18 @@ function Profile() {
       });
   };
 
+  const selectCompanies = (e) => {
+    e.preventDefault();
+
+    dispatch({
+      type: "SET_APPROVAL",
+      approved: thisUser.approved,
+      companyLimit: thisUser.companyLimit,
+    });
+
+    History.push("/company/select");
+  };
+
   return user ? (
     <div className="profile_page">
       <div className="container">
@@ -266,9 +280,9 @@ function Profile() {
               : thisUser?.remarks}
             {thisUser.approved ? (
               <div className="company_selection">
-                <Link to="/company/select">
-                  <button>Go on to select companies ➞</button>
-                </Link>
+                <button onClick={selectCompanies}>
+                  Go on to select companies ➞
+                </button>
               </div>
             ) : null}
           </p>

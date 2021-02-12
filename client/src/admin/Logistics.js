@@ -36,8 +36,6 @@ export default function Admin() {
     History.push("/");
   };
 
-  useEffect(() => console.log(users), [users]);
-
   return user === "admin" ? (
     <div className="logistics">
       <div className="container">

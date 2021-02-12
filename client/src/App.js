@@ -10,6 +10,8 @@ import Help from "./Help/Help";
 import AdminLogin from "./admin/AdminLogin";
 import Logistics from "./admin/Logistics";
 import Download from "./downloadData/downloadData";
+import Grid from "./company-grid/Grid";
+import CompanyPage from "./companyPage/CompanyPage";
 
 function App() {
   return (
@@ -34,10 +36,15 @@ function App() {
           <Route exact path="/admin/login">
             <AdminLogin />
           </Route>
-          <Route path="/admin/logistics">
+          <Route exact path="/company/select">
+            <Grid />
+          </Route>
+          <Route exact path="/company/:id" component={CompanyPage} />
+
+          <Route exact path="/admin/logistics">
             <Logistics />
           </Route>
-          <Route path="/downloadData">
+          <Route exact path="/downloadData">
             <Download />
           </Route>
         </Switch>

@@ -13,7 +13,7 @@ export default function UserProfile({ rollno }) {
   const [thisUser, setThisUser] = useState({
     fullName: null,
     collegeRollNo: rollno,
-    year: null, 
+    year: null,
     course: null,
     emailAddress: null,
     contactNumber: null,
@@ -67,6 +67,13 @@ export default function UserProfile({ rollno }) {
               properties = { ...properties, [property]: null };
             });
         }
+
+        if (!doc.data().companyLimit) {
+          await db.collection("users").doc(doc.data().collegeRollNo).update({
+            companyLimit: 5,
+          });
+        }
+
         setThisUser({ ...thisUser, ...doc.data(), ...properties });
       });
   }, []);
