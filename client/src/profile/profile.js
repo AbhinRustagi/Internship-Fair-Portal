@@ -61,10 +61,6 @@ function Profile() {
     }
   }, []);
 
-  useEffect(() => {
-    console.log(thisUser);
-  }, [thisUser]);
-
   const [buttonText, setButtonText] = useState({
     admission: "Upload File",
     proofOfResume: "Upload File",
@@ -253,18 +249,6 @@ function Profile() {
               </p>
             </div>
           )}
-          <div className="delete_box">
-            <p>
-              Accidentally entered wrong information such as your email address,
-              or details? You can delete your account and register again.{" "}
-            </p>
-            <button
-              className="submitButton deleteProfile"
-              onClick={deleteAccount}
-            >
-              Delete my Account
-            </button>
-          </div>
           <h1>Hello, {thisUser?.fullName}</h1>
           <h4>My profile</h4>
           <hr />
@@ -335,7 +319,7 @@ function Profile() {
                 <a target="_blank" rel="noreferrer" href={thisUser?.admission}>
                   {thisUser?.admission === null
                     ? "Not Uploaded"
-                    : "View your current submission here"}
+                    : "View your file here"}
                 </a>
               </div>
             </div>
@@ -345,7 +329,7 @@ function Profile() {
                 <a target="_blank" rel="noreferrer" href={thisUser?.resume}>
                   {thisUser?.resume === null
                     ? "Not Uploaded"
-                    : "View your current submission here"}
+                    : "View your file here"}
                 </a>
               </div>
             </div>
@@ -359,136 +343,150 @@ function Profile() {
                 >
                   {thisUser?.proofOfResume === null
                     ? "Not Uploaded"
-                    : "View your current submission here"}
+                    : "View your file here"}
                 </a>
               </div>
             </div>
           </div>
           <hr />
-          <div className="reupload">
-            <h3>File Upload</h3>
+          <div className="delete_box">
             <p>
-              Upload your files here. After they've been uploaded successfully,
-              our team will verify them to make sure they meet our mandated
-              guidelines. <br />
-              <br />
-              Once successfully verified, the <strong>
-                Files Approved
-              </strong>{" "}
-              field above will reflect the same and you'll be able to
-              participate in the Internship Fair.
-              <br />
-              <br />
-              In case they do not meet our guidelines, you can check the
-              suggested changes in the <strong>Remarks</strong> field and after
-              making those changes, you can reupload your files.
-              <br />
-              <br />
-              In case you uploaded the wrong files, or your files weren't
-              successfully uploaded whilst registering your account, you can
-              reupload them here.{" "}
+              Accidentally entered wrong information such as your email address,
+              or details? You can delete your account and register again.{" "}
             </p>
-            <form>
-              <div className="row">
-                <div className="col_3">
-                  <h4>Admission Proof</h4>
-                  <div className="file_group">
-                    <small>
-                      Upload scanned copy of your ID card or Admission Sheet in
-                      JPG format. <br />
-                      (Maximum file size limit: 1 MB)
-                    </small>
-                    <label htmlFor="admission" className="upload_btn">
-                      {filename.admission.length > 30
-                        ? filename.admission.slice(0, 29) + "..."
-                        : filename.admission}
-                    </label>
-                    <input
-                      type="file"
-                      name="admission"
-                      id="admission"
-                      onChange={onFileUpload}
-                      accept=".jpg, .jpeg"
-                      required
-                    />
-                    <button
-                      onClick={(e) => {
-                        e.preventDefault();
-                        handleUpload("admission");
-                      }}
-                    >
-                      {buttonText.admission}
-                    </button>
-                  </div>
-                </div>
-
-                <div className="col_3">
-                  <h4>Resume</h4>
-                  <div className="file_group">
-                    <small>
-                      Upload a copy of your Resume in PDF format. <br />
-                      <br />
-                      (Maximum file size limit: 10 MB)
-                    </small>
-                    <label htmlFor="resume" className="upload_btn">
-                      {filename.resume.length > 30
-                        ? filename.resume.slice(0, 29) + "..."
-                        : filename.resume}
-                    </label>
-                    <input
-                      type="file"
-                      name="resume"
-                      id="resume"
-                      onChange={onFileUpload}
-                      accept=".pdf"
-                      required
-                    />
-                    <button
-                      onClick={(e) => {
-                        e.preventDefault();
-                        handleUpload("resume");
-                      }}
-                    >
-                      {buttonText.resume}
-                    </button>
-                  </div>
-                </div>
-
-                <div className="col_3">
-                  <h4>Proof of Resume</h4>
-                  <div className="file_group">
-                    <small>
-                      Upload an aggregated PDF of all certificates listed in
-                      your resume in PDF format.
-                      <br /> (Maximum file size limit: 25 MB)
-                    </small>
-                    <label htmlFor="proofOfResume" className="upload_btn">
-                      {filename.proofOfResume.length > 30
-                        ? filename.proofOfResume.slice(0, 29) + "..."
-                        : filename.proofOfResume}
-                    </label>
-                    <input
-                      type="file"
-                      name="proofOfResume"
-                      id="proofOfResume"
-                      onChange={onFileUpload}
-                      accept=".pdf"
-                      required
-                    />
-                    <button
-                      type="submit"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        handleUpload("proofOfResume");
-                      }}
-                    >
-                      {buttonText.proofOfResume}
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
+            <button
+              className="submitButton deleteProfile"
+              onClick={deleteAccount}
+            >
+              Delete my Account
+            </button>
           </div>
+          {thisUser.approved ? null : (
+            <div className="reupload">
+              <h3>File Upload</h3>
+              <p>
+                Upload your files here. After they've been uploaded
+                successfully, our team will verify them to make sure they meet
+                our mandated guidelines. <br />
+                <br />
+                Once successfully verified, the <strong>
+                  Files Approved
+                </strong>{" "}
+                field above will reflect the same and you'll be able to
+                participate in the Internship Fair.
+                <br />
+                <br />
+                In case they do not meet our guidelines, you can check the
+                suggested changes in the <strong>Remarks</strong> field and
+                after making those changes, you can reupload your files.
+                <br />
+                <br />
+                In case you uploaded the wrong files, or your files weren't
+                successfully uploaded whilst registering your account, you can
+                reupload them here.{" "}
+              </p>
+              <form>
+                <div className="row">
+                  <div className="col_3">
+                    <h4>Admission Proof</h4>
+                    <div className="file_group">
+                      <small>
+                        Upload scanned copy of your ID card or Admission Sheet
+                        in JPG format. <br />
+                        (Maximum file size limit: 1 MB)
+                      </small>
+                      <label htmlFor="admission" className="upload_btn">
+                        {filename.admission.length > 30
+                          ? filename.admission.slice(0, 29) + "..."
+                          : filename.admission}
+                      </label>
+                      <input
+                        type="file"
+                        name="admission"
+                        id="admission"
+                        onChange={onFileUpload}
+                        accept=".jpg, .jpeg"
+                        required
+                      />
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          handleUpload("admission");
+                        }}
+                      >
+                        {buttonText.admission}
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="col_3">
+                    <h4>Resume</h4>
+                    <div className="file_group">
+                      <small>
+                        Upload a copy of your Resume in PDF format. <br />
+                        <br />
+                        (Maximum file size limit: 10 MB)
+                      </small>
+                      <label htmlFor="resume" className="upload_btn">
+                        {filename.resume.length > 30
+                          ? filename.resume.slice(0, 29) + "..."
+                          : filename.resume}
+                      </label>
+                      <input
+                        type="file"
+                        name="resume"
+                        id="resume"
+                        onChange={onFileUpload}
+                        accept=".pdf"
+                        required
+                      />
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          handleUpload("resume");
+                        }}
+                      >
+                        {buttonText.resume}
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="col_3">
+                    <h4>Proof of Resume</h4>
+                    <div className="file_group">
+                      <small>
+                        Upload an aggregated PDF of all certificates listed in
+                        your resume in PDF format.
+                        <br /> (Maximum file size limit: 25 MB)
+                      </small>
+                      <label htmlFor="proofOfResume" className="upload_btn">
+                        {filename.proofOfResume.length > 30
+                          ? filename.proofOfResume.slice(0, 29) + "..."
+                          : filename.proofOfResume}
+                      </label>
+                      <input
+                        type="file"
+                        name="proofOfResume"
+                        id="proofOfResume"
+                        onChange={onFileUpload}
+                        accept=".pdf"
+                        required
+                      />
+                      <button
+                        type="submit"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          handleUpload("proofOfResume");
+                        }}
+                      >
+                        {buttonText.proofOfResume}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          )}
         </div>
       </div>
     </div>

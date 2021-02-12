@@ -70,7 +70,7 @@ export default function UserProfile({ rollno }) {
 
         if (!doc.data().companyLimit) {
           await db.collection("users").doc(doc.data().collegeRollNo).update({
-            companyLimit: 5,
+            companyLimit: 4,
           });
         }
 

@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import RegistrationForm from "./register/RegistrationForm";
+import "./register/RegistrationForm.css";
 import Home from "./home/Home";
 import Footer from "./components/footer/Footer";
 import Profile from "./profile/profile";
@@ -21,9 +22,9 @@ function App() {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route exact path="/ifair/register">
+          {/* <Route exact path="/ifair/register">
             <RegistrationForm />
-          </Route>
+          </Route> */}
           <Route exact path="/profile">
             <Profile />
           </Route>
