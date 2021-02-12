@@ -1,0 +1,175 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.navbar > a > .logo_box > img {
+  height: 60px;
+  filter: contrast(0);
+}
+
+.navbar > a > .logo_box {
+  display: flex;
+  align-items: center;
+}
+
+.navbar > a > .logo_box > p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 10px;
+  line-height: 20px;
+}
+
+.navbar > a > .logo_box > p > span {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.navbar ~ img {
+  margin: 20px 20px 25px;
+  object-fit: contain;
+  max-height: 80vh;
+}
+
+.button_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_box > a > button {
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 7px 17px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  margin: 10px;
+  color: black;
+}
+
+.button_box > a > .register_button {
+  color: white;
+  background-color: #5fdde5;
+  animation: jittery 4s infinite;
+}
+
+.button_box > a > .login_button {
+  background-color: white;
+  border: 2px solid #5fdde5;
+}
+
+.Home > .container > .instruction {
+  margin: 20px auto;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.Home > .container > .instruction > h2 {
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 2rem;
+}
+
+.instruction > .row {
+  display: flex;
+  width: 100%;
+}
+
+.instruction > .row > .col_4 {
+  width: calc(100% / 3);
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.instruction > .row > .col_4 h3 {
+  margin: 0;
+}
+
+.instruction > .row > .col_4 > svg {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 8px;
+  color: #5fdde5;
+  transition: 0.2s ease-in-out;
+}
+
+.instruction > .row > .col_4 > svg:hover {
+  color: #28abb9;
+}
+
+a[href="/help"] {
+  margin: 10px;
+  margin-bottom: 15px;
+  background-color: #5fdde5;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+a[href="/help"] > p {
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .instruction > .row {
+    flex-direction: column;
+  }
+
+  .instruction > .row > .col_4 {
+    width: 100%;
+  }
+}
+
+@keyframes jittery {
+  5%,
+  60% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(0.9);
+  }
+
+  15% {
+    transform: scale(1.15);
+  }
+
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
+}

@@ -1,0 +1,29 @@
+footer {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #222831;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+footer > p > a {
+  color: #d89216;
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
+}
+
+footer > p > a > i {
+  font-size: 0.8rem;
+}
+
+footer > p {
+  margin: 0;
+  line-height: 30px;
+}

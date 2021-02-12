@@ -1,0 +1,214 @@
+.title_box > h2 {
+  margin: 0;
+}
+.title_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title_box > a > img {
+  height: 50px;
+  filter: contrast(0);
+}
+.Register_Page form,
+.login form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 25px 10px;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 50px;
+}
+
+.Register_Page form .error_message {
+  margin: 3px 0;
+  color: red;
+  font-size: 0.8rem;
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 95%;
+  margin: 5px auto;
+}
+
+.input_group > input {
+  width: 100%;
+  padding: 7px 5px;
+  box-sizing: border-box;
+  border: 1px solid #f6f6f6;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: black;
+  transition: 0.2s ease-in-out;
+  font-family: inherit;
+  position: relative;
+  z-index: 2;
+  display: block;
+  transition: 0.2s ease-in-out;
+}
+
+.input_group > label {
+  font-size: 0.8rem;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.input_group input:focus {
+  border-color: #5fdde5;
+}
+
+.file_group {
+  text-align: left;
+  width: 95%;
+  margin-top: 10px;
+}
+
+.file_group > input {
+  display: none;
+}
+
+.file_group > label {
+  display: block;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.file_group small {
+  color: black;
+  font-size: 0.8rem;
+}
+
+.file_group > .upload_btn {
+  background-color: transparent;
+  border: 1px solid #182c69;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.select_group {
+  width: 95%;
+  margin-bottom: 5px;
+}
+
+.select_group > label {
+  color: black;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.select_group > select,
+.select_group > select > option {
+  display: block;
+  width: 100%;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  border: 1px solid #182c69;
+  background-color: white;
+  color: black;
+  font-family: inherit;
+}
+
+.submitButton {
+  padding: 7px;
+  font-size: 0.9rem;
+  border: 1px solid #5fdde5;
+  color: black;
+  background-color: white;
+  width: 95%;
+  font-family: inherit;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.Register_Page .row .col_6 {
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.Register_Page .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.row .col_5 {
+  width: calc(100% / 12 * 5);
+}
+
+.row .col_7 {
+  width: calc(100% / 12 * 7);
+}
+
+@media (max-width: 768px) {
+  .Register_Page .row {
+    flex-direction: column;
+  }
+  .Register_Page .row .col_6 {
+    width: 100%;
+  }
+
+  .row .col_7,
+  .row .col_5 {
+    width: 100%;
+  }
+}
+
+.Register_Page > a > .help_button {
+  position: fixed;
+  top: 50px;
+  right: -105px;
+  background-color: black;
+  width: 140px;
+  height: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  transition: 0.2s ease-in-out;
+}
+
+.help_button > p {
+  max-width: 100px;
+  margin-left: 10px;
+  font-size: 0.7rem;
+}
+
+a > .help_button:hover {
+  right: 0;
+}
+
+.col_5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row > .col_5 > img {
+  max-width: 90%;
+}

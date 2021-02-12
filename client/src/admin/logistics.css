@@ -1,0 +1,21 @@
+.logistics .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 576px) {
+  .logistics .row .userProfile {
+    width: 100%;
+  }
+}
+
+.download_csv select {
+  margin: 10px auto;
+}
+
+.download_csv h4 {
+  margin: 0;
+}
+
+.download_csv button {
+  margin: 5px;
+}

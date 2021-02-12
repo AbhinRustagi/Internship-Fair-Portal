@@ -1,0 +1,65 @@
+.login .input_group {
+  position: relative;
+  z-index: 1;
+}
+
+.input_group button {
+  position: absolute;
+  right: 5px;
+  height: 26px;
+  top: calc(28px);
+  background-color: transparent;
+  border: none;
+  z-index: 2;
+}
+
+.resetpassword {
+  font-size: 0.7rem;
+  font-weight: light;
+  border: none;
+}
+
+.resetpassword:hover {
+  text-decoration: underline;
+}
+
+.login .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.login .row .col_6 {
+  width: 50%;
+  flex-direction: column;
+}
+
+.col_6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col_6 > img {
+  width: 95%;
+  margin-bottom: 15px;
+}
+
+.login .row .col_6 .input_group {
+  margin-top: 5px;
+  max-width: 300px;
+}
+
+.login .submitButton {
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+@media (max-width: 576px) {
+  .login .row {
+    flex-direction: column;
+  }
+  .login .row .col_6 {
+    width: 100%;
+  }
+}

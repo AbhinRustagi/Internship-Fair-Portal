@@ -1,0 +1,196 @@
+.logout_button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 2px solid #5fdde5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile_info > h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.profile_info h4 {
+  margin: 3px auto;
+  text-align: center;
+  font-weight: bold;
+  color: #3f3f44;
+  letter-spacing: 2px;
+}
+
+.profile_info {
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.profile_info .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.profile_info .row .col_3 {
+  display: flex;
+  width: calc(100% / 3);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stage_indicator {
+  margin: 5px auto;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #7971ea;
+  font-weight: bold;
+}
+
+.profile_info hr {
+  border: none;
+  height: 2px;
+  background-color: gray;
+}
+
+.files_remarks {
+  margin: 3px 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.col_3 .user_info {
+  margin: 3px auto;
+  width: 300px;
+}
+
+.col_3 .user_info strong,
+.col_3 .user_file strong {
+  display: block;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+
+.col_3 .user_info p {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+.col_3 .user_file {
+  width: 300px;
+}
+
+.col_3 .user_file a {
+  font-size: 0.9rem;
+  padding: 5px 7px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 5px auto;
+  color: white;
+  background-color: #32424a;
+  display: block;
+  text-align: center;
+}
+
+.reupload h3 {
+  text-align: center;
+  margin: 7px auto 5px;
+}
+
+.reupload h3 ~ p {
+  font-size: 0.8rem;
+  margin: 3px;
+  text-align: center;
+}
+
+.reupload .row .col_3 {
+  margin-bottom: 5px;
+}
+
+.file_group button {
+  width: 100%;
+  background-color: #182c69;
+  border: none;
+  color: white;
+  padding: 5px 7px;
+  font-family: inherit;
+  margin-top: 5px;
+}
+
+.warning {
+  padding: 10px 15px;
+  background-color: #e35d6a;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+  border: 2px solid red;
+}
+
+.warning li {
+  float: left;
+  margin: 0px 15px;
+}
+
+.warning p {
+  margin: 5px 0;
+}
+
+.delete_box {
+  border: 1px solid #ff9292;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.delete_box p {
+  margin: 3px 0;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.deleteProfile {
+  width: 200px;
+  margin-top: 0;
+  margin: 5px;
+  font-size: 0.7rem;
+  border-color: #e97878;
+}
+
+.company_selection button {
+  margin: 10px 5px;
+  width: 300px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 7px 10px;
+  box-sizing: border-box;
+  background-color: #f88f01;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+@media (max-width: 576px) {
+  .row {
+    flex-direction: column;
+  }
+  .profile_info .row .col_3 {
+    width: 100%;
+  }
+  .delete_box {
+    flex-direction: column;
+  }
+}

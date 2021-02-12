@@ -1,0 +1,54 @@
+.userProfile {
+  width: calc((100% - 36px) / 3);
+  margin: 5px;
+  box-sizing: border-box;
+  padding: 15px;
+  padding-top: 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.status {
+  margin: 0 -15px 15px;
+  padding: 5px 15px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.userProfile li {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.userProfile ul {
+  padding: 0 20px;
+}
+
+.accept,
+.send_remarks {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+  margin: 3px 3px 0 0;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.remarks {
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.send_remarks {
+  background-color: #ec4646;
+}
+
+.accept {
+  background-color: #16c79a;
+}
