@@ -81,6 +81,10 @@
   object-fit: contain;
 }
 
+.company_box small {
+  margin-top: 10px;
+}
+
 @media (max-width: 576px) {
   .company_container {
     flex-direction: column;

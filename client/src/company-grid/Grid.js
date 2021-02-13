@@ -6,9 +6,9 @@ import {
   storage,
 } from "../utils/firebase/firebaseConfig";
 import "./grid.css";
-import companiesList from "../other/hereyougo";
-import AddCircleIcon from "@material-ui/icons/AddCircle";
-import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
+import companiesList from "../other/hereyougo2";
+import Box from "./box";
+import CartList from "./Cartlist";
 
 import { useStateValue } from "../utils/StateProvider";
 
@@ -23,9 +23,6 @@ export default function Grid() {
       History.push("/");
     });
   };
-
-  const json_ref = companiesList[0];
-  console.log(json_ref);
 
   return approved ? (
     <div className="company_grid">
@@ -48,20 +45,45 @@ export default function Grid() {
             </button>
           </div>
         </div>
-        <h3>You can apply in upto {companyLimit} companies.</h3>
+        <h3 style={{ margin: "5px 0 0" }}>
+          You can apply in upto {companyLimit} companies.
+        </h3>
+        <p style={{ margin: "5px 0" }}>
+          You can select upto 2 profiles in companies which offer more than two
+          profiles.
+        </p>
+        <CartList />
         <div className="company_container">
           <h2>Corporates</h2>
-          {json_ref["Corporates"].map((company) => (
-            <div className="company_box">
-              <img src={company.companyLogo} alt="" />
-              <h4>{company.companyName}</h4>
-              <div className="button_row">
-                <button className="add_button">
-                  <AddCircleIcon />
-                </button>
-                <button className="view_button">View</button>
-              </div>
-            </div>
+          {companiesList[0].Corporates.map((company) => (
+            <Box
+              name={company.companyName}
+              logo={company.companyLogo}
+              id={company.companyId}
+              profile={company.profilesOffered}
+            />
+          ))}
+        </div>
+        <div className="company_container">
+          <h2>Startups</h2>
+          {companiesList[0].Startups.map((company) => (
+            <Box
+              name={company.companyName}
+              logo={company.companyLogo}
+              id={company.companyId}
+              profile={company.profilesOffered}
+            />
+          ))}
+        </div>
+        <div className="company_container">
+          <h2>NGOs</h2>
+          {companiesList[0].NGOs.map((company) => (
+            <Box
+              name={company.companyName}
+              logo={company.companyLogo}
+              id={company.companyId}
+              profile={company.profilesOffered}
+            />
           ))}
         </div>
       </div>

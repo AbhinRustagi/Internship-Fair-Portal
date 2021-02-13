@@ -1,0 +1,9 @@
+.company_box select {
+  width: 300px;
+  margin: 5px auto;
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 3px;
+  box-sizing: border-box;
+  border: 1px solid #5fdde5;
+}
