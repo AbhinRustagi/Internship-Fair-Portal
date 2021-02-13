@@ -28,6 +28,7 @@ function Profile() {
     proofOfResume: null,
     admission: null,
     companyLimit: 0,
+    companiesSelected: false,
   });
 
   useEffect(async () => {
@@ -262,7 +263,7 @@ function Profile() {
             {thisUser?.remarks === ""
               ? "Yet to be reviewed."
               : thisUser?.remarks}
-            {thisUser.approved ? (
+            {thisUser.approved && !thisUser.companiesSelected ? (
               <div className="company_selection">
                 <button onClick={selectCompanies}>
                   Go on to select companies ➞
@@ -309,6 +310,10 @@ function Profile() {
               <div className="user_info">
                 <strong>Guardian's Contact Number: </strong>
                 <p>{`${thisUser?.guardianNumber}`}</p>
+              </div>
+              <div className="user_info">
+                <strong>COMPANIES SELECTED: </strong>
+                <p>{thisUser?.companiesSelected ? "YES" : "NO"}</p>
               </div>
             </div>
           </div>

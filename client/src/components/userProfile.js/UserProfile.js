@@ -71,6 +71,12 @@ export default function UserProfile({ rollno }) {
         if (!doc.data().companyLimit) {
           await db.collection("users").doc(doc.data().collegeRollNo).update({
             companyLimit: 4,
+            companiesSelected: false,
+          });
+        }
+        if (!doc.data().companiesSelected) {
+          await db.collection("users").doc(doc.data().collegeRollNo).update({
+            companiesSelected: false,
           });
         }
 

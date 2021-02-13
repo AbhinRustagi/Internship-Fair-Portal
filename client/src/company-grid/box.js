@@ -40,7 +40,7 @@ export default function Box({ logo, name, id, profile }) {
       </div>
       <small>Select Profile(s)</small>
       <select onChange={handleChange} name="profile1">
-        <option value="Select a profile">Select a profile</option>
+        <option value={null}>Select a profile</option>
         {profile.map((profile) => (
           <option value={profile}>{profile}</option>
         ))}

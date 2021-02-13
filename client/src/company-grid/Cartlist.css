@@ -62,3 +62,12 @@
     width: 300px;
   }
 }
+
+.cartlist .submitButton {
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+.cartlist .submitButton:hover {
+  background-color: #5fdde5;
+}

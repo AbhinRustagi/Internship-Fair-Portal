@@ -2,28 +2,18 @@
   {
     "Corporates": [
       {
-        "companyId": 1,
+        "companyId": 1000,
         "companyName": "Wise Finserv",
         "aboutCompany": "Wise Finserv is a Financial Planning, Investment Advisory and a Wealth Management company registered with SEBI as an Investment Advisor. It works towards assisting its clients in planning and executing their future financial goals. It is going to launch Wise Funds that will assist customers to buy most financial products available to retail clients such as Mutual Funds , Life Insurance & Health Insurance.",
         "profilesOffered": ["Strategy", "Marketing & Product Management Roles"],
-        "JD": {
-          "Strategy": [
-            "Call prospective customers to plan documentation and schedule meetings.",
-            "Intend and manage the production of new marketing strategies.",
-            "Find fresh ways for companies and individuals to study to increase the interest of current customers thus drawing new ones."
-          ],
-          "Marketing & Product Management Roles": [
-            "Plan and manage social media platforms.",
-            "Identify the latest trends and technologies affecting the industry."
-          ]
-        },
+        "JD": {},
         "perks": ["Certificate Of Internship"],
         "stallCoordinator": "Geetesh",
-        "coordinatorPhone": "6239604499",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F0.png?alt=media&token=856c97e0-c8e2-4835-a53e-345752cf193a"
+        "coordinatorPhoner": "6239604499",
+        "companyLogo": "https://drive.google.com/open?id=1116If3SImstKCSJ-Q4ucBCMo14jikmAQ"
       },
       {
-        "companyId": 2,
+        "companyId": 1,
         "companyName": "McKinley & Rice",
         "aboutCompany": "McKinley & Rice Creativity Pvt. Ltd. originally began as a tech outsourcing consultancy firm 5 years ago, when founder Felix J.W. Kim and associates discovered an increase in interest regarding overseas outsourcing while working at a law firm in Seoul, South Korea. In November 2018, McKinley & Rice launched its own in-house software development team in Noida, India, as well as offices in California, U.S.A intending to make design and tech accessible to everyone by breaking down borders. In January 2020, the company expanded its footprint with an office in Pune to further enhance is capabilities.",
         "profilesOffered": [
@@ -32,26 +22,14 @@
           "Market Analyst",
           "Python-Django Interns "
         ],
-        "JD": {
-          "Social Media Intern": [
-            "Handling the social media accounts of the organisation over instagram, LinkedIn, Facebook etc and ensuring the posts reach maximum people.",
-            "Search Engine Optimisation.",
-            "Targeting Audience."
-          ],
-          "Market Analyst": [
-            "Working on the promotion and business development of the organization"
-          ],
-          "Other Profiles": [
-            "As the name suggests, no unique difference otherwise"
-          ]
-        },
+        "JD": {},
         "perks": ["Certificate of Internship"],
         "stallCoordinator": "Parth, Kriti",
-        "coordinatorPhone": "7999883887",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F1.jpg?alt=media&token=bc511d81-e0f2-468a-afa6-2e06f304c313"
+        "coordinatorPhoner": "7999883887",
+        "companyLogo": "https://drive.google.com/open?id=1bhZiZQX7jKedSh1_zOHjXL5Jklbpg8_O"
       },
       {
-        "companyId": 3,
+        "companyId": 2,
         "companyName": "Eigopathshala",
         "aboutCompany": "We are dedicated to bridge the language barrier between Foreigners and Indians. We are a team of young and passionate professionals and our team comprises of Indians, Europeans and Japanese natives. Currently operational in India (Delhi/Gurgaon/Mumbai/Pune/Bangalore/Chennai) and Japan. We primarily teach English and other regional Indian languages to foreigners. At present we take classes with foreigners throughout India and Japan.",
         "profilesOffered": [
@@ -111,45 +89,22 @@
           "Foreign Language Course worth 15k"
         ],
         "stallCoordinator": "Sandra Francis",
-        "coordinatorPhone": "9810454918",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F2.png?alt=media&token=e80b505f-11d5-4912-a8bd-3a6f00ab25a3"
+        "coordinatorPhoner": "9810454918",
+        "companyLogo": "https://drive.google.com/open?id=1_dgafltEX1Bm8jlM_ST-KA8JihoXuxhP"
       },
       {
-        "companyId": 4,
+        "companyId": 3,
         "companyName": "Bajaj Capital",
         "aboutCompany": "Bajaj Capital is India's premier investment services group engaged inter-alia in the distribution of mutual funds, insurance, fixed deposits, bonds, loans et al.",
         "profilesOffered": ["Wealthpreneur Associate (WP Intern)"],
-        "JD": {
-          "Wealthpreneur Associate (WP Intern)": [
-            "Prepare a working model & final plan of action & hence conduct those activities as a part of general public awareness/ Initiative to spread awareness on ‘Financial Well Being’ for prospects by identifying their needs",
-            "Provide & develop Financial portfolio & suggest solutions to prospects basis their requirements & financial goals.",
-            "To learn, gain & update self regarding the rich learning in Wealth management avenues of Mutual funds, Life insurance, General insurance & overall 360* Financial planning, as imparted by the company.",
-            "Spreading education & awareness in the society /masses by conducting Investors conferences / Webinars",
-            "Organize timely & regular Online connect with the prospect & to ensure a satisfactory approach & guidance throughout the association.",
-            "To work on promoting various projects of Digital marketing, Corporate marketing & Retirement project of the company by putting best efforts & thus adding value to the assigned work.",
-            "To establish a connect & to organize a Corporate presentation with the company & hence help prospects achieve financial goals through various solutions to choose from.",
-            "To share regular communications with prospects regarding market trends, information, research & investment material of the company."
-          ],
-          "Eligibility": ["B.Com, B.Com(H) (2nd and 3rd years preferred)"],
-          "Internship Framework": [
-            "Phase 1 - WP’s to undergo a complete Training programme of min. 3 to 4 weeks to gain the desired set of knowledge, skills & to ensure active & regular participation.",
-            "Phase 2 - To conduct FLSR ( Financial literacy survey campaign) & ensure successful completion of the assignment- Survey based activity.",
-            "Phase 3 - Launch of WPL- To contribute in Wealth Premier League by actively participating & ensuring that the satisfactory results / benchmarks are achieved."
-          ]
-        },
-        "perks": [
-          "Certificate of Internship",
-          "Duration- 8-12 weeks starting April 1,2021",
-          "Fringe Benefits",
-          "Letter of recommendation",
-          "Placement opportunity after completion"
-        ],
+        "JD": {},
+        "perks": ["Certificate of Internship"],
         "stallCoordinator": "Himanshi Asrani",
-        "coordinatorPhone": "8107898002",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F3.png?alt=media&token=cce8c17b-17da-4117-9cdb-fa32a1257c5b"
+        "coordinatorPhoner": "8107898002",
+        "companyLogo": "https://drive.google.com/open?id=1AL-h3Df30lOvQOwVsjqNiotVPM5j2oKR"
       },
       {
-        "companyId": 5,
+        "companyId": 4,
         "companyName": "Holidify",
         "aboutCompany": "Holidify is a travel planning platform founded by IIT Bombay alumni back in 2013. After bootstrapping for the last few years, raising an angel round, we are now a profitable venture, growing at a rapid rate. With our comprehensive content covering more than 1000 popular as well as offbeat destinations, we help our readers to break out of the monotony of the same vacation spots they have known for years to open in front of them, a world of possibilities. We create the best-structured content to help people plan their journeys better.",
         "profilesOffered": ["Content Writing"],
@@ -166,114 +121,72 @@
           "Other Incentives: A possible job offer or further internship and freelancing opportunities Certificate of internship after successful completion of the internship."
         ],
         "stallCoordinator": "Vidisha",
-        "coordinatorPhone": "9810909141",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F4.png?alt=media&token=bef9bf3a-aa66-4876-ae60-3f72881fbd45"
+        "coordinatorPhoner": "9810909141",
+        "companyLogo": "https://drive.google.com/open?id=1luKyryciSOAV8OWjqdvKbt0CwSjUmq8v"
+      },
+      {
+        "companyId": 5,
+        "companyName": "Webnnel",
+        "aboutCompany": "The bring exciting original e-novels and e-comics from some of the finest storytellers.",
+        "profilesOffered": ["Creative Content", "E-Novel"],
+        "JD": {},
+        "perks": ["Not available"],
+        "stallCoordinator": "Diti",
+        "coordinatorPhoner": "9911998891",
+        "companyLogo": "https://drive.google.com/open?id=1whvNN5SP8UUeS-vcigW9zzq6hENgXpB1"
       },
       {
         "companyId": 6,
-        "companyName": "Webnnel",
-        "aboutCompany": "The bring exciting original e-novels and e-comics from some of the finest storytellers.",
-        "profilesOffered": [
-          "Creative Content, E-Novel",
-          "B-B Marketing/ Sales Intern",
-          "Social Media Content Intern"
-        ],
-        "JD": {
-          "Creative Content, E-Novel": [
-            "Selected Candidate/candidates will be required to work on E-Novel plots and assist the lead writer in developing and finalizing author drafts of a particular series."
-          ],
-          "B-B Marketing/ Sales Intern": [
-            "Select candidate/candidates will be required to connect with brands and ad agencies and make sponsorship pitches."
-          ],
-          "Social Media Content Intern": [
-            "Select candidate/candidates will be required to come up with unique and engaging social media content strategies and execute them"
-          ]
-        },
-        "perks": [
-          "Certificate of Completion",
-          "LOR (On Request)",
-          "Duration: 1 Month"
-        ],
-        "stallCoordinator": "Diti",
-        "coordinatorPhone": "9911998891",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F5.png?alt=media&token=7591f795-6de6-4515-9b6a-eb79747c056f"
-      },
-      {
-        "companyId": 7,
         "companyName": "Tapan Mukherjee and Co.",
         "aboutCompany": "Tapan Mukherjee and co is a business consulting firm, consulting in the domain of food and beverage. ",
         "profilesOffered": ["Consulting Intern"],
         "JD": {
-          "Consulting Intern": [
+          "Business Development": [
             "For a area, survey, TG, approach. Support principal in his work. Primary research, secondary research. Preparing pitch deck, financials, projections. You will also be required to pick a project of your choosing that you feel will benefit the firm and complete it independently"
           ]
         },
         "perks": ["2 Months", "Work from Home", "Paid with Certificate."],
         "stallCoordinator": "Alok Khandelwal",
-        "coordinatorPhone": "8860773273",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F6.jpg?alt=media&token=65c5060e-9a5d-4892-991d-6f8ffb1d1175"
+        "coordinatorPhoner": "8860773273",
+        "companyLogo": "https://drive.google.com/open?id=1THefug-EmbCrFApJU_tuOm8-zIm2APPr"
       },
       {
-        "companyId": 8,
+        "companyId": 7,
         "companyName": "VQMS ",
         "aboutCompany": "Management Consulting",
         "profilesOffered": ["Management Trainee"],
-        "JD": {
-          "Management Trainee": [
-            "Corporate Coordination, Communication, Corporate Interaction meets",
-            "Follow-up,Data Research, Market Research, DM-SEO",
-            "Social Media Promotion, Business Proposal Sending, Mails",
-            "Internet, Capability building, Industrial Exposure",
-            "Full time INTERNSHIP (2-6  months Summer)- Delhi/NCR (or) Work from home (4-6mths or more, 4 hrs daily)"
-          ]
-        },
-        "perks": [
-          "Productivity based Stipend",
-          "Experience Certificate / LOR",
-          "PPO – Pre-placement Job Offer for productive students"
-        ],
+        "JD": {},
+        "perks": ["2 - 6 months"],
         "stallCoordinator": "Mannat, Riya",
-        "coordinatorPhone": "9718885628",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F7.jpg?alt=media&token=9792df2e-b2b0-4d49-b815-245d6ddab803"
+        "coordinatorPhoner": "9718885628",
+        "companyLogo": "https://drive.google.com/open?id=1dCxFoHlABDNhoZP95BPdTvNkAH7X_qDv"
       },
       {
-        "companyId": 9,
+        "companyId": 8,
         "companyName": "Global Nexus",
         "aboutCompany": "Event Management",
         "profilesOffered": ["Marketing", "Digital Marketing", "Operations"],
-        "JD": {
-          "All": [
-            "As the name suggests, only the traditionally expected roles which can be further found on searching the profiles online"
-          ]
-        },
-        "perks": [
-          "Certificate of Internship",
-          "Nature of Internship: Offline mode, students will have to go to the office located in East Delhi near New Ashok Metro Station",
-          "Duration of the Internship: 3 months, minimum 6 weeks (1.5 months) for certificate",
-          "Tentative Date of Commencement: Students can start at their earliest convenience",
-          "Selection Procedure: Virtual Interview, interview in office (if possible for students)",
-          "Incentives: Certificate, stipend: INR 2000, full time offer to good performers"
-        ],
+        "JD": {},
+        "perks": ["Certificate of Internship"],
         "stallCoordinator": "Archisha",
-        "coordinatorPhone": "9667528330",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F8.jpg?alt=media&token=7dffd695-5837-47e8-a709-f6d45ade2017"
+        "coordinatorPhoner": "9667528330",
+        "companyLogo": "https://drive.google.com/open?id=1wuTJsDE3z2CgvwAN5E0ud4cR3gQEOoxO"
       },
       {
-        "companyId": 10,
+        "companyId": 9,
         "companyName": "Vskills",
         "aboutCompany": "Vskills is India's largest professional certification body. They provide government certified online courses for working professionals.",
         "profilesOffered": [
           "Content Research & Development",
           "Brand Management"
         ],
-        "JD": { "All": ["Research and write content for Social media."] },
+        "JD": { "All": "Research and write content for Social media." },
         "perks": ["1 - 2 Months", "2000 (Best Performer)", "Immediate Joining"],
         "stallCoordinator": "Jessica Kannanthanam",
-        "coordinatorPhone": "9440084114",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F9.png?alt=media&token=58980729-ed73-4eb2-b330-63fd509ce9b1"
+        "coordinatorPhoner": "9440084114",
+        "companyLogo": "https://drive.google.com/open?id=1tlYtA-6zH7wgWsSdey5PA2pDWvV0UQLz"
       }
     ],
-
     "Startups": [
       {
         "companyId": 11,
@@ -337,8 +250,8 @@
           "Certificate and PPO"
         ],
         "stallCoordinator": "Anushi, Yash Kochar",
-        "coordinatorPhone": "7048995103",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F11.jpg?alt=media&token=86be5cd5-016d-43d1-b62e-7ee22694a5f5"
+        "coordinatorPhone": "9.17049E+11",
+        "companyLogo": "https://drive.google.com/open?id=1X7-g0bQ8CpXkM9bvhL2RI1dGp5LFdYd0"
       },
       {
         "companyId": 12,
@@ -354,8 +267,8 @@
         },
         "perks": ["Duration - 2 Months at least"],
         "stallCoordinator": "Himanshi Bhardwaj",
-        "coordinatorPhone": "9417678596",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F12.jpg?alt=media&token=71c5eca7-a82b-470e-b20d-6b8f63e0cfad"
+        "coordinatorPhone": "9.19418E+11",
+        "companyLogo": "https://drive.google.com/open?id=16SrnRjqnZvA4HzX1dXxIq6_3vij80wRE"
       },
       {
         "companyId": 13,
@@ -398,7 +311,7 @@
             "Skills Required: Extremely passionate and self-motivated"
           ]
         },
-        "perks": [
+        "Perks": [
           "Summer Break (May - End of July)",
           "Working Hours: Mon - Sat, 11am - 5pm",
           "Office Location: Nehru Place",
@@ -406,7 +319,7 @@
         ],
         "stallCoordinator": "Medha, Ananya Aggarwal",
         "coordinatorPhone": "9811142454",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F13.jpg?alt=media&token=08a5b42e-7c06-4a01-9973-84d5928e08b1"
+        "companyLogo": "https://drive.google.com/open?id=1UM2PSgsmx0lS14y2i46o8Gr2_laEEBaa"
       },
       {
         "companyId": 14,
@@ -457,7 +370,7 @@
           "Eligibility": "All courses and All years.",
           "Commencement": "Immediately after Selection."
         },
-        "perks": [
+        "Perks": [
           "Honing of Skills of that Profile",
           "Certificate of Internship",
           "LOR to Best Performer",
@@ -467,7 +380,7 @@
         ],
         "stallCoordinator": "Shuchi",
         "coordinatorPhone": "7024254457",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F14.png?alt=media&token=41ed1380-c7b4-4aa9-8ac8-9d15ed9ba453"
+        "companyLogo": "https://drive.google.com/open?id=1sdDIMjC2-K9ol70nUPU3QEOGlaBhCEAT"
       },
       {
         "companyId": 15,
@@ -477,7 +390,9 @@
           "Global Account Director (GAD)",
           "Global Relationship Manager (GRM)",
           "National Relatioship Manager (NBRM)",
-          "National Business Human Resource (NBHR) - Connect with the company MD, CEO, HR Head",
+          "National Business Human Resource (NBHR) - Connect with the company MD",
+          "CEO",
+          "HR Head",
           "WFH HR",
           "Talk Show Host",
           "Digital Marketing"
@@ -515,10 +430,8 @@
             "Commerce and Science are applicable for this internship they have an option to choose any one profile out of seven in which they are interested"
           ]
         },
-        "perks": [
-          "Stipend - Performance Based (Upto 33% of the revenue generated by the student)",
+        "Perks": [
           "Students can't apply for multiple positions.",
-          "Date Of Commerncement : 22-23 Feb (Tentative)",
           "Selection Procedure : There will be two round of interviews for students.",
           "Selection Procedure : First round  interview will be held on mobile through a call.",
           "Selection Procedure : Second round interview will be held on Google meet and the link for the same will also be shared.",
@@ -526,7 +439,7 @@
         ],
         "stallCoordinator": "Madhav Raj Garg",
         "coordinatorPhone": "8383059253",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F15.png?alt=media&token=7d61e54b-cabe-45a4-b43b-7ef2f33692db"
+        "companyLogo": "https://drive.google.com/open?id=1YM2lYx7Yy-eLODecotbgl5O4_N-AHEmP"
       },
       {
         "companyId": 16,
@@ -544,15 +457,15 @@
           ]
         },
 
-        "perks": [
+        "Perks": [
           "Duration: 2 Months - Work From Home.",
           "Rewards: Certificate of Marketing Internship from Picxele.",
           "LOR for Exceptional Performance.",
           "Top Performers of the Particular Batch will be featured on our Social Media Handles."
         ],
         "stallCoordinator": "Chirag",
-        "coordinatorPhone": "7973216610",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F16.jpg?alt=media&token=6b32aa27-f098-484f-8020-1892ee37e22d"
+        "coordinatorPhone": "9.17973E+11",
+        "companyLogo": "https://drive.google.com/open?id=1J9Lr1Xb04yosS9VjUsmXnbG7b47T95m4"
       },
       {
         "companyId": 17,
@@ -563,39 +476,8 @@
           "Social Media Marketing",
           "Business Development"
         ],
-        "JD": {
-          "Operations": [
-            "Set up partnerships with various suppliers, whether accommodations, transfers, activities for logistical support, B2B prices, operations, or marketing.",
-            "Research unique activities and experiences around the country to build up the database for TTW’s AI-based software.",
-            "Set-up projects: Brainstorm new projects or work on existing pipelines to create immersive travel experiences in India.",
-            "Streamlining Operations: Maximised efficiency, customer experience and profits by streamlining and supervising ongoing projects."
-          ],
-          "Social Media Marketing": [
-            "Replanning of the Instagram marketing calendar.",
-            "Ensuring daily activity and adherence to the calendar.",
-            "Planning Instagram campaigns according to ongoing company programs.",
-            "Weekly report on growth and other insights of Instagram handle.",
-            "Thinking and implementation of out of the box ideas for faster growth",
-            "Replanning of the Facebook marketing calendar.",
-            "Restarting activity on Facebook page and improving engagement and reach.",
-            "Setup and planning of a community-based Facebook group",
-            "Designing content for the website - illustrations, vector art, and so on.",
-            "Designing content for Social Media handles, videos, photos, etc.",
-            "Designing highly quality tailor-made travel plans for our travelers.",
-            "Researching and creating good content for Travel Feed and our social media handles.",
-            "Researching and understanding customer behavior and making content accordingly",
-            "Staying aware and creating content on the basis of the new trends.",
-            "Creating SEO friendly videos and images for TTW’s website and social media"
-          ],
-          "Business Development": [
-            "Business Development: Set up partnerships with various organizations for logistical support, B2B prices, operations, or marketing.",
-            "Research Various Organisations - Indian Schools, Colleges, Communities, Corporates, and other organizations International Universities, Schools, and Communities.",
-            "Building a database of such organizations, creating emails, and setting up meetings",
-            "Sales: Connecting with prospective leads and providing personalized travel assistance.",
-            "Brainstorming and finding out more organizations and communities to reach out to."
-          ]
-        },
-        "perks": [
+        "JD": {},
+        "Perks": [
           "Business Development: 4000/- Monthly",
           "Social media marketing: 2500/- ",
           "Operations: 3000/-",
@@ -603,7 +485,7 @@
         ],
         "stallCoordinator": "Ananya Pal, Aarav",
         "coordinatorPhone": "8810674316",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F17.png?alt=media&token=7b06d54f-2d46-4397-8456-05d52ce21928"
+        "companyLogo": "https://drive.google.com/open?id=1LohtqrE_Ba_-DKel2IifoU5hCvKPMuQd"
       },
       {
         "companyId": 18,
@@ -633,182 +515,9 @@
         ],
         "stallCoordinator": "Harshal Tayal",
         "coordinatorPhone": "8383021601",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F18.jpg?alt=media&token=8293fef3-7260-431f-af26-3ba2e9274b2c"
-      },
-      {
-        "companyId": 19,
-        "companyName": "Feedough",
-        "aboutCompany": "Feedough is the one-stop resource for everything related to startups. Our philosophy is to research, curate, and provide the best startup feeds and resources to help you succeed in your venture. We are currently ranked as the 17th best startup website in the world and are paving our way to the top.",
-        "profilesOffered": [
-          "Content Development",
-          "Copywriting / Social media marketing",
-          "Graphic Design / Social media marketing"
-        ],
-        "JD": {
-          "Content Development": [
-            "Research on startups and startup ecosystem.",
-            "Develop content for a niche website.",
-            "Optimise content on-page.",
-            "2 months (minimum) - 6 months (maximum)",
-            "Stipend- ₹5,000 -  ₹10,000"
-          ],
-          "Copywriting / Social media marketing": [
-            "Handle social media profiles and develop content for social media posts.",
-            "2 months (minimum) - 6 months (maximum)",
-            "Stipend- ₹ 5,000"
-          ],
-          "Graphic Design / Social media marketing": [
-            "Handle social media profiles and develop content for social media posts.",
-            " 2 months (minimum) - 6 months (maximum)",
-            "Stipend- ₹ 5,000"
-          ]
-        },
-        "perks": [
-          "Eligibility(course,year): Commerce, Economics, Statistics.",
-          "Incentives: Internship certificate, letter of recommendation, and weekly SEO training."
-        ],
-        "stallCoordinator": "Devesh and Snehal Gupta",
-        "coordinatorPhone": ["+91 95010 09406", "+91 99119 99985"],
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F19.png?alt=media&token=5d0750d3-3356-443c-8218-b4aa7bea9549"
-      },
-      {
-        "companyId": 20,
-        "companyName": "Ingenious Faces",
-        "aboutCompany": "Ingenious Faces is an ecosystem of students, entrepreneurs and young professionals from around the world that enables learning unhindered by boundaries. Using 'Experiential Learning' and 'Entrepreneurial Mindset' as principle tools to unlock Employability Skills, Ingenious Faces enables each individual to find their own 'Genius'.",
-        "profilesOffered": ["Content Writing", "Digital Marketing"],
-        "JD": {
-          "Content Writing": [
-            "The primary focus of the role will be to work with the Digital Marketing team to help with the content creation on Digital Marketing Platforms to increase brand awareness",
-            "Producing engaging content for our target audience (Schools, Students, Universities,Employers",
-            "Conduct market research and explore new trending topics",
-            "Assisting with marketing activities such as market research and collaborations",
-            "Work closely within a small team and develop cooperative working relationships with all company colleagues"
-          ],
-          "Digital Marketing": [
-            "Create a comprehensive strategy and POA for the digital marketing and social media platforms",
-            "Design and oversee all aspects of the digital marketing department including our marketing database, email, and display advertising campaigns",
-            "Develop and monitor campaign budgets",
-            "Plan and manage the social media platforms in creating a digital brand value for Ingenious Faces",
-            "Prepare accurate reports on the marketing campaign’s overall performance and suggest growth measures",
-            "Identify the latest trends and technologies affecting the Education industry",
-            "Evaluate important metrics that affect the website traffic, service quotas, and target audience",
-            "Work in teams to brainstorm new and innovative growth strategies",
-            "Oversee and manage all contests, giveaways, and other"
-          ],
-          "Other Details": [
-            "Eligibility: All courses, preferably third years",
-            "Selection Procedure: Online assessment, Interview"
-          ]
-        },
-        "perks": [
-          "Incentives: Certificate and Letter of Recommendation",
-          "Stipend: 0 - 5000 per month (performance based)",
-          "Duration: 1.5-2 months at least",
-          "Nature of work: Work from home",
-          "Date of Commencement: March",
-          "Certificate Of Internship"
-        ],
-        "stallCoordinator": "Namya Chugh",
-        "coordinatorPhone": "9996667404",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F20.jpg?alt=media&token=f3d1724d-3201-4fa0-96a4-a38543c4066c"
-      },
-      {
-        "companyId": 21,
-        "companyName": "Freestand",
-        "aboutCompany": "The FREESTAND sampling platform enables FMCG brands to digitise and automate their product sampling operations. Our platform is designed for FMCG brand managers who care to deliver a remarkable and measurable product trial experience to their targeted customers.",
-        "profilesOffered": [
-          "Data Analyst",
-          "Performance Marketing Analyst",
-          "Graphic Designer and Copywriter"
-        ],
-        "JD": {
-          "Data Analyst": [
-            "You are somebody with a sharp learning curve, you believe that you are meant to be a part of a fast-paced environment.",
-            "You have the passion to grow as a thought leader. You do not lose motivation easily and stays committed to the long-term goal. ",
-            " You do not lose motivation easily and stays committed to the long-term goal. "
-          ],
-          "Performance Marketing Analyst": [
-            "You have a creative side with an analytical approach. ",
-            "You have a methodical approach to things, you do not get sleepy looking at graphs.",
-            "You want to learn to become a strategist.",
-            "You can spend hours developing creative digital imageries.",
-            "You are familiar with performance marketing."
-          ],
-          "Graphic Designer and Copywriter": [
-            "You are good at simplifying complicated things.",
-            "You thrive in an open environment",
-            "You want a purpose for your creativity.",
-            "You are comfortable creating digital imageries.",
-            "You are good at articulating your thoughts."
-          ]
-        },
-        "perks": [
-          "Certificate Of Internship",
-          "Stipend: Minumum Rs. 2000 per month.",
-          "Expected to come 2-3 times a week to the office in a few months.",
-          "Duration: As long as we can work together. But at least 2 months.",
-          "Virtual: If joining immediately with a few in-office meetings."
-        ],
-        "stallCoordinator": "Anushka",
-        "coordinatorPhone": "9887838910",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F21.png?alt=media&token=dec17f9a-ac2e-460a-a8d1-5368fa280395"
-      },
-      {
-        "companyId": 22,
-        "companyName": "Nurturing Tomorrow's Minds Private Limited",
-        "aboutCompany": "Nurturing Tomorrow's Minds Private Limited (NuToM) is an Ed-tech sector startup founded by IIT-D Alumnus. It offers targeted & customized courses to K-12 students ranging from Life Skills to Advanced Academics by aggregating & curating quality content providers. We conduct Olympiads and assessments for school students and offer them an opportunity to enhance their skills by providing a one-stop solution from all the reputed course providers in the market.",
-        "profilesOffered": [
-          "Software Engineer",
-          "Front End Developer",
-          "Marketing Management Trainee",
-          "Product Design Trainee",
-          "Graphic Designer",
-          "Content Writer"
-        ],
-        "JD": {
-          "Software Engineer": [
-            "He/She should be well-versed with at least one language (Python/Java/C++)",
-            "Along with writing back end codes and would be entitled for a stipend of",
-            "Stipend : Rs. 7500 (+ 2500 Bonus)"
-          ],
-          "Marketing Management Trainee": [
-            "The trainee would be required to meet and pitch different schools as well as sponsors about our products and convince them for the same",
-            "Stipend : Rs. 7500 (+ Rs. 2500 bonus)"
-          ],
-          "Product Design Trainee": [
-            "The trainee's daily deliverables would include planning on life skills courses and assignments in a unique and creative way",
-            "Help in designing curriculum and content for the modules.",
-            "He/She would have to plan day to day work for course methodology and pedagogy and meet the deadlines for the same",
-            "Stipend : Rs. 7500 (+ Rs. 2500 bonus)"
-          ],
-          "Graphic Designer": [
-            "The intern must have prior experience in working with Adobe Photoshop/Adobe Illustrator/Coral Draw.",
-            "He/She would be required to design presentations (including pitch deck), design themes and brand guidelines along with some social media posts.",
-            "Stipend : Rs 4000 (+ Rs. 1000 bonus)"
-          ],
-          "Content Writer": [
-            "The intern must be proficient in English and Hindi language with knowledge of writing ad copies as well",
-            "He/She would be required to write ad copies, content for social media posts, and content for presentations as well (including pitch decks).",
-            "Stipend: Rs 5000 with added performance based incentives"
-          ],
-          "Front End Developer": [
-            "The intern would be required to make UI/UX designs, write front-end codes",
-            "Stipend:  Rs. 7500 (+ Rs. 2500 bonus)"
-          ]
-        },
-        "perks": [
-          "Certificate Of Internship",
-          "Stipend mentioned in the JD",
-          "Duration: 1-2 months (min)",
-          "Nature of work: In office (Noida Sector 58)/ Work from home(Intern's choice)",
-          "Date of Commencement: Immediate joining"
-        ],
-        "stallCoordinator": "Vansh",
-        "coordinatorPhone": "9599420292",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F22.png?alt=media&token=606975b6-3ef1-4f1a-884f-e6ab6b6babad"
+        "companyLogo": "https://drive.google.com/open?id=1O7wJDG0Jc7vEiQiKcIbDXXCOTsedeBwC"
       }
     ],
-
     "NGOs": [
       {
         "companyId": 100,
@@ -923,58 +632,18 @@
         ],
         "stallCoordinator": "Yash Jain",
         "coordinatorPhone": "9911020025",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F100.jpeg?alt=media&token=56b1deaf-db0b-4526-9834-d2868606c73d"
+        "companyLogo": "https://drive.google.com/open?id=192Bzk5xtV3UiUQ3wtQh4slxlYFtGriQF"
       },
       {
         "companyId": 101,
         "companyName": "Womenite",
         "aboutCompany": "Fuelled by a set of commonly shared values and spurred on by our passion, their mission is an unwavering determination to the betterment of society. Being work orientated as they are, they believe in doing rather than the preaching of doing. They work tirelessly towards dissemination of information to raise awareness about issues of consequence and bring about a shift in widespread mentality.",
-        "profilesOffered": [
-          "HR",
-          "Content writing",
-          "Graphic designing",
-          "Social media management",
-          "Operations",
-          "Workshops facilitators"
-        ],
-        "JD": {
-          "Human Resources (HR)": [
-            "Find and recruit employees that advance company objectives",
-            "Handle selection procedure including interview and appointment",
-            "Deal with their perks, benefits etc."
-          ],
-          "Content Writing": [
-            "Planning, writing and editing web content, including captions and messages",
-            "Helping in the digital marketing using written content."
-          ],
-          "Graphic Designing": [
-            "Designing visual concepts using graphic design tools like posters.",
-            "Selecting colors, fonts, photographs, layouts and other design elements to communicate creative concepts."
-          ],
-          "Social Media Management": [
-            "Responsible for developing and implementing our Social Media strategy in order to increase our online presence and improve our marketing and efforts.",
-            "Develop, implement and manage our social media strategy.",
-            "Manage and oversee social media content."
-          ],
-          "Operations": [
-            "Coordinating and arranging various campaign taken up",
-            "Help with the logistics and management and improve participation"
-          ],
-          "Workshop facilitators": [
-            "Helping in preparing for and taking workshop for people for various purposes and impart knowledge.",
-            "Explain the topic at hand clearly, answer their questions, be engaging."
-          ]
-        },
-        "perks": [
-          "Ceritifcate of Internship",
-          "Type of Internship (Part time or Full time) : Both ",
-          "Duration of the Internship : Minimum 2 months",
-          "Tentative date of commencement : As soon as possible ",
-          "Selection Process :  Telephonic interview "
-        ],
+        "profilesOffered": ["Volunteer"],
+        "JD": {},
+        "perks": ["Ceritifcate of Internship"],
         "stallCoordinator": "Skanda",
         "coordinatorPhone": "9717390290",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F101.jpeg?alt=media&token=ae837d10-2bdf-461f-af48-28c890906968"
+        "companyLogo": "https://drive.google.com/open?id=1mzAepHqLwHSvDyVbu8LfYfJMRLDW_j8s"
       },
       {
         "companyId": 102,
@@ -993,7 +662,7 @@
         "perks": ["Certificate of Internship"],
         "stallCoordinator": "Khushi ",
         "coordinatorPhone": "7016215430",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F102.jpeg?alt=media&token=261bc1c8-caa6-4f11-9975-1f3bf1171e5d"
+        "companyLogo": "https://drive.google.com/open?id=1U3j2rHCFlUEjxlbQZMnTyS_I6Co1wLRX"
       },
       {
         "companyId": 103,
@@ -1045,146 +714,76 @@
         ],
         "stallCoordinator": "Navya Taneja",
         "coordinatorPhone": "7088994499",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F103.jpg?alt=media&token=c1aaedf8-e771-454d-9e4b-633ab0887c42"
+        "companyLogo": "https://drive.google.com/open?id=1ltFDlZiL5K4GieG9Vj2nVSVUGMCaxCws"
       },
       {
         "companyId": 104,
-        "companyName": "Hamari Pahchan",
-        "aboutCompany": "Hamari Pahchan is a non-governmental organization, striving and working to make Delhi safer and happier place to live. It provides a platform to the deserving people from the society, to create their own identity and carve out niche for themselves. The organization has been up and running for the past 5 years. With collaboration and support of the Delhi police, School Teachers, Advocates, experienced Doctors and especially the school and college youth, the organization has come a long way with now over 5000 active members working relentlessly to support the cause. ",
-        "profilesOffered": ["Intern"],
+        "companyName": "Muskurahat Foundation",
+        "aboutCompany": "Muskurahat has come a long way, they have not only grown financially but also experientially.KEYtab is Muskurahats first flagship project which has today grown to seven centres including four in Mumbai, two in New Delhi and one in Bangalore. July 2017 was when Muskurahat set up base in Andheri, with its first office ever.  Soon after this, team Muskurahat crossed the 100 volunteers mark. A few of their other projects are- Project Vastradaan- their own unique cloth donation drive for the rohingya suffering across the borders, Masika Mahotsav and Being Women 2.0. ",
+        "profilesOffered": ["Fundraising Intern"],
         "JD": {
-          "Intern": [
-            "Preparing modules for classes to be conducted for them.",
-            "Making strategies for conducting classes and points on how to intellectually connect with them",
-            "Raising awareness for our projects and circulating posters for the same among your contacts.",
-            "Take weekly part in writing suggestions to help our organizational growth.",
-            "Making strategies for Fundraising.",
-            "Promotion of our projects for wider reach to the public.",
-            "Planning social media campaigns as well increase our initiative's awareness.",
-            "Creating attractive stories and posts for our social media handles."
+          "Fundraiding Intern": [
+            "Intern's main task is to raise funds for the NGO by running a fundraising campaign in their personal network . Basically, interns will be required to raise funds through their network.",
+            "The internship will be part-time and work from home. So even though our NGO is primarily based in Mumbai, Interns can work from any city.",
+            "The duration of the program will be 1 month. You will be guided on every step and given detailed briefs about what to do. Interns will also be doing a course in crowdfunding."
           ]
         },
         "perks": [
-          "Eligibility : all courses all years",
-          "Selection Procedure: Resume Shortlisting, Telephonic Interview ",
-          "Internship certificate will be provided",
-          "Letter of recommendation for students who will devote at least 3 months",
-          "Time Commitment : 5 days a week"
+          "Duration : 1 month",
+          "Interns will be trained in the following fields - How to run a successful campaign under our expertise. Leveraging your network. Marketing skills. Interpersonal skills. Pitching. How NGO functions and how you can create an impact. NGO Crowdfunding",
+          "Perks - Volunteering certificate. Certificate in crowdfunding course. The stipend will be performance-based. It will be 20% of the amount raised. LOR (Letter of Recommendation) from the president of the NGO (Himanshu Goenka)",
+          "Interns can get an opportunity to initiate Muskurahat in your own city. We are hiring bright individuals who can help us expand Muskurahat.",
+          "Exclusive certified workshop with the core team of Muskurahat.",
+          "Internship opportunity under the core team of Muskurahat Foundation.",
+          "More perks will be performance-based",
+          "We will share the incentive structure once we start the internship "
         ],
         "stallCoordinator": "Arushi",
         "coordinatorPhone": "7889689541",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F104.png?alt=media&token=1bbe20f3-20aa-4364-a1cd-94243433c291"
+        "companyLogo": "https://drive.google.com/open?id=1TBluXAdjefAfWebDBuVnFLjUmhjMG1if"
       },
       {
         "companyId": 105,
         "companyName": "Prajna Foundation",
         "aboutCompany": "For 26 years the Prajna Foundation has been providing the children of New Delhis slums with the tools to escape the cycle of poverty and expose them to the things that make life more than just survival",
-        "profilesOffered": [
-          "Digital marketing",
-          "Social media",
-          "CRM",
-          "Content Writing (story telling)",
-          "CSR"
-        ],
-        "JD": {
-          "Digital Marketing": [
-            " An internship with a digital marketing agency means accepting a range of duties and responsibilities designed to enhance your knowledge of digital marketing.",
-            "If you are accepted for an internship, you will be required to work with other team members to develop digital marketing strategies, content, and other deliverables that help meet specific client goals and objectives.",
-            "Interns will also be responsible for generating content (or code) for a variety of media platforms.",
-            "They will also need to examine data analytics reports to achieve a better understanding of the effectiveness of content marketing strategies and how to improve them."
-          ],
-          "Social Media Intern": [
-            "Manages the company’s social media accounts and posts content.",
-            "Brainstorm campaign ideas.",
-            "Monitor various social media platforms such as Facebook, Instagram, and Twitter.",
-            "Analyzes analytics to gauge the success of campaigns.",
-            "Understands the overall concept of the company, including the brand, customer, product goals, and all other aspects of service."
-          ],
-          "Content Writing (storytelling)": ["As the name suggests"],
-          "CSR": [
-            "(Corporate Social Responsibility): to fulfill the csr requirements as required by law .Managing incoming calls and customer service inquiries"
-          ],
-          "CRM": [
-            "(Customer Relationship Management): Facilitating phone and online reservations."
-          ]
-        },
+        "profilesOffered": ["Digital marketing", "Social media", "CRM"],
+        "JD": {},
         "perks": [
           "Title of internship - CRM",
           "Voluntary organisation so will be given certificates",
-          "Selection Procedure: CV, Personal Interview & Site Visit (Kalkaji Centre)",
-          "Selection Procedure- 1. Application 2. Interview",
-          "Work Location : Onsite and Offsite - Work from home; occasionally travel to GK-2 or Kalkaji (once or twice weekly depending on flexibility of the intern)",
           "if the candidate is exceptionally good then will be given some benefit. (Performance based)",
           "Eligibility - Some experience or certain skills (which HR said students might not be having right now hence he will see to it)",
-          "Duration - atleast 3 months",
-          "Incentives: Certificate of Appreciation, Certificate of Experience, LOR for studies abroad",
-          "Eligibility(course,year): All courses, All years"
+          "Duration - nearly 3 months",
+          "Selection Procedure- 1. Application 2. Interview"
         ],
         "stallCoordinator": "Soumya jain",
         "coordinatorPhone": "8882546725",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F105.png?alt=media&token=33735275-0d8c-4101-93fe-8beaefe20f08"
+        "companyLogo": "https://drive.google.com/open?id=1F69DgdUUS5qiIjVaHUAI1MtpPNR1dXS2"
       },
       {
         "companyId": 106,
         "companyName": "Unnati",
         "aboutCompany": "UNNATI with its tagline Learn | Earn | Stand tall, is a vocational training and social transformation program for the underprivileged youth in the age group of 18 - 25 years who are less educated and unemployed. The program consists of 300 hours of training covering areas such as spoken English language skills, life skills, values, basic computer knowledge, and vocational training based on their educational qualification. It provides guaranteed job placement to all the students in various corporates with social security. UNNATI enables inclusive growth by empowering families below poverty line.",
-        "profilesOffered": [
-          "People Services (Human Resource)",
-          "Marketing",
-          "Social Media Marketing",
-          "NPO Development",
-          "Graphic Designing",
-          "Content Writing",
-          "Core Team (Minimum tenure of 12 months)"
-        ],
-        "JD": {
-          "All Profiles": [
-            "Require students to manage office accounts, do tendering work & manage invoices"
-          ]
-        },
-        "perks": ["Eligibility -  B.Com(P)and B.Com(H), All Years"],
+        "profilesOffered": ["-"],
+        "JD": {},
+        "perks": ["N/A"],
         "stallCoordinator": "Bhavanshi Dubey",
         "coordinatorPhone": "9926687887",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F106.png?alt=media&token=f3f6532c-b0ae-4b48-8ca1-b95c4171a35e4"
+        "companyLogo": "https://drive.google.com/open?id=1LjNojW60NSuQ2PqLM7wvbEafev4SsaDS"
       },
       {
         "companyId": 107,
-        "companyName": "Umeed- A drop of Hope",
+        "companyName": "Umeed - A drop of Hope",
         "aboutCompany": "Umeed - A drop of hope is a youth club formed by youth of the nation, the basic motto of which is social service. Besides the main motto, the basic idea of such club is to help each and every human being who needs help. Umeed works for education for needy children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.",
         "profilesOffered": ["HR", " Marketing", " Social Work & Law"],
-        "JD": {
-          "Human Resources (HR)": [
-            "Assisting departments with their recruitment needs through liaison with agencies/ advertisers",
-            "Coordinating prospective candidates, interviewing them and administering offers.",
-            "Conducting inductions of new staff.",
-            "Participating in the collection of market salary information for the annual review"
-          ],
-          "Marketing": [
-            "Suggest out of the box ideas for our marketing campaigns.",
-            "Assemble insights and data from marketing campaigns.",
-            "Research and analyze our market share and competition. Competitor research is a must.",
-            "Assist in maintaining customer relationship management systems (CRM) and databases of our company.",
-            "Prepare marketing presentations for our company.)"
-          ],
-          "Social Work & Law": [
-            "Identify those in need.",
-            "Help people of all life stages cope with and solve everyday problems.",
-            "Advocate for and develop plans to improve clients' well-being.",
-            "Research and refer clients to community resources.",
-            "Work with individuals, families or groups.",
-            "Respond to clients in crisis situations"
-          ]
-        },
+        "JD": {},
         "perks": [
           "Duration: 30 Days.",
-          "Internship Certificate + Letter of Recommendation",
-          "Vacancy - 40-50",
-          "Location: offline Internship in Delhi and Online from anywhere.",
-          "Selection Process : Resume Based Shortlisting"
+          "Internship Certificate + Letter of Recommendation"
         ],
         "stallCoordinator": "Deeksha Chauhan",
         "coordinatorPhone": "9315101163",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F107.jpeg?alt=media&token=2c57e2c7-f541-4879-882d-4852b2aa54b6"
+        "companyLogo": "https://drive.google.com/open?id=132fg9QWSnc_QPrQjQ9MDZx7Y0aDHPMkf"
       },
       {
         "companyId": 108,
@@ -1213,7 +812,7 @@
         ],
         "stallCoordinator": "Navya Agarwal",
         "coordinatorPhone": "9354131799",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F108.jpeg?alt=media&token=c32445c2-1494-4e48-afb5-b2f1ce5a315b"
+        "companyLogo": "https://drive.google.com/open?id=1bxUTxy_W2u-W08ciCE8x-4VtYefrB61p"
       },
       {
         "companyId": 109,
@@ -1245,31 +844,18 @@
         "perks": ["Certificate"],
         "stallCoordinator": "Shyonika Chatterjee",
         "coordinatorPhone": "9754960707",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F109.jpg?alt=media&token=ddf79d1e-8283-497d-8849-65b7c82ec1bf"
+        "companyLogo": "https://drive.google.com/open?id=15rm22v0158112X1k_HUdw_lMugGGIVlA"
       },
       {
         "companyId": 110,
         "companyName": "Now & Me",
-        "aboutCompany": "Now & Me primarily aims for spreading mental health awareness among people, help people to attain emotional stability by providing them a platform to express their feelings.",
+        "aboutCompany": "NA",
         "profilesOffered": ["Sales Associate", "Campus Ambassadors"],
-        "JD": {
-          "Both Profiles": [
-            "Interns will have to support the campaign to spread mental health awareness among people.",
-            "Tentative date of commencement: 1st week of March",
-            "Nature of Job : Part-Time"
-          ]
-        },
-        "perks": [
-          "Certificate",
-          "goodies",
-          "hampers",
-          "discount coupons",
-
-          "Duration : At least 3 months"
-        ],
+        "JD": {},
+        "perks": ["NA"],
         "stallCoordinator": "Aakriti",
         "coordinatorPhone": "8527706386",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F110.jpeg?alt=media&token=55165ea8-ef30-4266-949e-5d6a9d183189"
+        "companyLogo": "https://drive.google.com/open?id=1vEa05xHvXTr_7q7TSGxlENY8ByWaZxZD"
       },
       {
         "companyId": 111,
@@ -1280,36 +866,14 @@
           "Event Management ",
           "Social Media Marketing",
           "Content writing (Hindi & English)",
-          "Graphic Designing",
+          "Graphic Designin",
           "Fund Raising"
         ],
-        "JD": {
-          "Human Resources": ["Handle the recruitment process"],
-          "Event Management": [
-            "Manage the different events that are organised by the organisation"
-          ],
-          "Social Media Marketing": [
-            " Spreading awareness about the NGO and its work"
-          ],
-          "Content Writing(Hindi & English)": [
-            "It involves creative writing and Report Writing on different events"
-          ],
-          "Graphic Designing": [
-            " Working on different tasks that are to be promoted on the social media platforms"
-          ],
-          "Fund Raising": [
-            "Working on spreading awareness about the cause of the NGO and working on getting funds for different events."
-          ]
-        },
-        "perks": [
-          "Selection Process - CV and Interview Round",
-          "Tentative Date of Commencement - 22nd February, 2021",
-          "Nature - Work From Home",
-          "Certificate of Completion"
-        ],
+        "JD": {},
+        "perks": ["NA"],
         "stallCoordinator": "Ishita",
         "coordinatorPhone": "9560708409",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F111.jpeg?alt=media&token=c3350aff-2c17-46da-9853-0195b37fc817"
+        "companyLogo": "https://drive.google.com/open?id=1GyWxaa1zoZ2nKIKyx4gF8FtwprJrMduR"
       },
       {
         "companyId": 112,
@@ -1330,24 +894,20 @@
         ],
         "stallCoordinator": "Rishika Panwar",
         "coordinatorPhone": "7982234116",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F112.jpeg?alt=media&token=4ef07b91-ed55-4cef-b8f6-910d43796677"
+        "companyLogo": "https://drive.google.com/open?id=1efs-PyFONkpJwe9-um4BnG5PPq47g29I"
       },
       {
         "companyId": 113,
         "companyName": "Goonj",
         "aboutCompany": "Interning at Goonj is fun if you want to explore and take yourself out of your comfort zone. Learning and absorbing will off course be a part of the process but we want you to take back something for a lifetime. At Goonj things are quite focused and goal oriented but we take our mantra of Masti mey kaam and kaam mey Masti very seriously!!. If you have an open mind, doer attitude and tons of excitement to experiment, this is the place for you..  Some days maybe mundane or repetitive but Think about it this way.. Behind every beautiful garden there are gardeners who are constantly at work, getting their hands dirty. Goonj is known pan India and worldwide because of its attention to minute details so that the last person's dignity is nurtured. Your activity, however mundane, adds value to what is reached out with dignity to the last person.",
-        "profilesOffered": ["Variety of Profiles Based on Interests"],
+        "profilesOffered": ["NA"],
         "JD": {
           "All": [
-            "For pro-active, multi-lingual and willing to learn interns, the sky is the limit...",
-            "If you know any specific skill or you have a specific interest/wish list, do let us know.",
-            "Our priority is to ensure that you get to explore your skills and strengths by working on different aspects  of our processes."
+            "For pro-active, multi-lingual and willing to learn interns, the sky is the limit.. If you know any specific skill or you have a specific interest/wish list, do let us know. Our priority is to ensure that you get to explore your skills and strengths by working on different aspects  of our processes."
           ]
         },
         "perks": [
-          "Duration - atleast 3 months",
-          "Selection Rounds : 3 rounds over 2 weeks",
-          "Write to us on mail@goonj.org with your resume, duration (dates) and preferred location for your internship as well as applying here.",
+          "Write to us on mail@goonj.org with your resume, duration (dates) and preferred location for your internship.",
           "Minimum duration for internship at Goonj is one month.",
           "Three phased selection Process",
           "Write to us expressing clearly Why Goonj. To know more about Goonj visit www.goonj.org or our social media channels Facebook page, Twitter Handle, Youtube channel, or Instagram. You can also visit our nearest Office cum Processing Center.",
@@ -1357,7 +917,7 @@
         ],
         "stallCoordinator": "Mahesh R.",
         "coordinatorPhone": "9717621037",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F113.jpeg?alt=media&token=648b12b2-f014-4680-be6a-d5c860e3bd77"
+        "companyLogo": "https://drive.google.com/open?id=1wRFRUrCE_rkPuTug5Qq5kcK-aU_3Wat6"
       }
     ]
   }

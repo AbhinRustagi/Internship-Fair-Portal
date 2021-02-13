@@ -12,7 +12,7 @@ import AdminLogin from "./admin/AdminLogin";
 import Logistics from "./admin/Logistics";
 import Download from "./downloadData/downloadData";
 import Grid from "./company-grid/Grid";
-import CompanyPage from "./companyPage/CompanyPage";
+import CompanyPage from "./company-grid/CompanyPage";
 
 function App() {
   return (
@@ -41,7 +41,6 @@ function App() {
             <Grid />
           </Route>
           <Route exact path="/company/:id" component={CompanyPage} />
-
           <Route exact path="/admin/logistics">
             <Logistics />
           </Route>
