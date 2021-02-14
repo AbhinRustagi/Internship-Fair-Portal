@@ -2,6 +2,26 @@
   {
     "Corporates": [
       {
+        "companyId": 5.5,
+        "companyName": "DK Publishers",
+        "aboutCompany": "The DK India office was set up in 1998 in New Delhi, and works closely with its UK and rest of the world counterparts to help produce DK’s award-winning and bestselling reference books for adults and children in more than 40 languages.",
+        "profilesOffered": ["Editorial Intern"],
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/DK_%282020%29.svg/1280px-DK_%282020%29.svg.png",
+        "JD": {
+          "Editorial Intern": [
+            "Research based internship, would be working with authors, also includes writing and proofreading",
+            "Excellent communication, smart and hardworking, enthusiastic, eager to learn and work, loves to read a lot and willing to go that extra mile."
+          ]
+        },
+        "perks": [
+          "Duration: 2 months",
+          "Additional information: Technical requirements - Google account, Adobe acrobat (for PDFs) and good internet connection",
+          "Stipend: 5K"
+        ],
+        "stallCoordinator": "Darius Singh & Disha Gupta",
+        "coordinatorPhone": "8833202355, 9990454366"
+      },
+      {
         "companyId": 1,
         "companyName": "Wise Finserv",
         "aboutCompany": "Wise Finserv is a Financial Planning, Investment Advisory and a Wealth Management company registered with SEBI as an Investment Advisor. It works towards assisting its clients in planning and executing their future financial goals. It is going to launch Wise Funds that will assist customers to buy most financial products available to retail clients such as Mutual Funds , Life Insurance & Health Insurance.",
@@ -82,7 +102,8 @@
             "Finance & Accounting including invoicing, reconciliations, reporting, forecasting, MIS, Analysis, Query handling.etc.",
             "Prepare documents or write-ups on finance & accounting and taxation.",
             "Analysis of equity and presentation on them.",
-            "Other tasks as assigned from time to time"
+            "Other tasks as assigned from time to time",
+            "Eligibility for commerce courses only"
           ],
           "Human Resources (HR)": [
             "Draw a strategy for hiring",
@@ -208,7 +229,7 @@
             "For a area, survey, TG, approach. Support principal in his work. Primary research, secondary research. Preparing pitch deck, financials, projections. You will also be required to pick a project of your choosing that you feel will benefit the firm and complete it independently"
           ]
         },
-        "perks": ["2 Months", "Work from Home", "Paid with Certificate."],
+        "perks": ["2 Months", "Paid with Certificate."],
         "stallCoordinator": "Alok Khandelwal",
         "coordinatorPhone": "8860773273",
         "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F6.jpg?alt=media&token=65c5060e-9a5d-4892-991d-6f8ffb1d1175"
@@ -230,7 +251,9 @@
         "perks": [
           "Productivity based Stipend",
           "Experience Certificate / LOR",
-          "PPO – Pre-placement Job Offer for productive students"
+          "PPO – Pre-placement Job Offer for productive students",
+          "Eligibility: All year, all courses",
+          "Duration: Full-time Internship (2 - 6 months Summer) / Work from home (4 - 6 months or more, 4 hrs daily)"
         ],
         "stallCoordinator": "Mannat, Riya",
         "coordinatorPhone": "9718885628",
@@ -240,14 +263,41 @@
         "companyId": 9,
         "companyName": "Global Nexus",
         "aboutCompany": "Event Management",
-        "profilesOffered": ["Marketing", "Digital Marketing", "Operations"],
+        "profilesOffered": [
+          "Marketing",
+          "Digital Marketing",
+          "Operations",
+          "Finance",
+          "Content Writing",
+          "Social Media Marketing"
+        ],
         "JD": {
-          "All": [
-            "As the name suggests, only the traditionally expected roles which can be further found on searching the profiles online"
+          "Marketing": [
+            "Require students with good networking skills and contacts, someone who can get business to the company.",
+            "Eligibility: 2nd & 3rd year students, All courses"
+          ],
+          "Finance": [
+            "Require students to manage office accounts, do tendering work & manage invoices",
+            "Eligibility: B. Com (P) and B. Com (Hons) students"
+          ],
+          "Operations": [
+            "Require someone to finalize all details for any event that the company organizes",
+            "Eligibility: BA Students"
+          ],
+          "Content Writing": [
+            "Require someone for writing blogs and content for websites and social medias",
+            "Eligibility: English Hons students "
+          ],
+          "Digital Marketing": [
+            "Requires someone with good technical skills who can make use of data avaliable on the net for good marketing (open for all courses)"
+          ],
+          "Social Media Marketing": [
+            "Requires students who can make good use of all social media platforms for marketing and advertising (Open for all courses)"
           ]
         },
         "perks": [
           "Certificate of Internship",
+          "Eligibility: only 2nd and 3rd year (Plus profile specific, mentioned above)",
           "Nature of Internship: Offline mode, students will have to go to the office located in East Delhi near New Ashok Metro Station",
           "Duration of the Internship: 3 months, minimum 6 weeks (1.5 months) for certificate",
           "Tentative Date of Commencement: Students can start at their earliest convenience",
@@ -266,7 +316,14 @@
           "Content Research & Development",
           "Brand Management"
         ],
-        "JD": { "All": ["Research and write content for Social media."] },
+        "JD": {
+          "Content Research & Development": [
+            "Research and write content for Social media."
+          ],
+          "Brand Management": [
+            "Students are required to manage reviews of different social media platforms."
+          ]
+        },
         "perks": ["1 - 2 Months", "2000 (Best Performer)", "Immediate Joining"],
         "stallCoordinator": "Jessica Kannanthanam",
         "coordinatorPhone": "9440084114",
@@ -293,9 +350,7 @@
             "Research on content that works, insights and hashtags.",
             "Ideate and create a social media calendar.",
             "Design posts for social media",
-            "Design infographics for social media, website and workshops"
-          ],
-          "Content Creation": [
+            "Design infographics for social media, website and workshops",
             "2nd and 3rd Years are applicable. Expected to send in their resume"
           ],
           "Web development and Coding": [
@@ -405,7 +460,7 @@
           "Salary: 5k + incentives"
         ],
         "stallCoordinator": "Medha, Ananya Aggarwal",
-        "coordinatorPhone": "9811142454",
+        "coordinatorPhone": "9811142774",
         "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F13.jpg?alt=media&token=08a5b42e-7c06-4a01-9973-84d5928e08b1"
       },
       {
@@ -454,14 +509,15 @@
             "Content should be engaging and plagiarism free.",
             "Duration : 2 Months"
           ],
-          "Eligibility": "All courses and All years.",
-          "Commencement": "Immediately after Selection."
+          "Eligibility": ["All courses and All years."],
+          "Commencement": ["Immediately after Selection."]
         },
         "perks": [
           "Honing of Skills of that Profile",
           "Certificate of Internship",
           "LOR to Best Performer",
           "Free Trips (Organising)",
+          "Selection Procedure: CV shortlisting, assessment round and interview for certain profiles.",
           "Stipend : Sales Based (Upto 20,000)",
           "Participation In Contests"
         ],
@@ -545,6 +601,7 @@
         },
 
         "perks": [
+          "Eligibility- 1st & 2nd Years",
           "Duration: 2 Months - Work From Home.",
           "Rewards: Certificate of Marketing Internship from Picxele.",
           "LOR for Exceptional Performance.",
@@ -599,7 +656,10 @@
           "Business Development: 4000/- Monthly",
           "Social media marketing: 2500/- ",
           "Operations: 3000/-",
-          "Duration: Business development & Operations: 3 months"
+          "Duration: Business development & Operations: 3 months",
+          "Correction: Eligibility: All courses, all years",
+          "Selection Procedure: CV Shortlisting, Letter of Intent",
+          "Date of Commencement: Immediately "
         ],
         "stallCoordinator": "Ananya Pal, Aarav",
         "coordinatorPhone": "8810674316",
@@ -629,7 +689,9 @@
           "We have an incentive structure if during the internsship the candidate mobilized any business or shows extra ordinary performance.",
           "Duration:1 month - 3 months",
           "Stipend:Unpaid.",
-          "Location: Work from home or Office In Dehradun"
+          "Location: Work from home or Office In Dehradun",
+          "Selection  Procedure: CV Shortlisting, Personal Interview",
+          "Eligibility: All courses, 3rd year students"
         ],
         "stallCoordinator": "Harshal Tayal",
         "coordinatorPhone": "8383021601",
@@ -664,7 +726,9 @@
           ]
         },
         "perks": [
-          "Eligibility(course,year): Commerce, Economics, Statistics.",
+          "Eligibility: Content Development: Commerce, Economics & Statistics, 1 & 2 year",
+          "Eligibility: Copywriting/Social Media Marketing: All courses, 1 & 2 Year",
+          "Eligibility: Graphic Design/ Social Media Marketing: Must have experience with Adobe creative suite and should send his portfolio along with application. All courses, 1 & 2 Year.",
           "Incentives: Internship certificate, letter of recommendation, and weekly SEO training."
         ],
         "stallCoordinator": "Devesh and Snehal Gupta",
@@ -799,9 +863,12 @@
         "perks": [
           "Certificate Of Internship",
           "Stipend mentioned in the JD",
+          "Eligibility: All courses, all years",
           "Duration: 1-2 months (min)",
           "Nature of work: In office (Noida Sector 58)/ Work from home(Intern's choice)",
-          "Date of Commencement: Immediate joining"
+          "Date of Commencement: Immediate joining",
+          "Incentives: Certificate of Internship, LOR",
+          "Selection Procedure: Multiple rounds of interview"
         ],
         "stallCoordinator": "Vansh",
         "coordinatorPhone": "9599420292",
@@ -830,24 +897,28 @@
           "E-Shikshalaya Virtual Volunteers": [
             "They are required to teach children of our adopted JJ colonies through online medium for 4 hours on weekends for 2 months.",
             "Volunteers will be responsible for preparing the curriculum and taking tests also.",
-            "Duration - 2 months (Minimum 28 hours) starting from 1 March."
+            "Duration - 2 months (Minimum 28 hours) starting from 1 March.",
+            "Internship starts from April 1 for first years for all courses"
           ],
           "Field Volunteer (Delhi Based Volunteership Program)": [
             "Volunteers are required to visit JJ colonies with our team for 2 hours for any three of the four events.",
             "Volunteers will be responsible for managing the event on the front end with our team.",
             "Volunteers will be expected to come up with full-fledged ideas for upcoming events.",
-            "Duration:-  1 Month staring from 1 March"
+            "Duration:-  1 Month staring from 1 March",
+            "Internship starts from April 1 for first years for all courses"
           ],
           "Campus Ambassadors": [
             "They will be expected to work on spreading a word about Jazba in their campus by various means.",
             "Weekly tasks will be given to ambassadors related to communications and promotions.",
             "Certificate to all, LOR for exceptional candidates and top performer will be awarded.",
-            "Duration - 1 month starting from 20 Feb."
+            "Duration - 1 month starting from 20 Feb.",
+            "Internship starts from April 1 for first years for all courses"
           ],
           "Social Ambassador": [
             "Spread a word about our social campaigns: Donate A Box & Each One Feed One in our society.",
             "Contacting people who are willing to participate in this campaign.",
-            "Duration: 1 month starting from 1 Feb."
+            "Duration: 1 month starting from 1 Feb.",
+            "Internship starts from April 1 for first years for all courses"
           ],
           "Gaming For Cause Co head": [
             "Planning, Managing and conducting online games.",
@@ -855,7 +926,8 @@
             "Hiring interns to work with you, and managing the team.",
             "Duration: 2 months starting from 20 Feb.",
             "Eligibility criteria : Should have some sort of interest in online games or quizzes.",
-            "Eligibility criteria : Should possess management skills."
+            "Eligibility criteria : Should possess management skills.",
+            "Internship starts from April 1 for first years for all courses"
           ],
           "Social Media Marketing": [
             "Updating the team head with weekly social calendar mentioning the details of posts that will be posted in the coming week.",
@@ -866,20 +938,23 @@
             "Additional incentives : Opportunity to be a permanent member of our team",
             "Eligibility criteria : Knowledge of marketing and fluent in English.",
             "Eligibility criteria : Candidate must be active on social media platforms.",
-            "Time commitment: 4-5 hours a week."
+            "Time commitment: 4-5 hours a week.",
+            "Internship starts from April 1 for first years for all courses"
           ],
           "Public Relations": [
             "Assist in the management of content across social media platforms.",
             "Find people to collaborate for events, donation drives and other events.",
             "Build long term/short term relationships with all relevant stakeholders accordingly.",
             "To find out potential sponsors for events.",
-            "Duration - 1 month starting from 1 March"
+            "Duration - 1 month starting from 1 March",
+            "Internship starts from April 1 for first years for all courses"
           ],
           "Graphic Designer": [
             "Design clear engaging graphics/ posts for social media and web.",
             "This will include marketing/communication brochures, direct mail pieces, web site and social media graphics, posters, daily posts, and other marketing materials as needed.",
             "Work closely with the Social Media Head to translate organizations current requirements into appropriate posters/posts.",
-            "Duration - 1 month starting from 1 March"
+            "Duration - 1 month starting from 1 March",
+            "Internship starts from April 1 for first years for all courses"
           ],
           "Content Writing": [
             "Writing creative and innovative social media captions and content.",
@@ -894,7 +969,7 @@
             "Eligibility Criteria: Ability to meet deadlines.",
             "Eligibility Criteria: Familiarity with web publications.",
             "Eligibility Criteria: Excellent writing and editing skills in English.",
-            "Duration:- 1 month starting from 1 March."
+            "Internship starts from April 1 for first years for all courses"
           ],
           "Fundraising": [
             "Raise a minimum fund of Rs.1500 in your entire tenure.",
@@ -904,7 +979,8 @@
             "Collect clothes/stationary items/hygiene related items etc. as per our ongoing drives.",
             "Pitch ideas to companies for the fundraising purpose.",
             "Additional Incentives:- 10% of the amount raised by you.",
-            "Duration: 1 month starting from 20 Feb."
+            "Duration: 1 month starting from 20 Feb.",
+            "Internship starts from April 1 for first years for all courses"
           ]
         },
         "Perks": [
@@ -990,7 +1066,12 @@
             "Skill(s) required :English Proficiency (Spoken), English Proficiency (Written), Hindi Proficiency (Spoken), Hindi Proficiency (Written)"
           ]
         },
-        "perks": ["Certificate of Internship"],
+        "perks": [
+          "Certificate of Internship",
+          "Type of work: In office",
+          "Other benefits: Certificate of Completion, Letter of Recommendation",
+          "Stipend: 5000 (Fixed) + 10% variable"
+        ],
         "stallCoordinator": "Khushi ",
         "coordinatorPhone": "7016215430",
         "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F102.jpeg?alt=media&token=261bc1c8-caa6-4f11-9975-1f3bf1171e5d"
@@ -1041,7 +1122,8 @@
           "Stipend : Performance based Stipend for Fund Raising.",
           "Eligiblity : All semesters/ All Courses",
           "Internship Mode: Online.",
-          "Duration : Minimum 1 month"
+          "Duration : Minimum 1 month",
+          "Tentative date for 2nd years: 20th Feb - 25th Feb. For first years, dates will be adjusted accordingly."
         ],
         "stallCoordinator": "Navya Taneja",
         "coordinatorPhone": "7088994499",
@@ -1109,16 +1191,14 @@
           ]
         },
         "perks": [
-          "Title of internship - CRM",
           "Voluntary organisation so will be given certificates",
           "Selection Procedure: CV, Personal Interview & Site Visit (Kalkaji Centre)",
           "Selection Procedure- 1. Application 2. Interview",
           "Work Location : Onsite and Offsite - Work from home; occasionally travel to GK-2 or Kalkaji (once or twice weekly depending on flexibility of the intern)",
-          "if the candidate is exceptionally good then will be given some benefit. (Performance based)",
-          "Eligibility - Some experience or certain skills (which HR said students might not be having right now hence he will see to it)",
+          "If the candidate is exceptionally good then will be given some benefit. (Performance based)",
+
           "Duration - atleast 3 months",
-          "Incentives: Certificate of Appreciation, Certificate of Experience, LOR for studies abroad",
-          "Eligibility(course,year): All courses, All years"
+          "Incentives: Certificate of Appreciation, Certificate of Experience, LOR for studies abroad"
         ],
         "stallCoordinator": "Soumya jain",
         "coordinatorPhone": "8882546725",
@@ -1142,7 +1222,7 @@
             "Require students to manage office accounts, do tendering work & manage invoices"
           ]
         },
-        "perks": ["Eligibility -  B.Com(P)and B.Com(H), All Years"],
+        "perks": ["Eligibility -  Open to All Courses"],
         "stallCoordinator": "Bhavanshi Dubey",
         "coordinatorPhone": "9926687887",
         "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F106.png?alt=media&token=f3f6532c-b0ae-4b48-8ca1-b95c4171a35e4"
@@ -1151,7 +1231,7 @@
         "companyId": 107,
         "companyName": "Umeed- A drop of Hope",
         "aboutCompany": "Umeed - A drop of hope is a youth club formed by youth of the nation, the basic motto of which is social service. Besides the main motto, the basic idea of such club is to help each and every human being who needs help. Umeed works for education for needy children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.",
-        "profilesOffered": ["HR", " Marketing", " Social Work & Law"],
+        "profilesOffered": ["HR", " Marketing", " Social Work"],
         "JD": {
           "Human Resources (HR)": [
             "Assisting departments with their recruitment needs through liaison with agencies/ advertisers",
@@ -1166,7 +1246,7 @@
             "Assist in maintaining customer relationship management systems (CRM) and databases of our company.",
             "Prepare marketing presentations for our company.)"
           ],
-          "Social Work & Law": [
+          "Social Work": [
             "Identify those in need.",
             "Help people of all life stages cope with and solve everyday problems.",
             "Advocate for and develop plans to improve clients' well-being.",
@@ -1209,7 +1289,8 @@
         },
         "perks": [
           "Teach for india - Continuous learning",
-          "Certificate of Internship"
+          "Certificate of Internship",
+          "Perk : Training before internship starts"
         ],
         "stallCoordinator": "Navya Agarwal",
         "coordinatorPhone": "9354131799",
@@ -1242,7 +1323,14 @@
             "Through their discussions they advocated for gender justice and shared their learnings and viable solutions to the issued concerning them."
           ]
         },
-        "perks": ["Certificate"],
+        "perks": [
+          "Certificate",
+          "Incentives: No stipend",
+          "Eligibility : All courses, All years",
+          "Duration of the Internship: Negotiable/Flexible",
+          "Tentative date of commencement : Negotiable/Flexible",
+          "Selection Process: Resume based shortlisting and Request in E-mail."
+        ],
         "stallCoordinator": "Shyonika Chatterjee",
         "coordinatorPhone": "9754960707",
         "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F109.jpg?alt=media&token=ddf79d1e-8283-497d-8849-65b7c82ec1bf"
@@ -1358,6 +1446,34 @@
         "stallCoordinator": "Mahesh R.",
         "coordinatorPhone": "9717621037",
         "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F113.jpeg?alt=media&token=648b12b2-f014-4680-be6a-d5c860e3bd77"
+      },
+      {
+        "companyId": 114,
+        "companyName": "Raah Foundation",
+        "aboutCompany": "Poverty is completely eradicable. It is basically a combination of mismanagement of existing resources, top down approach, excessive subsidies and lack of an integrated approach to growth and development. Over the past 6 years through multiple experiments, Raah Foundation has successfully addressed grassroot poverty and have managed to create and facilitate a better world for some of the most poor and underprivileged communities in Maharashtra. Through a combination of various interventions, an integrated and holistic approach, a systematic bottom up strategy that took cognisance of the existing resources and skills available and the gaps that need to be addressed to trigger a virtuous cycle of transformation and change and last but not the least empowering the communities to select the best path (raah) forward.  Started by three professionals in 2011 who decided to use their education and experience to contribute to making this world a better place, Raah Foundation now is a large group of like-minded passionate people who have come together to find a solution to some of the most pressing and complicated problems of the world and to make a sustainable difference to this beautiful planet.",
+        "profilesOffered": [
+          "Social media and Communication",
+          "Fellowship",
+          "Report Writing"
+        ],
+        "JD": {
+          "Fellowship": ["Students are required to work on gender issues."],
+          "Social Media & Communication": [
+            "Students should posses technical skills like graphic designing and video editing to work on various social media platforms."
+          ],
+          "Report & Creative Writing": [
+            "Students are required to possess good  writing skill and write on various events conducted by the NGO."
+          ]
+        },
+        "perks": [
+          "Fellowship and Social Media & Communication - Paid",
+          "Report and Creative Writing - Unpaid  Eligibility - All Courses, All years",
+          "Duration - 4 months",
+          "Selection Process - CV based shortlisting and Personal Interview"
+        ],
+        "stallCoordinator": "Rabbani Kaur",
+        "coordinatorPhone": "9911400013",
+        "companyLogo": "https://assets.letsendorse.com/le/2020/04/07/lfBOGngJTmoYPsJepJyL15862584640632.png"
       }
     ]
   }

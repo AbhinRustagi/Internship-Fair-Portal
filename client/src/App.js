@@ -13,6 +13,7 @@ import Logistics from "./admin/Logistics";
 import Download from "./downloadData/downloadData";
 import Grid from "./company-grid/Grid";
 import CompanyPage from "./company-grid/CompanyPage";
+import Companies from "./companies/companiespage";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           </Route>
           {/* <Route exact path="/ifair/register">
             <RegistrationForm />
+          </Route> */}
+          {/* <Route exact path="/companies">
+            <Companies />
           </Route> */}
           <Route exact path="/profile">
             <Profile />
@@ -37,9 +41,9 @@ function App() {
           <Route exact path="/admin/login">
             <AdminLogin />
           </Route>
-          <Route exact path="/company/select">
+          {/* <Route exact path="/company/select">
             <Grid />
-          </Route>
+          </Route> */}
           <Route exact path="/company/:id" component={CompanyPage} />
           <Route exact path="/admin/logistics">
             <Logistics />

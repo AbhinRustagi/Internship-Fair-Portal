@@ -28,6 +28,24 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.companies_applied {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.companies_applied .col_4 {
+  width: 25%;
+  padding-right: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+.companies_applied .col_4 p {
+  margin: 5px 0;
+}
+
 .profile_info .row {
   display: flex;
   align-items: flex-start;

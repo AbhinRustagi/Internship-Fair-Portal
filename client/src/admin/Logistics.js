@@ -23,7 +23,9 @@ export default function Admin() {
       .get()
       .then((docs) => {
         docs.forEach((doc) => {
-          setUsers((users) => [...users, doc.data().collegeRollNo]);
+          if (doc.data().companiesSelected) {
+            setUsers((users) => [...users, doc.data().collegeRollNo]);
+          }
         });
       });
   }, []);

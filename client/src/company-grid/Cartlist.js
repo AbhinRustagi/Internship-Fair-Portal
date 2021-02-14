@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useStateValue } from "../utils/StateProvider";
 import "./Cartlist.css";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
-import { firestore as db } from "../utils/firebase/firebaseConfig";
+import { firestore as db, functions } from "../utils/firebase/firebaseConfig";
 import { useHistory } from "react-router-dom";
+import companiesList from "../other/hereyougo2";
 
 export default function Cartlist() {
   const [{ user, cart }, dispatch] = useStateValue();
   const History = useHistory();
+
+  const [email, setEmail] = useState("");
 
   const removeItem = (id) => {
     dispatch({
@@ -15,6 +18,15 @@ export default function Cartlist() {
       id: id,
     });
   };
+
+  useEffect(() => {
+    db.collection("users")
+      .doc(user.toString())
+      .get()
+      .then((doc) => {
+        setEmail(doc.data().emailAddress);
+      });
+  }, []);
 
   const handleSubmission = (e) => {
     e.preventDefault();
@@ -53,6 +65,8 @@ export default function Cartlist() {
         companiesSelected: true,
         companiesList: cart,
       });
+
+      alert("Process completed.");
 
       History.push("/profile");
     }

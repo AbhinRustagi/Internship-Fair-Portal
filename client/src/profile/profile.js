@@ -29,6 +29,7 @@ function Profile() {
     admission: null,
     companyLimit: 0,
     companiesSelected: false,
+    companiesList: [],
   });
 
   useEffect(async () => {
@@ -263,13 +264,13 @@ function Profile() {
             {thisUser?.remarks === ""
               ? "Yet to be reviewed."
               : thisUser?.remarks}
-            {thisUser.approved && !thisUser.companiesSelected ? (
+            {/* {thisUser.approved && !thisUser.companiesSelected ? (
               <div className="company_selection">
                 <button onClick={selectCompanies}>
                   Go on to select companies ➞
                 </button>
               </div>
-            ) : null}
+            ) : null} */}
           </p>
 
           <hr />
@@ -354,6 +355,21 @@ function Profile() {
             </div>
           </div>
           <hr />
+          {thisUser.companiesSelected ? (
+            <div>
+              <h3>Companies you've applied to</h3>
+              <div className="companies_applied">
+                {thisUser.companiesList.map((company) => (
+                  <div className="col_4">
+                    <strong>{company.name}</strong>
+
+                    <p>{company.profiles.profile1}</p>
+                    <p>{company.profiles.profile2}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ) : null}
           <div className="delete_box">
             <p>
               Accidentally entered wrong information such as your email address,

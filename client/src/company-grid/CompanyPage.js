@@ -21,7 +21,7 @@ function CompanyPage({ match }) {
   };
 
   useEffect(() => {
-    const id = parseInt(match.params.id);
+    const id = parseFloat(match.params.id);
     let company;
     if (id >= 1 && id <= 10) {
       company = companies["Corporates"].find(
@@ -61,11 +61,11 @@ function CompanyPage({ match }) {
           ) : null}
         </div>
         <div className="company_info">
-          {user ? (
+          {/* {user ? (
             <Link to="/company/select">
               <button>Go to Company Selection</button>
             </Link>
-          ) : null}
+          ) : null} */}
           <br />
           <img src={thisCompany?.companyLogo} alt="" />
           <h1>{thisCompany?.companyName}</h1>

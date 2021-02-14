@@ -27,6 +27,7 @@ export default function UserProfile({ rollno }) {
     resume: null,
     proofOfResume: null,
     admission: null,
+    companiesSelected: false,
   });
 
   const [thisRemarks, setRemarks] = useState(null);
@@ -161,6 +162,17 @@ export default function UserProfile({ rollno }) {
       .catch((err) => alert(err));
   };
 
+  const downloadResume = (e) => {
+    e.preventDefault();
+    var xhr = new XMLHttpRequest();
+    xhr.responseType = "blob";
+    xhr.onload = (event) => {
+      var blob = xhr.response;
+    };
+    xhr.open("GET", thisUser.resume);
+    xhr.send();
+  };
+
   return (
     <div className="userProfile">
       <div
@@ -171,6 +183,15 @@ export default function UserProfile({ rollno }) {
       >
         {thisUser.fullName}
       </div>
+      <p
+        style={{
+          margin: "5px 0",
+          fontSize: "1.1rem",
+          fontWeight: "500",
+        }}
+      >
+        Companies Selected: {thisUser.companiesSelected ? "YES" : "NO"}
+      </p>
       <ul>
         <li>
           <strong>Roll No:</strong> {thisUser.collegeRollNo}
@@ -201,6 +222,7 @@ export default function UserProfile({ rollno }) {
           <a
             target="_blank"
             rel="noreferrer"
+            id="resumeDownload"
             href={thisUser.resume ? thisUser.resume : null}
           >
             {thisUser.resume ? "View Here" : "Not Uploaded"}
@@ -212,6 +234,7 @@ export default function UserProfile({ rollno }) {
             target="_blank"
             rel="noreferrer"
             href={thisUser.admission ? thisUser.admission : null}
+            download={`${thisUser.collegeRollNo}.pdf`}
           >
             {thisUser.admission ? "View Here" : "Not Uploaded"}
           </a>
