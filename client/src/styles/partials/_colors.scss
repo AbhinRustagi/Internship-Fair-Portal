@@ -1,0 +1,19 @@
+$colors: (
+  "black": #282828,
+  "white": #f7f7f7,
+  "error": #ef233c,
+  "success": #7ae582,
+  "gray": #ced4da,
+  "accent": #00a6fb,
+  "accent-200": #0582ca,
+);
+
+@each $color, $hex in $colors {
+  .text-#{$color} {
+    color: $hex;
+  }
+
+  .bg-#{$color} {
+    background: $hex;
+  }
+}

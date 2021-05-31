@@ -1,0 +1,63 @@
+$spacing: (
+  "xxs": 10px,
+  "xs": 15px,
+  "s": 20px,
+  "m": 25px,
+  "l": 30px,
+  "xl": 50px,
+  "xxl": 70px,
+);
+
+@each $name, $value in $spacing {
+  .pt-#{$name} {
+    padding-top: $value;
+  }
+
+  .pb-#{$name} {
+    padding-bottom: $value;
+  }
+
+  .pr-#{$name} {
+    padding-right: $value;
+  }
+
+  .pl-#{$name} {
+    padding-left: $value;
+  }
+
+  .mt-#{$name} {
+    margin-top: $value;
+  }
+
+  .mb-#{$name} {
+    margin-bottom: $value;
+  }
+
+  .mr-#{$name} {
+    margin-right: $value;
+  }
+
+  .ml-#{$name} {
+    margin-left: $value;
+  }
+
+  .mx-#{$name} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+
+  .my-#{$name} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+
+  .py-#{$name} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+
+  .px-#{$name} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+}

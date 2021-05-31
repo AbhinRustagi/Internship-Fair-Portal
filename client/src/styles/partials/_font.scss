@@ -1,0 +1,17 @@
+$fontSizes: (
+  "xs": 1.875rem,
+  "s": 1rem,
+  "m": 1.5rem,
+  "l": 1.75rem,
+  "xl": 2rem,
+  "xxl": 2.25rem,
+  "1x": 2.5rem,
+  "2x": 2.75rem,
+  "3x": 3rem,
+);
+
+@each $name, $size in $fontSizes {
+  .text-#{$name} {
+    font-size: $size;
+  }
+}

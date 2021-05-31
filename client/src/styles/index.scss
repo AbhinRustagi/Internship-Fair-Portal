@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
+@import "./exports";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: map-get($colors, "white");
+  color: map-get($colors, "black");
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button {
+  @extend .text-s;
+  font-family: inherit;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+input:valid {
+  outline: map-get($colors, "success");
+}
+
+input:invalid {
+  outline: map-get($colors, "error");
+}
