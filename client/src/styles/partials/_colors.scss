@@ -16,4 +16,20 @@ $colors: (
   .bg-#{$color} {
     background: $hex;
   }
+
+  .hover-bg-#{$color} {
+    &:hover {
+      background: $hex;
+    }
+  }
+
+  .hover-text-#{$color} {
+    &:hover {
+      color: $hex;
+    }
+  }
+
+  .border-#{$color} {
+    border: 1px solid $hex;
+  }
 }

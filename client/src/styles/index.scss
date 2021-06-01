@@ -40,3 +40,12 @@ input:valid {
 input:invalid {
   outline: map-get($colors, "error");
 }
+
+.btn {
+  display: inline-block;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}

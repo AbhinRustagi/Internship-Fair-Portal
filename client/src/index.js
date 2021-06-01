@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reducer, { initialState } from "./utils/reducer";
 import { StateProvider } from "./utils/StateProvider";
+import Button from "./components/Button/Button";
 
 ReactDOM.render(
   <React.StrictMode>
