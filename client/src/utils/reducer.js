@@ -5,7 +5,7 @@ export const initialState = {
   cart: [],
 };
 
-const reducer = (state = initialState, action) => {
+export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case "SET_USER":
       return {
@@ -49,8 +49,6 @@ const reducer = (state = initialState, action) => {
         (company) => company.id === action.newItem.id
       );
 
-      console.log(thisIndex);
-
       let newC = [...state.cart];
       if (thisIndex >= 0) {
         newC.splice(thisIndex, 1);
@@ -66,5 +64,3 @@ const reducer = (state = initialState, action) => {
       return state;
   }
 };
-
-export default reducer;

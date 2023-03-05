@@ -1,6 +1,6 @@
-import { auth, storage, firestore } from "../utils/firebase/firebaseConfig";
+import { storage, firestore } from "../utils/firebase/firebaseConfig";
 
-const setUser = async (id) => {
+export const setUser = async (id) => {
   if (!id) {
     return null;
   }
@@ -30,8 +30,7 @@ const setUser = async (id) => {
           .then((url) => {
             thisUser = { ...thisUser, [property]: url };
           })
-          .catch((err) => {
-            console.log(err);
+          .catch(() => {
             thisUser = { ...thisUser, [property]: null };
           });
       }
@@ -39,5 +38,3 @@ const setUser = async (id) => {
 
   return thisUser;
 };
-
-export default setUser;

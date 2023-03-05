@@ -1,4 +1,8 @@
-const coursesList = [
+export * from "./reducer";
+export * from "./setUser";
+export * from "./StateProvider";
+
+export const coursesList = [
   "Select Course",
   "B. Com Programme",
   "B. Com (Hons.)",
@@ -21,5 +25,3 @@ const coursesList = [
   "B. A. (H) Sociology",
   "B. A. Programme",
 ];
-
-export default coursesList;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import companiesList from "../other/hereyougo2";
+import companiesList from "../utils/companies.json";
 import { Link } from "react-router-dom";
-import { useStateValue } from "../utils/StateProvider";
+import { useStateValue } from "../utils";
 import { auth } from "../utils/firebase/firebaseConfig";
 import "./companypage.css";
 

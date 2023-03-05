@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import HelpIcon from "@material-ui/icons/Help";
 
@@ -10,13 +10,9 @@ import {
 } from "../utils/firebase/firebaseConfig";
 
 import password from "generate-password";
-import coursesList from "../other/CoursesList";
+import { coursesList, useStateValue, setUser } from "../utils";
 
 import "./RegistrationForm.css";
-
-import { useStateValue } from "../utils/StateProvider";
-
-import setUser from "../utils/setUser";
 
 const passwordOptions = {
   length: 10,
@@ -30,7 +26,7 @@ const sendMail = functions.httpsCallable("app");
 function RegistrationForm() {
   const History = useHistory();
 
-  const [{ user }, dispatch] = useStateValue();
+  const [_, dispatch] = useStateValue();
 
   const [buttonText, setButtonText] = useState("Continue");
 
@@ -78,17 +74,17 @@ function RegistrationForm() {
   const handleFormChange = ({ target: { value, name } }) => {
     setFormValues({ ...formValues, [name]: value });
 
-    // if (value.length < 1) {
-    //   setFormError({
-    //     ...formError,
-    //     fieldMessage: "No text field can contain less than 1 characters.",
-    //   });
-    // } else {
-    //   setFormError({
-    //     ...formError,
-    //     fieldMessage: 1,
-    //   });
-    // }
+    if (value.length < 1) {
+      setFormError({
+        ...formError,
+        fieldMessage: "No text field can contain less than 1 characters.",
+      });
+    } else {
+      setFormError({
+        ...formError,
+        fieldMessage: 1,
+      });
+    }
   };
 
   const validateForm = () => {
@@ -159,13 +155,13 @@ function RegistrationForm() {
                 .collection("users")
                 .doc(`${formValues.collegeRollNo}`)
                 .set(formValues)
-                // .then(() => {
-                //   dispatch({
-                //     type: "SET_USER",
-                //     user: userCredential.user.displayName,
-                //   });
-                //   History.push("/profile");
-                // });
+                .then(() => {
+                  dispatch({
+                    type: "SET_USER",
+                    user: userCredential.user.displayName,
+                  });
+                  History.push("/profile");
+                })
                 .then(async () => {
                   setButtonText("Uploading Files");
 
@@ -519,13 +515,13 @@ function RegistrationForm() {
                       </p>
                     </div>
 
-                    {/* {formError.fieldMessage && (
+                    {formError.fieldMessage && (
                       <p className="error_message">
                         {formError.fieldMessage === 1
                           ? null
                           : formError.fieldMessage}
                       </p>
-                    )} */}
+                    )}
 
                     <button className="submitButton" onClick={handleSubmission}>
                       {buttonText}

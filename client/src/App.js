@@ -1,40 +1,35 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./styles/index.scss";
 
-// import RegistrationForm from "./register/RegistrationForm";
-// import "./register/RegistrationForm.css";
-// import Home from "./home/Home";
-// import Footer from "./components/footer/Footer";
-// import Profile from "./profile/profile";
-// import Login from "./login/login";
-// import Help from "./Help/Help";
-// import AdminLogin from "./admin/AdminLogin";
-// import Logistics from "./admin/Logistics";
-// import Download from "./downloadData/downloadData";
-// import Grid from "./company-grid/Grid";
-// import CompanyPage from "./company-grid/CompanyPage";
-// import Companies from "./companies/companiespage";
-import Button from "./components/Button/Button";
-import Input from "./components/Input/Input";
+import AdminLogin from "./admin/AdminLogin";
+import Logistics from "./admin/Logistics";
+import Companies from "./companies/companiespage";
+import CompanyPage from "./company-grid/CompanyPage";
+import Grid from "./company-grid/Grid";
+import Footer from "./components/footer/Footer";
+import Help from "./Help/Help";
+import Home from "./home/Home";
+import Login from "./login/login";
+import Profile from "./profile/profile";
+import RegistrationForm from "./register/RegistrationForm";
+import "./register/RegistrationForm.css";
 
 function App() {
-  const [InputField, value] = Input({});
   return (
     <div className="App">
       <Router>
         <Switch>
           <Route path="/" exact>
-            {/* <Home /> */}
-            <Button btnType="dark">Hello</Button>
+            <Home />
           </Route>
-          {/* <Route exact path="/ifair/register">
+          <Route exact path="/ifair/register">
             <RegistrationForm />
-          </Route> */}
-          {/* <Route exact path="/companies">
+          </Route>
+          <Route exact path="/companies">
             <Companies />
-          </Route> */}
-          {/* <Route exact path="/profile">
+          </Route>
+          <Route exact path="/profile">
             <Profile />
           </Route>
           <Route exact path="/ifair/login">
@@ -46,18 +41,15 @@ function App() {
           <Route exact path="/admin/login">
             <AdminLogin />
           </Route>
-          {/* <Route exact path="/company/select">
+          <Route exact path="/company/select">
             <Grid />
-          </Route> */}
-          {/* <Route exact path="/company/:id" component={CompanyPage} />
+          </Route>
+          <Route exact path="/company/:id" component={CompanyPage} />
           <Route exact path="/admin/logistics">
             <Logistics />
           </Route>
-          <Route exact path="/downloadData">
-            <Download />
-          </Route>{" "} */}
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );
