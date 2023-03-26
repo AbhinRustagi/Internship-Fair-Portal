@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import companiesList from "../utils/companies.json";
+import companiesList from "data/companies.json";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../utils";
 import { auth } from "../utils/firebase/firebaseConfig";

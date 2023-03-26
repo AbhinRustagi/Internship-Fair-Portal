@@ -1,16 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { useStateValue } from "../utils/StateProvider";
-import "./logistics.css";
-import CourseList from "../other/CoursesList";
-import {
-  auth,
-  firestore as db,
-  storage,
-  functions,
-} from "../utils/firebase/firebaseConfig";
-import { useHistory, Link, Redirect } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, Redirect, useHistory } from "react-router-dom";
+import { firestore as db } from "utils/firebase/firebaseConfig";
+import { useStateValue } from "utils/StateProvider";
+import "./Grid.admin.css";
 
-import UserProfile from "../components/userProfile.js/UserProfile";
+import UserProfile from "components/userProfile.js/UserProfile";
 
 export default function Admin() {
   const [{ user }, dispatch] = useStateValue();

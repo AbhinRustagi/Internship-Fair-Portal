@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { auth } from "../utils/firebase/firebaseConfig";
-import { useStateValue } from "../utils/StateProvider";
+import { useStateValue } from "../../utils/StateProvider";
 import { useHistory } from "react-router-dom";
 
-import "./adminlogin.css";
+import "./Login.admin.css";
 
 export default function AdminLogin() {
   const History = useHistory();

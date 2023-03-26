@@ -3,7 +3,7 @@ import {
   firestore as db,
   storage,
   functions,
-} from "../../utils/firebase/firebaseConfig";
+} from "utils/firebase/firebaseConfig";
 import "./userprofile.css";
 
 const sendRemarksMail = functions.httpsCallable("rejectionMail");
