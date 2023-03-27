@@ -9,7 +9,6 @@ export default function Help() {
           <Link to="/">
             <div className="logo_box">
               <img src="./pcell_logo.png" alt="" />
-
               <p>
                 The Placement Cell <br />
                 <span>Sri Venkateswara College</span>

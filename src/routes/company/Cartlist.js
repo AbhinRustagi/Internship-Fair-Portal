@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useStateValue } from "../utils/StateProvider";
+import { useStateValue } from "../../utils/StateProvider";
 import "./Cartlist.css";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
 import { firestore as db, functions } from "../utils/firebase/firebaseConfig";

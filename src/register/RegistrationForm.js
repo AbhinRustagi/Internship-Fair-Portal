@@ -10,7 +10,8 @@ import {
 } from "../utils/firebase/firebaseConfig";
 
 import password from "generate-password";
-import { coursesList, useStateValue, setUser } from "../utils";
+import { useStateValue, setUser } from "../utils";
+import { coursesList } from "data";
 
 import "./RegistrationForm.css";
 

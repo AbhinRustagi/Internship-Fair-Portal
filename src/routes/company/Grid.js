@@ -10,7 +10,7 @@ import companiesList from "../other/hereyougo2";
 import Box from "./box";
 import CartList from "./Cartlist";
 
-import { useStateValue } from "../utils/StateProvider";
+import { useStateValue } from "../../utils/StateProvider";
 
 export default function Grid() {
   const History = useHistory();

@@ -11,18 +11,18 @@ import "@fontsource/poppins/700.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "src/styles/index.scss";
 
-import AdminGrid from "routes/admin/Grid.admin";
-import AdminLogin from "routes/admin/Login.admin";
 import Companies from "companies/companiespage";
-import CompanyPage from "company-grid/CompanyPage";
-import Grid from "company-grid/Grid";
-import Footer from "components/footer/Footer";
+import { Footer } from "components";
 import Help from "Help/Help";
 import Home from "home/Home";
 import Login from "login/login";
 import Profile from "profile/profile";
 import RegistrationForm from "register/RegistrationForm";
 import "register/RegistrationForm.css";
+import AdminGrid from "routes/admin/Grid.admin";
+import AdminLogin from "routes/admin/Login.admin";
+import CompanyPage from "routes/company/CompanyPage";
+import Grid from "routes/company/Grid";
 
 function App() {
   return (

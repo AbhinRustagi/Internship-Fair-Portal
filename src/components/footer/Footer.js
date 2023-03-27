@@ -1,11 +1,12 @@
 import React from "react";
 import "./Footer.css";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Footer() {
   return (
     <footer>
       <p>
-        <a href="http://abhinrustagi.github.io">
+        <a href="https://abhin.dev">
           Maintained & Developed by{" "}
           <span
             style={{
@@ -14,7 +15,7 @@ function Footer() {
           >
             Abhin Rustagi
           </span>
-          . <i className="fas fa-external-link-alt"></i>
+          . <FaExternalLinkAlt />
         </a>
       </p>
       <p>
