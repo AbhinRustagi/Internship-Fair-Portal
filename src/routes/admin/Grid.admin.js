@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link, Redirect, useHistory } from "react-router-dom";
+import { useStateValue } from "utils";
 import { firestore as db } from "utils/firebase/firebaseConfig";
-import { useStateValue } from "utils/StateProvider";
 import "./Grid.admin.css";
 
-import UserProfile from "components/userProfile.js/UserProfile";
+import { UserCard } from "./UserCard";
 
-export default function Admin() {
+export function AdminPageGrid() {
   const [{ user }, dispatch] = useStateValue();
   const History = useHistory();
   const [users, setUsers] = useState([]);
@@ -64,7 +64,7 @@ export default function Admin() {
           {users.length === 0
             ? "Loading all entries from the database. Please wait."
             : users.map((user) => {
-                return <UserProfile rollno={user} />;
+                return <UserCard rollno={user} />;
               })}
         </div>
       </div>

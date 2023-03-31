@@ -17,9 +17,9 @@ export default function Help() {
           </Link>
 
           <div className="button_box">
-            {/* <Link to="/ifair/register">
+            <Link to="/ifair/register">
               <button className="register_button">Register Now!</button>
-            </Link> */}
+            </Link>
             <Link to="/ifair/login">
               <button className="login_button">Log in</button>
             </Link>

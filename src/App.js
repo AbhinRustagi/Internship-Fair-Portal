@@ -8,21 +8,22 @@ import "@fontsource/poppins/300.css";
 import "@fontsource/poppins/500.css";
 import "@fontsource/poppins/600.css";
 import "@fontsource/poppins/700.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "src/styles/index.scss";
 
 import Companies from "companies/companiespage";
 import { Footer } from "components";
-import Help from "Help/Help";
-import Home from "home/Home";
-import Login from "login/login";
-import Profile from "profile/profile";
-import RegistrationForm from "register/RegistrationForm";
-import "register/RegistrationForm.css";
-import AdminGrid from "routes/admin/Grid.admin";
-import AdminLogin from "routes/admin/Login.admin";
-import CompanyPage from "routes/company/CompanyPage";
-import Grid from "routes/company/Grid";
+import {
+  AdminLogin,
+  AdminPageGrid,
+  CompanyPage,
+  Help,
+  Home,
+  Login,
+  Profile,
+  CompanyPageGrid,
+  RegistrationForm,
+} from "routes";
 
 function App() {
   return (
@@ -51,11 +52,11 @@ function App() {
             <AdminLogin />
           </Route>
           <Route exact path="/company/select">
-            <Grid />
+            <CompanyPageGrid />
           </Route>
           <Route exact path="/company/:id" component={CompanyPage} />
           <Route exact path="/admin/logistics">
-            <AdminGrid />
+            <AdminPageGrid />
           </Route>
         </Switch>
         <Footer />

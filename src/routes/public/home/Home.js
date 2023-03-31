@@ -6,9 +6,7 @@ import SpellcheckIcon from "@material-ui/icons/Spellcheck";
 import AssignmentTurnedInIcon from "@material-ui/icons/AssignmentTurnedIn";
 import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
 
-function Home() {
-  document.title = `Internship Fair 2021 | The Placement Cell, SVC`;
-
+export function Home() {
   return (
     <div className="Home">
       <div className="container">
@@ -23,9 +21,9 @@ function Home() {
             </div>
           </Link>
           <div className="button_box">
-            {/* <Link to="/ifair/register">
+            <Link to="/ifair/register">
               <button className="register_button">Register Now!</button>
-            </Link> */}
+            </Link>
             <Link to="/ifair/login">
               <button className="login_button">Log in</button>
             </Link>
@@ -81,5 +79,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

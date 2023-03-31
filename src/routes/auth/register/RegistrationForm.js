@@ -7,10 +7,10 @@ import {
   firestore as db,
   auth,
   functions,
-} from "../utils/firebase/firebaseConfig";
+} from "utils/firebase/firebaseConfig";
 
 import password from "generate-password";
-import { useStateValue, setUser } from "../utils";
+import { useStateValue, setUser } from "utils";
 import { coursesList } from "data";
 
 import "./RegistrationForm.css";
@@ -24,7 +24,7 @@ const passwordOptions = {
 
 const sendMail = functions.httpsCallable("app");
 
-function RegistrationForm() {
+export function RegistrationForm() {
   const History = useHistory();
 
   const [_, dispatch] = useStateValue();
@@ -537,5 +537,3 @@ function RegistrationForm() {
     </div>
   );
 }
-
-export default RegistrationForm;

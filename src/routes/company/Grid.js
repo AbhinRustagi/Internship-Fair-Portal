@@ -1,18 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link, Redirect, useHistory } from "react-router-dom";
-import {
-  auth,
-  firestore as db,
-  storage,
-} from "../utils/firebase/firebaseConfig";
+import { auth, firestore as db, storage } from "utils/firebase/firebaseConfig";
 import "./grid.css";
-import companiesList from "../other/hereyougo2";
+import companiesList from "data/companies";
 import Box from "./box";
 import CartList from "./Cartlist";
 
-import { useStateValue } from "../../utils/StateProvider";
+import { useStateValue } from "utils";
 
-export default function Grid() {
+export function CompanyPageGrid() {
   const History = useHistory();
   const [{ user, approved, companyLimit }, dispatch] = useStateValue();
   const logOut = async () => {

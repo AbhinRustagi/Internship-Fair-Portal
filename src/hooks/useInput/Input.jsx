@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Input.module.scss";
 
-function Input({
+export function useInput({
   type = "text",
   className = "",
   placeholder = "",
@@ -40,5 +40,3 @@ function Input({
 
   return [InputField, inputValue];
 }
-
-export default Input;

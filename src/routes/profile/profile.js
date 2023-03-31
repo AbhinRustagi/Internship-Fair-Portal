@@ -1,14 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { useStateValue } from "../utils/StateProvider";
-import { Redirect, useHistory, Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, Redirect, useHistory } from "react-router-dom";
+import { useStateValue } from "utils";
+import { auth, firestore as db, storage } from "utils/firebase/firebaseConfig";
 import "./profile.css";
-import {
-  storage,
-  firestore as db,
-  auth,
-} from "../utils/firebase/firebaseConfig";
 
-function Profile() {
+export function Profile() {
   const [{ user }, dispatch] = useStateValue();
   const [thisUser, setThisUser] = useState({
     fullName: null,
@@ -515,5 +511,3 @@ function Profile() {
     <Redirect to="/" />
   );
 }
-
-export default Profile;

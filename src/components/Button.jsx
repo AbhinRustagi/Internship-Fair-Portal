@@ -22,14 +22,14 @@ function Button({ btnType, type, onClick, className, href, children }) {
     return (
       <button
         onClick={onClick}
-        className={btnStyles + " " + `btn py-xxs px-xs text-s`}
+        className={btnStyles + " " + "btn py-xxs px-xs text-s"}
       >
         {children}
       </button>
     );
   } else {
     return (
-      <Link className={btnStyles + " " + `btn py-xxs px-xs text-s`} to={href}>
+      <Link className={btnStyles + " " + "btn py-xxs px-xs text-s"} to={href}>
         {children}
       </Link>
     );

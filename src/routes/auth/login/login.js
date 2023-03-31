@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
-import "./login.css";
+import "./Login.css";
 
-import { useStateValue } from "../utils/StateProvider";
+import { useStateValue } from "utils";
 
 import { auth } from "../utils/firebase/firebaseConfig";
 
 import VisibilityIcon from "@material-ui/icons/Visibility";
 
-function Login() {
+export function Login() {
   const History = useHistory();
 
   const [formValues, setFormValues] = useState({
@@ -145,5 +145,3 @@ function Login() {
     </div>
   );
 }
-
-export default Login;

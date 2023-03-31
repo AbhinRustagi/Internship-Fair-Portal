@@ -4,12 +4,12 @@ import {
   storage,
   functions,
 } from "utils/firebase/firebaseConfig";
-import "./userprofile.css";
+import "./UserCard.css";
 
 const sendRemarksMail = functions.httpsCallable("rejectionMail");
 const sendAcceptMail = functions.httpsCallable("acceptMail");
 
-export default function UserProfile({ rollno }) {
+export function UserProfile({ rollno }) {
   const [thisUser, setThisUser] = useState({
     fullName: null,
     collegeRollNo: rollno,

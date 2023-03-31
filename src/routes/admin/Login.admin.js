@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { auth } from "../utils/firebase/firebaseConfig";
-import { useStateValue } from "../../utils/StateProvider";
+import React, { useState } from "react";
+import { auth } from "utils/firebase/firebaseConfig";
+import { useStateValue } from "utils";
 import { useHistory } from "react-router-dom";
 
 import "./Login.admin.css";
 
-export default function AdminLogin() {
+export function AdminLogin() {
   const History = useHistory();
   const [formValues, setFormValues] = useState({ email: null, password: null });
 

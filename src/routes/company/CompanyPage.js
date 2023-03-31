@@ -5,7 +5,7 @@ import { useStateValue } from "../../utils";
 import { auth } from "../utils/firebase/firebaseConfig";
 import "./companypage.css";
 
-function CompanyPage({ match }) {
+export function CompanyPage({ match }) {
   const companies = companiesList[0];
   const [{ user }, dispatch] = useStateValue();
 
@@ -112,5 +112,3 @@ function CompanyPage({ match }) {
     </div>
   );
 }
-
-export default CompanyPage;
