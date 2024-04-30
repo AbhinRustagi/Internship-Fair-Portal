@@ -1,7 +1,7 @@
 import Companies from "data/companies.json";
 import { Link, Redirect, useHistory } from "react-router-dom";
 import { auth } from "utils/firebase";
-import Box from "./box";
+import Box from "./Box";
 import CartList from "./Cartlist";
 import "./grid.css";
 

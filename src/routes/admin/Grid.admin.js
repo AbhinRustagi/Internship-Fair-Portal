@@ -4,8 +4,7 @@ import { useEffect, useState } from "react";
 import { Link, Redirect, useHistory } from "react-router-dom";
 import { db } from "utils/firebase";
 import "./Grid.admin.css";
-
-import { UserCard } from "./UserCard";
+import { ProfileCard } from "./ProfileCard";
 
 export function AdminPageGrid() {
   const [{ user }, dispatch] = useStateValue();
@@ -65,7 +64,7 @@ export function AdminPageGrid() {
           {users.length === 0
             ? "Loading all entries from the database. Please wait."
             : users.map((user) => {
-                return <UserCard rollno={user} />;
+                return <ProfileCard rollno={user} />;
               })}
         </div>
       </div>

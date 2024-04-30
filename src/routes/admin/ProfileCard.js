@@ -5,7 +5,7 @@ import "./UserCard.css";
 const sendRemarksMail = functions.httpsCallable("rejectionMail");
 const sendAcceptMail = functions.httpsCallable("acceptMail");
 
-export function UserProfile({ rollno }) {
+export function ProfileCard({ rollno }) {
   const [thisUser, setThisUser] = useState({
     fullName: null,
     collegeRollNo: rollno,

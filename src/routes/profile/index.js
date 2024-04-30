@@ -1,7 +1,7 @@
 import { useStateValue } from "context";
 import { useEffect, useState } from "react";
 import { Link, Redirect, useHistory } from "react-router-dom";
-import { auth, firestore as db, storage } from "utils/firebase";
+import { auth, db, storage } from "utils/firebase";
 import "./profile.css";
 
 export function Profile() {
