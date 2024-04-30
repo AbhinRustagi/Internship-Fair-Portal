@@ -1,14 +1,12 @@
-import React, { useEffect, useState } from "react";
-import companiesList from "data/companies.json";
+import { useStateValue } from "context";
+import Companies from "data/companies.json";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { useStateValue } from "../../utils";
-import { auth } from "../utils/firebase/firebaseConfig";
+import { auth } from "utils/firebase";
 import "./companypage.css";
 
 export function CompanyPage({ match }) {
-  const companies = companiesList[0];
   const [{ user }, dispatch] = useStateValue();
-
   const [thisCompany, setThisCompany] = useState();
 
   const logOut = async () => {
@@ -22,14 +20,7 @@ export function CompanyPage({ match }) {
 
   useEffect(() => {
     const id = parseFloat(match.params.id);
-    let company;
-    if (id >= 1 && id <= 10) {
-      company = companies["Corporates"].find((company) => company.id === id);
-    } else if (id >= 11 && id <= 22) {
-      company = companies["Startups"].find((company) => company.id === id);
-    } else {
-      company = companies["NGOs"].find((company) => company.id === id);
-    }
+    let company = Companies.find((company) => company.id === id);
     setThisCompany(company);
   }, []);
 

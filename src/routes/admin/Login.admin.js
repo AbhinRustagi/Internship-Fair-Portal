@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { auth } from "utils/firebase/firebaseConfig";
-import { useStateValue } from "utils";
+import { useStateValue } from "context";
+import { useState } from "react";
 import { useHistory } from "react-router-dom";
+import { auth } from "utils/firebase";
 
 import "./Login.admin.css";
 

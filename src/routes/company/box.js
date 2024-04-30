@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
+import { useStateValue } from "context";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useStateValue } from "../../utils/StateProvider";
 import "./companyBox.css";
 
 export default function Box({ logo, name, id, profile }) {

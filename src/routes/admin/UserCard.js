@@ -1,9 +1,5 @@
-import React, { useState, useEffect } from "react";
-import {
-  firestore as db,
-  storage,
-  functions,
-} from "utils/firebase/firebaseConfig";
+import { useEffect, useState } from "react";
+import { db, functions, storage } from "utils/firebase";
 import "./UserCard.css";
 
 const sendRemarksMail = functions.httpsCallable("rejectionMail");

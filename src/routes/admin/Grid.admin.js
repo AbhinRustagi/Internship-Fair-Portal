@@ -1,7 +1,8 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useStateValue } from "context";
 import { useEffect, useState } from "react";
 import { Link, Redirect, useHistory } from "react-router-dom";
-import { useStateValue } from "utils";
-import { firestore as db } from "utils/firebase/firebaseConfig";
+import { db } from "utils/firebase";
 import "./Grid.admin.css";
 
 import { UserCard } from "./UserCard";

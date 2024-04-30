@@ -1,4 +1,14 @@
-import { storage, firestore } from "../utils/firebase/firebaseConfig";
+/* eslint-disable no-loop-func */
+import firebase from "firebase";
+
+const app = firebase.initializeApp({
+  // Credentials
+});
+
+export const auth = firebase.auth(app);
+export const storage = firebase.storage(app);
+export const db = firebase.firestore(app);
+export const functions = firebase.functions(app);
 
 export const setUser = async (id) => {
   if (!id) {
@@ -7,7 +17,7 @@ export const setUser = async (id) => {
 
   let thisUser = {};
 
-  await firestore
+  await db
     .collection("users")
     .doc(`${id}`)
     .get()

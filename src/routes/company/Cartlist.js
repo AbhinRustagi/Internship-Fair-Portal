@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { useStateValue } from "../../utils/StateProvider";
-import "./Cartlist.css";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
-import { firestore as db, functions } from "../utils/firebase/firebaseConfig";
+import { useStateValue } from "context";
+import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
-import companiesList from "../other/hereyougo2";
+import { db } from "utils/firebase";
+import "./Cartlist.css";
 
 export default function Cartlist() {
   const [{ user, cart }, dispatch] = useStateValue();
@@ -63,7 +62,7 @@ export default function Cartlist() {
 
       db.collection("users").doc(user.toString()).update({
         companiesSelected: true,
-        companiesList: cart,
+        Companies: cart,
       });
 
       alert("Process completed.");

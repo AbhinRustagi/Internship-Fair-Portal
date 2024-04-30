@@ -1,10 +1,9 @@
-import React from "react";
+import Companies from "data/companies.json";
 import { Link, Redirect, useHistory } from "react-router-dom";
-import { auth, firestore as db, storage } from "utils/firebase/firebaseConfig";
-import "./grid.css";
-import companiesList from "data/companies";
+import { auth } from "utils/firebase";
 import Box from "./box";
 import CartList from "./Cartlist";
+import "./grid.css";
 
 import { useStateValue } from "utils";
 
@@ -51,7 +50,7 @@ export function CompanyPageGrid() {
         <CartList />
         <div className="company_container">
           <h2>Corporates</h2>
-          {companiesList[0].Corporates.map((company) => (
+          {Companies[0].Corporates.map((company) => (
             <Box
               name={company.name}
               logo={company.logo}
@@ -62,7 +61,7 @@ export function CompanyPageGrid() {
         </div>
         <div className="company_container">
           <h2>Startups</h2>
-          {companiesList[0].Startups.map((company) => (
+          {Companies[0].Startups.map((company) => (
             <Box
               name={company.name}
               logo={company.logo}
@@ -73,7 +72,7 @@ export function CompanyPageGrid() {
         </div>
         <div className="company_container">
           <h2>NGOs</h2>
-          {companiesList[0].NGOs.map((company) => (
+          {Companies[0].NGOs.map((company) => (
             <Box
               name={company.name}
               logo={company.logo}
