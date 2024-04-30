@@ -53,10 +53,10 @@ export function CompanyPageGrid() {
           <h2>Corporates</h2>
           {companiesList[0].Corporates.map((company) => (
             <Box
-              name={company.companyName}
-              logo={company.companyLogo}
-              id={company.companyId}
-              profile={company.profilesOffered}
+              name={company.name}
+              logo={company.logo}
+              id={company.id}
+              profile={company.open_role}
             />
           ))}
         </div>
@@ -64,10 +64,10 @@ export function CompanyPageGrid() {
           <h2>Startups</h2>
           {companiesList[0].Startups.map((company) => (
             <Box
-              name={company.companyName}
-              logo={company.companyLogo}
-              id={company.companyId}
-              profile={company.profilesOffered}
+              name={company.name}
+              logo={company.logo}
+              id={company.id}
+              profile={company.open_role}
             />
           ))}
         </div>
@@ -75,10 +75,10 @@ export function CompanyPageGrid() {
           <h2>NGOs</h2>
           {companiesList[0].NGOs.map((company) => (
             <Box
-              name={company.companyName}
-              logo={company.companyLogo}
-              id={company.companyId}
-              profile={company.profilesOffered}
+              name={company.name}
+              logo={company.logo}
+              id={company.id}
+              profile={company.open_role}
             />
           ))}
         </div>

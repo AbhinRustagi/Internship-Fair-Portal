@@ -24,15 +24,11 @@ export function CompanyPage({ match }) {
     const id = parseFloat(match.params.id);
     let company;
     if (id >= 1 && id <= 10) {
-      company = companies["Corporates"].find(
-        (company) => company.companyId === id
-      );
+      company = companies["Corporates"].find((company) => company.id === id);
     } else if (id >= 11 && id <= 22) {
-      company = companies["Startups"].find(
-        (company) => company.companyId === id
-      );
+      company = companies["Startups"].find((company) => company.id === id);
     } else {
-      company = companies["NGOs"].find((company) => company.companyId === id);
+      company = companies["NGOs"].find((company) => company.id === id);
     }
     setThisCompany(company);
   }, []);
@@ -67,32 +63,32 @@ export function CompanyPage({ match }) {
             </Link>
           ) : null} */}
           <br />
-          <img src={thisCompany?.companyLogo} alt="" />
-          <h1>{thisCompany?.companyName}</h1>
+          <img src={thisCompany?.logo} alt="" />
+          <h1>{thisCompany?.name}</h1>
           <strong>
             Stall Coordinator:{" "}
-            {thisCompany?.stallCoordinator
-              ? `${thisCompany.stallCoordinator} (${thisCompany.coordinatorPhone})`
+            {thisCompany?.stall_coordinator
+              ? `${thisCompany.stall_coordinator} (${thisCompany.coordinator_contact})`
               : null}
           </strong>
           <p>
             <strong>About the company</strong>
             <br />
-            {thisCompany?.aboutCompany}
+            {thisCompany?.about}
           </p>
           <strong>Profiles Offered</strong>
           <ul>
-            {thisCompany?.profilesOffered.map((profile) => (
+            {thisCompany?.open_role.map((profile) => (
               <li>{profile}</li>
             ))}
           </ul>
           <strong>Job Description</strong>
-          {thisCompany?.JD ? (
+          {thisCompany?.job_description ? (
             <div>
-              {Object.keys(thisCompany.JD).map((profile) => (
+              {Object.keys(thisCompany.job_description).map((profile) => (
                 <ul>
                   <strong>{profile}</strong>
-                  {thisCompany.JD[profile].map((task) => (
+                  {thisCompany.job_description[profile].map((task) => (
                     <li>{task}</li>
                   ))}
                 </ul>

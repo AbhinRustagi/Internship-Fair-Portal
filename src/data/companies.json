@@ -2,12 +2,11 @@
   {
     "Corporates": [
       {
-        "companyId": 5.5,
-        "companyName": "DK Publishers",
-        "aboutCompany": "The DK India office was set up in 1998 in New Delhi, and works closely with its UK and rest of the world counterparts to help produce DK’s award-winning and bestselling reference books for adults and children in more than 40 languages.",
-        "profilesOffered": ["Editorial Intern"],
-        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/DK_%282020%29.svg/1280px-DK_%282020%29.svg.png",
-        "JD": {
+        "id": 5.5,
+        "name": "Ernser - Hilll",
+        "about": "The Ernser - Hilll office was set up in 1998 in New Delhi, and works closely with its UK and rest of the world counterparts to help produce Ernser - Hilll’s award-winning and bestselling reference books for adults and children in more than 40 languages.",
+        "open_role": ["Editorial Intern"],
+        "job_description": {
           "Editorial Intern": [
             "Research based internship, would be working with authors, also includes writing and proofreading",
             "Excellent communication, smart and hardworking, enthusiastic, eager to learn and work, loves to read a lot and willing to go that extra mile."
@@ -18,15 +17,17 @@
           "Additional information: Technical requirements - Google account, Adobe acrobat (for PDFs) and good internet connection",
           "Stipend: 5K"
         ],
-        "stallCoordinator": "Darius Singh & Disha Gupta",
-        "coordinatorPhone": "8833202355, 9990454366"
+        "stall_coordinator": ["Alicia Schowalter", "Henri Gaylord"],
+        "coordinator_contact": "490.550.1176, (681) 489-3532 x28726",
+        "logo": "http://placeimg.com/640/480/cats",
+        "type": "corporate"
       },
       {
-        "companyId": 1,
-        "companyName": "Wise Finserv",
-        "aboutCompany": "Wise Finserv is a Financial Planning, Investment Advisory and a Wealth Management company registered with SEBI as an Investment Advisor. It works towards assisting its clients in planning and executing their future financial goals. It is going to launch Wise Funds that will assist customers to buy most financial products available to retail clients such as Mutual Funds , Life Insurance & Health Insurance.",
-        "profilesOffered": ["Strategy", "Marketing & Product Management Roles"],
-        "JD": {
+        "id": 1,
+        "name": "Tremblay - Halvorson",
+        "about": "Tremblay - Halvorson is a Financial Planning, Investment Advisory and a Wealth Management company registered with SEBI as an Investment Advisor. It works towards assisting its clients in planning and executing their future financial goals. It is going to launch Tremblay - Halvorson Funds that will assist customers to buy most financial products available to retail clients such as Mutual Funds , Life Insurance & Health Insurance.",
+        "open_role": ["Strategy", "Marketing & Product Management Roles"],
+        "job_description": {
           "Strategy": [
             "Call prospective customers to plan documentation and schedule meetings.",
             "Intend and manage the production of new marketing strategies.",
@@ -38,21 +39,22 @@
           ]
         },
         "perks": ["Certificate Of Internship"],
-        "stallCoordinator": "Geetesh",
-        "coordinatorPhone": "6239604499",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F0.png?alt=media&token=856c97e0-c8e2-4835-a53e-345752cf193a"
+        "stall_coordinator": ["Randal Strosin"],
+        "coordinator_contact": "582-929-2238 x5640",
+        "logo": "http://placeimg.com/640/480/business",
+        "type": "corporate"
       },
       {
-        "companyId": 2,
-        "companyName": "McKinley & Rice",
-        "aboutCompany": "McKinley & Rice Creativity Pvt. Ltd. originally began as a tech outsourcing consultancy firm 5 years ago, when founder Felix J.W. Kim and associates discovered an increase in interest regarding overseas outsourcing while working at a law firm in Seoul, South Korea. In November 2018, McKinley & Rice launched its own in-house software development team in Noida, India, as well as offices in California, U.S.A intending to make design and tech accessible to everyone by breaking down borders. In January 2020, the company expanded its footprint with an office in Pune to further enhance is capabilities.",
-        "profilesOffered": [
+        "id": 2,
+        "name": "McKinley & Rice",
+        "about": "McKinley & Rice Creativity Pvt. Ltd. originally began as a tech outsourcing consultancy firm 5 years ago, when founder Felix J.W. Kim and associates discovered an increase in interest regarding overseas outsourcing while working at a law firm in Seoul, South Korea. In November 2018, McKinley & Rice launched its own in-house software development team in Noida, India, as well as offices in California, U.S.A intending to make design and tech accessible to everyone by breaking down borders. In January 2020, the company expanded its footprint with an office in Pune to further enhance is capabilities.",
+        "open_role": [
           "Business Development Executive",
           "Social Media Intern",
           "Market Analyst",
           "Python-Django Interns "
         ],
-        "JD": {
+        "job_description": {
           "Social Media Intern": [
             "Handling the social media accounts of the organisation over instagram, LinkedIn, Facebook etc and ensuring the posts reach maximum people.",
             "Search Engine Optimisation.",
@@ -66,22 +68,23 @@
           ]
         },
         "perks": ["Certificate of Internship"],
-        "stallCoordinator": "Parth, Kriti",
-        "coordinatorPhone": "7999883887",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F1.jpg?alt=media&token=bc511d81-e0f2-468a-afa6-2e06f304c313"
+        "stall_coordinator": "Parth, Kriti",
+        "coordinator_contact": "7999883887",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F1.jpg?alt=media&token=bc511d81-e0f2-468a-afa6-2e06f304c313",
+        "type": "corporate"
       },
       {
-        "companyId": 3,
-        "companyName": "Eigopathshala",
-        "aboutCompany": "We are dedicated to bridge the language barrier between Foreigners and Indians. We are a team of young and passionate professionals and our team comprises of Indians, Europeans and Japanese natives. Currently operational in India (Delhi/Gurgaon/Mumbai/Pune/Bangalore/Chennai) and Japan. We primarily teach English and other regional Indian languages to foreigners. At present we take classes with foreigners throughout India and Japan.",
-        "profilesOffered": [
+        "id": 3,
+        "name": "Eigopathshala",
+        "about": "We are dedicated to bridge the language barrier between Foreigners and Indians. We are a team of young and passionate professionals and our team comprises of Indians, Europeans and Japanese natives. Currently operational in India (Delhi/Gurgaon/Mumbai/Pune/Bangalore/Chennai) and Japan. We primarily teach English and other regional Indian languages to foreigners. At present we take classes with foreigners throughout India and Japan.",
+        "open_role": [
           "Digital Marketing",
           "English Teacher",
           "Finance",
           "Human Resources (HR)",
           "Software Development"
         ],
-        "JD": {
+        "job_description": {
           "Digital Marketing": [
             "Planning, executing and managing marketing activities for product including social media marketing, digital marketing.",
             "Designing, building and maintaining company presence in the digital space",
@@ -131,16 +134,17 @@
           "Flexible Working hours",
           "Foreign Language Course worth 15k"
         ],
-        "stallCoordinator": "Sandra Francis",
-        "coordinatorPhone": "9810454918",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F2.png?alt=media&token=e80b505f-11d5-4912-a8bd-3a6f00ab25a3"
+        "stall_coordinator": "Sandra Francis",
+        "coordinator_contact": "9810454918",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F2.png?alt=media&token=e80b505f-11d5-4912-a8bd-3a6f00ab25a3",
+        "type": "corporate"
       },
       {
-        "companyId": 4,
-        "companyName": "Bajaj Capital",
-        "aboutCompany": "Bajaj Capital is India's premier investment services group engaged inter-alia in the distribution of mutual funds, insurance, fixed deposits, bonds, loans et al.",
-        "profilesOffered": ["Wealthpreneur Associate (WP Intern)"],
-        "JD": {
+        "id": 4,
+        "name": "Bajaj Capital",
+        "about": "Bajaj Capital is India's premier investment services group engaged inter-alia in the distribution of mutual funds, insurance, fixed deposits, bonds, loans et al.",
+        "open_role": ["Wealthpreneur Associate (WP Intern)"],
+        "job_description": {
           "Wealthpreneur Associate (WP Intern)": [
             "Prepare a working model & final plan of action & hence conduct those activities as a part of general public awareness/ Initiative to spread awareness on ‘Financial Well Being’ for prospects by identifying their needs",
             "Provide & develop Financial portfolio & suggest solutions to prospects basis their requirements & financial goals.",
@@ -165,16 +169,17 @@
           "Letter of recommendation",
           "Placement opportunity after completion"
         ],
-        "stallCoordinator": "Himanshi Asrani",
-        "coordinatorPhone": "8107898002",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F3.png?alt=media&token=cce8c17b-17da-4117-9cdb-fa32a1257c5b"
+        "stall_coordinator": "Himanshi Asrani",
+        "coordinator_contact": "8107898002",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F3.png?alt=media&token=cce8c17b-17da-4117-9cdb-fa32a1257c5b",
+        "type": "corporate"
       },
       {
-        "companyId": 5,
-        "companyName": "Holidify",
-        "aboutCompany": "Holidify is a travel planning platform founded by IIT Bombay alumni back in 2013. After bootstrapping for the last few years, raising an angel round, we are now a profitable venture, growing at a rapid rate. With our comprehensive content covering more than 1000 popular as well as offbeat destinations, we help our readers to break out of the monotony of the same vacation spots they have known for years to open in front of them, a world of possibilities. We create the best-structured content to help people plan their journeys better.",
-        "profilesOffered": ["Content Writing"],
-        "JD": {
+        "id": 5,
+        "name": "Holidify",
+        "about": "Holidify is a travel planning platform founded by IIT Bombay alumni back in 2013. After bootstrapping for the last few years, raising an angel round, we are now a profitable venture, growing at a rapid rate. With our comprehensive content covering more than 1000 popular as well as offbeat destinations, we help our readers to break out of the monotony of the same vacation spots they have known for years to open in front of them, a world of possibilities. We create the best-structured content to help people plan their journeys better.",
+        "open_role": ["Content Writing"],
+        "job_description": {
           "Content Writing": [
             "Create and publish engaging content to simplify holiday planning experience according to SEO guidelines",
             "Perform secondary research and write content for our readers",
@@ -186,20 +191,21 @@
           "8 Weeks",
           "Other Incentives: A possible job offer or further internship and freelancing opportunities Certificate of internship after successful completion of the internship."
         ],
-        "stallCoordinator": "Vidisha",
-        "coordinatorPhone": "9810909141",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F4.png?alt=media&token=bef9bf3a-aa66-4876-ae60-3f72881fbd45"
+        "stall_coordinator": "Vidisha",
+        "coordinator_contact": "9810909141",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F4.png?alt=media&token=bef9bf3a-aa66-4876-ae60-3f72881fbd45",
+        "type": "corporate"
       },
       {
-        "companyId": 6,
-        "companyName": "Webnnel",
-        "aboutCompany": "The bring exciting original e-novels and e-comics from some of the finest storytellers.",
-        "profilesOffered": [
+        "id": 6,
+        "name": "Webnnel",
+        "about": "The bring exciting original e-novels and e-comics from some of the finest storytellers.",
+        "open_role": [
           "Creative Content, E-Novel",
           "B-B Marketing/ Sales Intern",
           "Social Media Content Intern"
         ],
-        "JD": {
+        "job_description": {
           "Creative Content, E-Novel": [
             "Selected Candidate/candidates will be required to work on E-Novel plots and assist the lead writer in developing and finalizing author drafts of a particular series."
           ],
@@ -215,31 +221,33 @@
           "LOR (On Request)",
           "Duration: 1 Month"
         ],
-        "stallCoordinator": "Diti",
-        "coordinatorPhone": "9911998891",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F5.png?alt=media&token=7591f795-6de6-4515-9b6a-eb79747c056f"
+        "stall_coordinator": "Diti",
+        "coordinator_contact": "9911998891",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F5.png?alt=media&token=7591f795-6de6-4515-9b6a-eb79747c056f",
+        "type": "corporate"
       },
       {
-        "companyId": 7,
-        "companyName": "Tapan Mukherjee and Co.",
-        "aboutCompany": "Tapan Mukherjee and co is a business consulting firm, consulting in the domain of food and beverage. ",
-        "profilesOffered": ["Consulting Intern"],
-        "JD": {
+        "id": 7,
+        "name": "Tapan Mukherjee and Co.",
+        "about": "Tapan Mukherjee and co is a business consulting firm, consulting in the domain of food and beverage. ",
+        "open_role": ["Consulting Intern"],
+        "job_description": {
           "Consulting Intern": [
             "For a area, survey, TG, approach. Support principal in his work. Primary research, secondary research. Preparing pitch deck, financials, projections. You will also be required to pick a project of your choosing that you feel will benefit the firm and complete it independently"
           ]
         },
         "perks": ["2 Months", "Paid with Certificate."],
-        "stallCoordinator": "Alok Khandelwal",
-        "coordinatorPhone": "8860773273",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F6.jpg?alt=media&token=65c5060e-9a5d-4892-991d-6f8ffb1d1175"
+        "stall_coordinator": "Alok Khandelwal",
+        "coordinator_contact": "8860773273",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F6.jpg?alt=media&token=65c5060e-9a5d-4892-991d-6f8ffb1d1175",
+        "type": "corporate"
       },
       {
-        "companyId": 8,
-        "companyName": "VQMS ",
-        "aboutCompany": "Management Consulting",
-        "profilesOffered": ["Management Trainee"],
-        "JD": {
+        "id": 8,
+        "name": "VQMS ",
+        "about": "Management Consulting",
+        "open_role": ["Management Trainee"],
+        "job_description": {
           "Management Trainee": [
             "Corporate Coordination, Communication, Corporate Interaction meets",
             "Follow-up,Data Research, Market Research, DM-SEO",
@@ -255,15 +263,16 @@
           "Eligibility: All year, all courses",
           "Duration: Full-time Internship (2 - 6 months Summer) / Work from home (4 - 6 months or more, 4 hrs daily)"
         ],
-        "stallCoordinator": "Mannat, Riya",
-        "coordinatorPhone": "9718885628",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F7.jpg?alt=media&token=9792df2e-b2b0-4d49-b815-245d6ddab803"
+        "stall_coordinator": "Mannat, Riya",
+        "coordinator_contact": "9718885628",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F7.jpg?alt=media&token=9792df2e-b2b0-4d49-b815-245d6ddab803",
+        "type": "corporate"
       },
       {
-        "companyId": 9,
-        "companyName": "Global Nexus",
-        "aboutCompany": "Event Management",
-        "profilesOffered": [
+        "id": 9,
+        "name": "Global Nexus",
+        "about": "Event Management",
+        "open_role": [
           "Marketing",
           "Digital Marketing",
           "Operations",
@@ -271,7 +280,7 @@
           "Content Writing",
           "Social Media Marketing"
         ],
-        "JD": {
+        "job_description": {
           "Marketing": [
             "Require students with good networking skills and contacts, someone who can get business to the company.",
             "Eligibility: 2nd & 3rd year students, All courses"
@@ -304,19 +313,17 @@
           "Selection Procedure: Virtual Interview, interview in office (if possible for students)",
           "Incentives: Certificate, stipend: INR 2000, full time offer to good performers"
         ],
-        "stallCoordinator": "Archisha",
-        "coordinatorPhone": "9667528330",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F8.jpg?alt=media&token=7dffd695-5837-47e8-a709-f6d45ade2017"
+        "stall_coordinator": "Archisha",
+        "coordinator_contact": "9667528330",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F8.jpg?alt=media&token=7dffd695-5837-47e8-a709-f6d45ade2017",
+        "type": "corporate"
       },
       {
-        "companyId": 10,
-        "companyName": "Vskills",
-        "aboutCompany": "Vskills is India's largest professional certification body. They provide government certified online courses for working professionals.",
-        "profilesOffered": [
-          "Content Research & Development",
-          "Brand Management"
-        ],
-        "JD": {
+        "id": 10,
+        "name": "Vskills",
+        "about": "Vskills is India's largest professional certification body. They provide government certified online courses for working professionals.",
+        "open_role": ["Content Research & Development", "Brand Management"],
+        "job_description": {
           "Content Research & Development": [
             "Research and write content for Social media."
           ],
@@ -325,25 +332,25 @@
           ]
         },
         "perks": ["1 - 2 Months", "2000 (Best Performer)", "Immediate Joining"],
-        "stallCoordinator": "Jessica Kannanthanam",
-        "coordinatorPhone": "9440084114",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F9.png?alt=media&token=58980729-ed73-4eb2-b330-63fd509ce9b1"
+        "stall_coordinator": "Jessica Kannanthanam",
+        "coordinator_contact": "9440084114",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F9.png?alt=media&token=58980729-ed73-4eb2-b330-63fd509ce9b1",
+        "type": "corporate"
       }
     ],
-
     "Startups": [
       {
-        "companyId": 11,
-        "companyName": "Ksenia Consultation",
-        "aboutCompany": "It enables people through self transformation to succeed in personal as well as professional arena. We provide image consulting, soft skills training, lifestyle coaching and personal branding for individual and corporate clients. We have social media influencers, doctors, artists, HR, IT professionals and plenty of HNI as our clients.",
-        "profilesOffered": [
+        "id": 11,
+        "name": "Ksenia Consultation",
+        "about": "It enables people through self transformation to succeed in personal as well as professional arena. We provide image consulting, soft skills training, lifestyle coaching and personal branding for individual and corporate clients. We have social media influencers, doctors, artists, HR, IT professionals and plenty of HNI as our clients.",
+        "open_role": [
           "Social Media Manager",
           "Content Writer",
           "Photographer and Videographer",
           "Web Development and Coding",
           "Assistant to Consultant"
         ],
-        "JD": {
+        "job_description": {
           "Social Media Manager": [
             "Manage all social media platforms: Instagram, Facebook, Twitter, LinkedIn and Youtube",
             "Create and optimise posts for each platform",
@@ -391,16 +398,16 @@
           "Ksenia Consultation will be providing LOR.",
           "Certificate and PPO"
         ],
-        "stallCoordinator": "Anushi, Yash Kochar",
-        "coordinatorPhone": "7048995103",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F11.jpg?alt=media&token=86be5cd5-016d-43d1-b62e-7ee22694a5f5"
+        "stall_coordinator": "Anushi, Yash Kochar",
+        "coordinator_contact": "7048995103",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F11.jpg?alt=media&token=86be5cd5-016d-43d1-b62e-7ee22694a5f5"
       },
       {
-        "companyId": 12,
-        "companyName": "Finladder",
-        "aboutCompany": "FinLadder is an online educational organization which regularly prepares students and professionals to prepare for various finance courses including those conducted by NSE. Thousands of students from universities all around India including Delhi University, Indian Institute of Management, Indraprastha University, Symbiosis are engaged with them.",
-        "profilesOffered": ["Sales"],
-        "JD": {
+        "id": 12,
+        "name": "Finladder",
+        "about": "FinLadder is an online educational organization which regularly prepares students and professionals to prepare for various finance courses including those conducted by NSE. Thousands of students from universities all around India including Delhi University, Indian Institute of Management, Indraprastha University, Symbiosis are engaged with them.",
+        "open_role": ["Sales"],
+        "job_description": {
           "Sales": [
             "Good speaking skills.",
             "Good convincing skills.",
@@ -408,16 +415,16 @@
           ]
         },
         "perks": ["Duration - 2 Months at least"],
-        "stallCoordinator": "Himanshi Bhardwaj",
-        "coordinatorPhone": "9417678596",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F12.jpg?alt=media&token=71c5eca7-a82b-470e-b20d-6b8f63e0cfad"
+        "stall_coordinator": "Himanshi Bhardwaj",
+        "coordinator_contact": "9417678596",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F12.jpg?alt=media&token=71c5eca7-a82b-470e-b20d-6b8f63e0cfad"
       },
       {
-        "companyId": 13,
-        "companyName": "Koozies Ice Cream",
-        "aboutCompany": "Koozies is a startup born out of a 50-year legacy in the Ice cream industry. We provide premium quality Ice cream products to food businesses throughout Delhi/NCR and are looking forward to expanding to different horizons and catering to new consumers. As a Digital Marketing intern, you will be responsible for designing social media campaigns, creating content from scratch which goes on the media handles, and applying technical know-how to boost the traffic that reaches our website.",
-        "profilesOffered": ["Digital Marketing", " Business Development"],
-        "JD": {
+        "id": 13,
+        "name": "Koozies Ice Cream",
+        "about": "Koozies is a startup born out of a 50-year legacy in the Ice cream industry. We provide premium quality Ice cream products to food businesses throughout Delhi/NCR and are looking forward to expanding to different horizons and catering to new consumers. As a Digital Marketing intern, you will be responsible for designing social media campaigns, creating content from scratch which goes on the media handles, and applying technical know-how to boost the traffic that reaches our website.",
+        "open_role": ["Digital Marketing", " Business Development"],
+        "job_description": {
           "Digital Marketing": [
             "Plan the content that goes on the social media handles",
             "Create the content from scratch and scout recent post trends on media to create something similar but unique",
@@ -459,15 +466,15 @@
           "Office Location: Nehru Place",
           "Salary: 5k + incentives"
         ],
-        "stallCoordinator": "Medha, Ananya Aggarwal",
-        "coordinatorPhone": "9811142774",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F13.jpg?alt=media&token=08a5b42e-7c06-4a01-9973-84d5928e08b1"
+        "stall_coordinator": "Medha, Ananya Aggarwal",
+        "coordinator_contact": "9811142774",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F13.jpg?alt=media&token=08a5b42e-7c06-4a01-9973-84d5928e08b1"
       },
       {
-        "companyId": 14,
-        "companyName": "Hareen",
-        "aboutCompany": "Hareen is the biggest and fastest-growing startup originated from Delhi University with a team of more than 200 students. Founded in 2017, earlier it was mainly confined to Delhi University students satisfying the needs and wants of students by providing them from accommodation to organizing trips and much more. Growing at a steady pace, it managed to capture different universities and colleges. Hareen is an umbrella organization with 4 units under it : (R&D for the fourth unit is going on. It will be launched in the market soon.)",
-        "profilesOffered": [
+        "id": 14,
+        "name": "Hareen",
+        "about": "Hareen is the biggest and fastest-growing startup originated from Delhi University with a team of more than 200 students. Founded in 2017, earlier it was mainly confined to Delhi University students satisfying the needs and wants of students by providing them from accommodation to organizing trips and much more. Growing at a steady pace, it managed to capture different universities and colleges. Hareen is an umbrella organization with 4 units under it : (R&D for the fourth unit is going on. It will be launched in the market soon.)",
+        "open_role": [
           "Business Developers",
           "Team Leaders",
           "Graphic Designers",
@@ -475,7 +482,7 @@
           "Web Developer",
           "Content Writer"
         ],
-        "JD": {
+        "job_description": {
           "Business Developers": [
             "Developing the business.",
             "They'll be exposed to almost every dimension of business.",
@@ -521,15 +528,15 @@
           "Stipend : Sales Based (Upto 20,000)",
           "Participation In Contests"
         ],
-        "stallCoordinator": "Shuchi",
-        "coordinatorPhone": "7024254457",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F14.png?alt=media&token=41ed1380-c7b4-4aa9-8ac8-9d15ed9ba453"
+        "stall_coordinator": "Shuchi",
+        "coordinator_contact": "7024254457",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F14.png?alt=media&token=41ed1380-c7b4-4aa9-8ac8-9d15ed9ba453"
       },
       {
-        "companyId": 15,
-        "companyName": "Campus 2 Corporate",
-        "aboutCompany": "It is a training and consultancy firm initiated by a team of Industry/Management experts, who have more than five decades of industry management experience working across, SMEs, start-ups, Corporates in India & abroad.",
-        "profilesOffered": [
+        "id": 15,
+        "name": "Campus 2 Corporate",
+        "about": "It is a training and consultancy firm initiated by a team of Industry/Management experts, who have more than five decades of industry management experience working across, SMEs, start-ups, Corporates in India & abroad.",
+        "open_role": [
           "Global Account Director (GAD)",
           "Global Relationship Manager (GRM)",
           "National Relatioship Manager (NBRM)",
@@ -538,7 +545,7 @@
           "Talk Show Host",
           "Digital Marketing"
         ],
-        "JD": {
+        "job_description": {
           "GLOBAL ACCOUNT DIRECTOR (GAD)": [
             "Managing Tata Communications relationship with Internationals clients.",
             "Students with Technical background to apply.",
@@ -580,16 +587,16 @@
           "Selection Procedure : Second round interview will be held on Google meet and the link for the same will also be shared.",
           "Selection Procedure :The interview questions are based on students communication skills to test their brain and also they should have little bit  knowledge of respective profile which they will be selecting."
         ],
-        "stallCoordinator": "Madhav Raj Garg",
-        "coordinatorPhone": "8383059253",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F15.png?alt=media&token=7d61e54b-cabe-45a4-b43b-7ef2f33692db"
+        "stall_coordinator": "Madhav Raj Garg",
+        "coordinator_contact": "8383059253",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F15.png?alt=media&token=7d61e54b-cabe-45a4-b43b-7ef2f33692db"
       },
       {
-        "companyId": 16,
-        "companyName": "Picxele",
-        "aboutCompany": "Picxele is a Customized Student Centric Application launched to bridge the gap between the brands and the college students. Picxele was founded and initiated by Rishav Agarwal in the year 2018 after the successful operation of INTEGER Innovation for a year and got to know the requirements from both ends. ",
-        "profilesOffered": ["Marketing Internship"],
-        "JD": {
+        "id": 16,
+        "name": "Picxele",
+        "about": "Picxele is a Customized Student Centric Application launched to bridge the gap between the brands and the college students. Picxele was founded and initiated by Rishav Agarwal in the year 2018 after the successful operation of INTEGER Innovation for a year and got to know the requirements from both ends. ",
+        "open_role": ["Marketing Internship"],
+        "job_description": {
           "Marketing Internship": [
             "Promotion of Picxele.",
             "Working on Tasks given for which Target will be given and stipend will be provided.",
@@ -607,20 +614,20 @@
           "LOR for Exceptional Performance.",
           "Top Performers of the Particular Batch will be featured on our Social Media Handles."
         ],
-        "stallCoordinator": "Chirag",
-        "coordinatorPhone": "7973216610",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F16.jpg?alt=media&token=6b32aa27-f098-484f-8020-1892ee37e22d"
+        "stall_coordinator": "Chirag",
+        "coordinator_contact": "7973216610",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F16.jpg?alt=media&token=6b32aa27-f098-484f-8020-1892ee37e22d"
       },
       {
-        "companyId": 17,
-        "companyName": "The Tarzan Way",
-        "aboutCompany": "Conceived over a cup of sizzling hot coffee, The Tarzan Way was aimed to revamp the entire traveling experience with an idea to make it more streamlined and customer friendly. Celebrating the uniqueness of every traveler and recognizing their independent needs, we took a step forward by proffering authentic, immersive and personalized travel experience to globetrotters around the world.",
-        "profilesOffered": [
+        "id": 17,
+        "name": "The Tarzan Way",
+        "about": "Conceived over a cup of sizzling hot coffee, The Tarzan Way was aimed to revamp the entire traveling experience with an idea to make it more streamlined and customer friendly. Celebrating the uniqueness of every traveler and recognizing their independent needs, we took a step forward by proffering authentic, immersive and personalized travel experience to globetrotters around the world.",
+        "open_role": [
           "Operations",
           "Social Media Marketing",
           "Business Development"
         ],
-        "JD": {
+        "job_description": {
           "Operations": [
             "Set up partnerships with various suppliers, whether accommodations, transfers, activities for logistical support, B2B prices, operations, or marketing.",
             "Research unique activities and experiences around the country to build up the database for TTW’s AI-based software.",
@@ -661,15 +668,15 @@
           "Selection Procedure: CV Shortlisting, Letter of Intent",
           "Date of Commencement: Immediately "
         ],
-        "stallCoordinator": "Ananya Pal, Aarav",
-        "coordinatorPhone": "8810674316",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F17.png?alt=media&token=7b06d54f-2d46-4397-8456-05d52ce21928"
+        "stall_coordinator": "Ananya Pal, Aarav",
+        "coordinator_contact": "8810674316",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F17.png?alt=media&token=7b06d54f-2d46-4397-8456-05d52ce21928"
       },
       {
-        "companyId": 18,
-        "companyName": "The Financial Doctors",
-        "aboutCompany": "We, The Financial Doctor, is Dehradun Based Financial Consultancy run by a Certified Financial Planner. We provide various financial services to our clients. From time to time, we run survey as well as an awareness campaign for the financial awareness.",
-        "profilesOffered": [
+        "id": 18,
+        "name": "The Financial Doctors",
+        "about": "We, The Financial Doctor, is Dehradun Based Financial Consultancy run by a Certified Financial Planner. We provide various financial services to our clients. From time to time, we run survey as well as an awareness campaign for the financial awareness.",
+        "open_role": [
           "Graphic Designer",
           "Content Writer",
           "Video Editor",
@@ -677,7 +684,7 @@
           "Sales and Marketing",
           "Social Media Manager"
         ],
-        "JD": {
+        "job_description": {
           "All": [
             "For the above profiles the interns should use their skills and knowledge in business enhancements and spreading financial awareness by using the available resources and their knowledge. Our team will guide the candidate to understand the concepts."
           ]
@@ -693,20 +700,20 @@
           "Selection  Procedure: CV Shortlisting, Personal Interview",
           "Eligibility: All courses, 3rd year students"
         ],
-        "stallCoordinator": "Harshal Tayal",
-        "coordinatorPhone": "8383021601",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F18.jpg?alt=media&token=8293fef3-7260-431f-af26-3ba2e9274b2c"
+        "stall_coordinator": "Harshal Tayal",
+        "coordinator_contact": "8383021601",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F18.jpg?alt=media&token=8293fef3-7260-431f-af26-3ba2e9274b2c"
       },
       {
-        "companyId": 19,
-        "companyName": "Feedough",
-        "aboutCompany": "Feedough is the one-stop resource for everything related to startups. Our philosophy is to research, curate, and provide the best startup feeds and resources to help you succeed in your venture. We are currently ranked as the 17th best startup website in the world and are paving our way to the top.",
-        "profilesOffered": [
+        "id": 19,
+        "name": "Feedough",
+        "about": "Feedough is the one-stop resource for everything related to startups. Our philosophy is to research, curate, and provide the best startup feeds and resources to help you succeed in your venture. We are currently ranked as the 17th best startup website in the world and are paving our way to the top.",
+        "open_role": [
           "Content Development",
           "Copywriting / Social media marketing",
           "Graphic Design / Social media marketing"
         ],
-        "JD": {
+        "job_description": {
           "Content Development": [
             "Research on startups and startup ecosystem.",
             "Develop content for a niche website.",
@@ -731,16 +738,16 @@
           "Eligibility: Graphic Design/ Social Media Marketing: Must have experience with Adobe creative suite and should send his portfolio along with application. All courses, 1 & 2 Year.",
           "Incentives: Internship certificate, letter of recommendation, and weekly SEO training."
         ],
-        "stallCoordinator": "Devesh and Snehal Gupta",
-        "coordinatorPhone": ["+91 95010 09406", "+91 99119 99985"],
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F19.png?alt=media&token=5d0750d3-3356-443c-8218-b4aa7bea9549"
+        "stall_coordinator": "Devesh and Snehal Gupta",
+        "coordinator_contact": ["+91 95010 09406", "+91 99119 99985"],
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F19.png?alt=media&token=5d0750d3-3356-443c-8218-b4aa7bea9549"
       },
       {
-        "companyId": 20,
-        "companyName": "Ingenious Faces",
-        "aboutCompany": "Ingenious Faces is an ecosystem of students, entrepreneurs and young professionals from around the world that enables learning unhindered by boundaries. Using 'Experiential Learning' and 'Entrepreneurial Mindset' as principle tools to unlock Employability Skills, Ingenious Faces enables each individual to find their own 'Genius'.",
-        "profilesOffered": ["Content Writing", "Digital Marketing"],
-        "JD": {
+        "id": 20,
+        "name": "Ingenious Faces",
+        "about": "Ingenious Faces is an ecosystem of students, entrepreneurs and young professionals from around the world that enables learning unhindered by boundaries. Using 'Experiential Learning' and 'Entrepreneurial Mindset' as principle tools to unlock Employability Skills, Ingenious Faces enables each individual to find their own 'Genius'.",
+        "open_role": ["Content Writing", "Digital Marketing"],
+        "job_description": {
           "Content Writing": [
             "The primary focus of the role will be to work with the Digital Marketing team to help with the content creation on Digital Marketing Platforms to increase brand awareness",
             "Producing engaging content for our target audience (Schools, Students, Universities,Employers",
@@ -772,20 +779,20 @@
           "Date of Commencement: March",
           "Certificate Of Internship"
         ],
-        "stallCoordinator": "Namya Chugh",
-        "coordinatorPhone": "9996667404",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F20.jpg?alt=media&token=f3d1724d-3201-4fa0-96a4-a38543c4066c"
+        "stall_coordinator": "Namya Chugh",
+        "coordinator_contact": "9996667404",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F20.jpg?alt=media&token=f3d1724d-3201-4fa0-96a4-a38543c4066c"
       },
       {
-        "companyId": 21,
-        "companyName": "Freestand",
-        "aboutCompany": "The FREESTAND sampling platform enables FMCG brands to digitise and automate their product sampling operations. Our platform is designed for FMCG brand managers who care to deliver a remarkable and measurable product trial experience to their targeted customers.",
-        "profilesOffered": [
+        "id": 21,
+        "name": "Freestand",
+        "about": "The FREESTAND sampling platform enables FMCG brands to digitise and automate their product sampling operations. Our platform is designed for FMCG brand managers who care to deliver a remarkable and measurable product trial experience to their targeted customers.",
+        "open_role": [
           "Data Analyst",
           "Performance Marketing Analyst",
           "Graphic Designer and Copywriter"
         ],
-        "JD": {
+        "job_description": {
           "Data Analyst": [
             "You are somebody with a sharp learning curve, you believe that you are meant to be a part of a fast-paced environment.",
             "You have the passion to grow as a thought leader. You do not lose motivation easily and stays committed to the long-term goal. ",
@@ -813,15 +820,15 @@
           "Duration: As long as we can work together. But at least 2 months.",
           "Virtual: If joining immediately with a few in-office meetings."
         ],
-        "stallCoordinator": "Anushka",
-        "coordinatorPhone": "9887838910",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F21.png?alt=media&token=dec17f9a-ac2e-460a-a8d1-5368fa280395"
+        "stall_coordinator": "Anushka",
+        "coordinator_contact": "9887838910",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F21.png?alt=media&token=dec17f9a-ac2e-460a-a8d1-5368fa280395"
       },
       {
-        "companyId": 22,
-        "companyName": "Nurturing Tomorrow's Minds Private Limited",
-        "aboutCompany": "Nurturing Tomorrow's Minds Private Limited (NuToM) is an Ed-tech sector startup founded by IIT-D Alumnus. It offers targeted & customized courses to K-12 students ranging from Life Skills to Advanced Academics by aggregating & curating quality content providers. We conduct Olympiads and assessments for school students and offer them an opportunity to enhance their skills by providing a one-stop solution from all the reputed course providers in the market.",
-        "profilesOffered": [
+        "id": 22,
+        "name": "Nurturing Tomorrow's Minds Private Limited",
+        "about": "Nurturing Tomorrow's Minds Private Limited (NuToM) is an Ed-tech sector startup founded by IIT-D Alumnus. It offers targeted & customized courses to K-12 students ranging from Life Skills to Advanced Academics by aggregating & curating quality content providers. We conduct Olympiads and assessments for school students and offer them an opportunity to enhance their skills by providing a one-stop solution from all the reputed course providers in the market.",
+        "open_role": [
           "Software Engineer",
           "Front End Developer",
           "Marketing Management Trainee",
@@ -829,7 +836,7 @@
           "Graphic Designer",
           "Content Writer"
         ],
-        "JD": {
+        "job_description": {
           "Software Engineer": [
             "He/She should be well-versed with at least one language (Python/Java/C++)",
             "Along with writing back end codes and would be entitled for a stipend of",
@@ -862,7 +869,7 @@
         },
         "perks": [
           "Certificate Of Internship",
-          "Stipend mentioned in the JD",
+          "Stipend mentioned in the job_description",
           "Eligibility: All courses, all years",
           "Duration: 1-2 months (min)",
           "Nature of work: In office (Noida Sector 58)/ Work from home(Intern's choice)",
@@ -870,18 +877,18 @@
           "Incentives: Certificate of Internship, LOR",
           "Selection Procedure: Multiple rounds of interview"
         ],
-        "stallCoordinator": "Vansh",
-        "coordinatorPhone": "9599420292",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F22.png?alt=media&token=606975b6-3ef1-4f1a-884f-e6ab6b6babad"
+        "stall_coordinator": "Vansh",
+        "coordinator_contact": "9599420292",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F22.png?alt=media&token=606975b6-3ef1-4f1a-884f-e6ab6b6babad"
       }
     ],
 
     "NGOs": [
       {
-        "companyId": 100,
-        "companyName": "Jazba - Helping Hands",
-        "aboutCompany": "Jazba means passion, which Team Jazba possesses to change the flaws hidden in the society we live in. Team members and the volunteers aspire to help the underprivileged people to find the lost passion to live a successful and comfortable life. They believe in building a team with like-minded people who want to be a helping hand and to keep them motivated, train them to understand the needs of people from different socio-cultural sections. Learn, Help & Grow with Jazba.",
-        "profilesOffered": [
+        "id": 100,
+        "name": "Jazba - Helping Hands",
+        "about": "Jazba means passion, which Team Jazba possesses to change the flaws hidden in the society we live in. Team members and the volunteers aspire to help the underprivileged people to find the lost passion to live a successful and comfortable life. They believe in building a team with like-minded people who want to be a helping hand and to keep them motivated, train them to understand the needs of people from different socio-cultural sections. Learn, Help & Grow with Jazba.",
+        "open_role": [
           "E-Shikshalaya Virtual Volunteers",
           "Field Volunteer (Delhi Based Volunteership Program)",
           "Campus Ambassadors",
@@ -893,7 +900,7 @@
           "Content Writing",
           "Fundraising"
         ],
-        "JD": {
+        "job_description": {
           "E-Shikshalaya Virtual Volunteers": [
             "They are required to teach children of our adopted JJ colonies through online medium for 4 hours on weekends for 2 months.",
             "Volunteers will be responsible for preparing the curriculum and taking tests also.",
@@ -997,15 +1004,15 @@
           "Additional incentives : Leadership certificate",
           "Additional incentives : Opportunity to work directly with core team"
         ],
-        "stallCoordinator": "Yash Jain",
-        "coordinatorPhone": "9911020025",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F100.jpeg?alt=media&token=56b1deaf-db0b-4526-9834-d2868606c73d"
+        "stall_coordinator": "Yash Jain",
+        "coordinator_contact": "9911020025",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F100.jpeg?alt=media&token=56b1deaf-db0b-4526-9834-d2868606c73d"
       },
       {
-        "companyId": 101,
-        "companyName": "Womenite",
-        "aboutCompany": "Fuelled by a set of commonly shared values and spurred on by our passion, their mission is an unwavering determination to the betterment of society. Being work orientated as they are, they believe in doing rather than the preaching of doing. They work tirelessly towards dissemination of information to raise awareness about issues of consequence and bring about a shift in widespread mentality.",
-        "profilesOffered": [
+        "id": 101,
+        "name": "Womenite",
+        "about": "Fuelled by a set of commonly shared values and spurred on by our passion, their mission is an unwavering determination to the betterment of society. Being work orientated as they are, they believe in doing rather than the preaching of doing. They work tirelessly towards dissemination of information to raise awareness about issues of consequence and bring about a shift in widespread mentality.",
+        "open_role": [
           "HR",
           "Content writing",
           "Graphic designing",
@@ -1013,7 +1020,7 @@
           "Operations",
           "Workshops facilitators"
         ],
-        "JD": {
+        "job_description": {
           "Human Resources (HR)": [
             "Find and recruit employees that advance company objectives",
             "Handle selection procedure including interview and appointment",
@@ -1048,16 +1055,16 @@
           "Tentative date of commencement : As soon as possible ",
           "Selection Process :  Telephonic interview "
         ],
-        "stallCoordinator": "Skanda",
-        "coordinatorPhone": "9717390290",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F101.jpeg?alt=media&token=ae837d10-2bdf-461f-af48-28c890906968"
+        "stall_coordinator": "Skanda",
+        "coordinator_contact": "9717390290",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F101.jpeg?alt=media&token=ae837d10-2bdf-461f-af48-28c890906968"
       },
       {
-        "companyId": 102,
-        "companyName": "Wake Up India Foundation",
-        "aboutCompany": "Wake Up India Foundation is a network of students committed to driving social and political change in India through charity programs, youth outreach campaigns, and policy research.",
-        "profilesOffered": ["Intern"],
-        "JD": {
+        "id": 102,
+        "name": "Wake Up India Foundation",
+        "about": "Wake Up India Foundation is a network of students committed to driving social and political change in India through charity programs, youth outreach campaigns, and policy research.",
+        "open_role": ["Intern"],
+        "job_description": {
           "Intern": [
             "Researching and writing articles for our campus projects.",
             "Establishing connections with colleges to procure news.",
@@ -1072,21 +1079,21 @@
           "Other benefits: Certificate of Completion, Letter of Recommendation",
           "Stipend: 5000 (Fixed) + 10% variable"
         ],
-        "stallCoordinator": "Khushi ",
-        "coordinatorPhone": "7016215430",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F102.jpeg?alt=media&token=261bc1c8-caa6-4f11-9975-1f3bf1171e5d"
+        "stall_coordinator": "Khushi ",
+        "coordinator_contact": "7016215430",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F102.jpeg?alt=media&token=261bc1c8-caa6-4f11-9975-1f3bf1171e5d"
       },
       {
-        "companyId": 103,
-        "companyName": "Spread Smile Foundation",
-        "aboutCompany": "Spread Smile Foundation (Regd.) is an NGO working for the upliftment of underprivileged community in  the field of education, health, sanitation, and environment. Due to outbreak of a global pandemic,  currently, work from home internship applications are open, for students irrespective of any age, caste,  gender, for a period of minimum one month (or more, if interested).",
-        "profilesOffered": [
+        "id": 103,
+        "name": "Spread Smile Foundation",
+        "about": "Spread Smile Foundation (Regd.) is an NGO working for the upliftment of underprivileged community in  the field of education, health, sanitation, and environment. Due to outbreak of a global pandemic,  currently, work from home internship applications are open, for students irrespective of any age, caste,  gender, for a period of minimum one month (or more, if interested).",
+        "open_role": [
           "Graphic Designing",
           "Content Writing",
           "Fundraising",
           "Video Making"
         ],
-        "JD": {
+        "job_description": {
           "Graphic Designing": [
             "Creating appropriate content for designated audience.",
             "Creating Graphics and video marketing content.",
@@ -1125,16 +1132,16 @@
           "Duration : Minimum 1 month",
           "Tentative date for 2nd years: 20th Feb - 25th Feb. For first years, dates will be adjusted accordingly."
         ],
-        "stallCoordinator": "Navya Taneja",
-        "coordinatorPhone": "7088994499",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F103.jpg?alt=media&token=c1aaedf8-e771-454d-9e4b-633ab0887c42"
+        "stall_coordinator": "Navya Taneja",
+        "coordinator_contact": "7088994499",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F103.jpg?alt=media&token=c1aaedf8-e771-454d-9e4b-633ab0887c42"
       },
       {
-        "companyId": 104,
-        "companyName": "Hamari Pahchan",
-        "aboutCompany": "Hamari Pahchan is a non-governmental organization, striving and working to make Delhi safer and happier place to live. It provides a platform to the deserving people from the society, to create their own identity and carve out niche for themselves. The organization has been up and running for the past 5 years. With collaboration and support of the Delhi police, School Teachers, Advocates, experienced Doctors and especially the school and college youth, the organization has come a long way with now over 5000 active members working relentlessly to support the cause. ",
-        "profilesOffered": ["Intern"],
-        "JD": {
+        "id": 104,
+        "name": "Hamari Pahchan",
+        "about": "Hamari Pahchan is a non-governmental organization, striving and working to make Delhi safer and happier place to live. It provides a platform to the deserving people from the society, to create their own identity and carve out niche for themselves. The organization has been up and running for the past 5 years. With collaboration and support of the Delhi police, School Teachers, Advocates, experienced Doctors and especially the school and college youth, the organization has come a long way with now over 5000 active members working relentlessly to support the cause. ",
+        "open_role": ["Intern"],
+        "job_description": {
           "Intern": [
             "Preparing modules for classes to be conducted for them.",
             "Making strategies for conducting classes and points on how to intellectually connect with them",
@@ -1153,22 +1160,22 @@
           "Letter of recommendation for students who will devote at least 3 months",
           "Time Commitment : 5 days a week"
         ],
-        "stallCoordinator": "Arushi",
-        "coordinatorPhone": "7889689541",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F104.png?alt=media&token=1bbe20f3-20aa-4364-a1cd-94243433c291"
+        "stall_coordinator": "Arushi",
+        "coordinator_contact": "7889689541",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F104.png?alt=media&token=1bbe20f3-20aa-4364-a1cd-94243433c291"
       },
       {
-        "companyId": 105,
-        "companyName": "Prajna Foundation",
-        "aboutCompany": "For 26 years the Prajna Foundation has been providing the children of New Delhis slums with the tools to escape the cycle of poverty and expose them to the things that make life more than just survival",
-        "profilesOffered": [
+        "id": 105,
+        "name": "Prajna Foundation",
+        "about": "For 26 years the Prajna Foundation has been providing the children of New Delhis slums with the tools to escape the cycle of poverty and expose them to the things that make life more than just survival",
+        "open_role": [
           "Digital marketing",
           "Social media",
           "CRM",
           "Content Writing (story telling)",
           "CSR"
         ],
-        "JD": {
+        "job_description": {
           "Digital Marketing": [
             " An internship with a digital marketing agency means accepting a range of duties and responsibilities designed to enhance your knowledge of digital marketing.",
             "If you are accepted for an internship, you will be required to work with other team members to develop digital marketing strategies, content, and other deliverables that help meet specific client goals and objectives.",
@@ -1200,15 +1207,15 @@
           "Duration - atleast 3 months",
           "Incentives: Certificate of Appreciation, Certificate of Experience, LOR for studies abroad"
         ],
-        "stallCoordinator": "Soumya jain",
-        "coordinatorPhone": "8882546725",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F105.png?alt=media&token=33735275-0d8c-4101-93fe-8beaefe20f08"
+        "stall_coordinator": "Soumya jain",
+        "coordinator_contact": "8882546725",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F105.png?alt=media&token=33735275-0d8c-4101-93fe-8beaefe20f08"
       },
       {
-        "companyId": 106,
-        "companyName": "Unnati",
-        "aboutCompany": "UNNATI with its tagline Learn | Earn | Stand tall, is a vocational training and social transformation program for the underprivileged youth in the age group of 18 - 25 years who are less educated and unemployed. The program consists of 300 hours of training covering areas such as spoken English language skills, life skills, values, basic computer knowledge, and vocational training based on their educational qualification. It provides guaranteed job placement to all the students in various corporates with social security. UNNATI enables inclusive growth by empowering families below poverty line.",
-        "profilesOffered": [
+        "id": 106,
+        "name": "Unnati",
+        "about": "UNNATI with its tagline Learn | Earn | Stand tall, is a vocational training and social transformation program for the underprivileged youth in the age group of 18 - 25 years who are less educated and unemployed. The program consists of 300 hours of training covering areas such as spoken English language skills, life skills, values, basic computer knowledge, and vocational training based on their educational qualification. It provides guaranteed job placement to all the students in various corporates with social security. UNNATI enables inclusive growth by empowering families below poverty line.",
+        "open_role": [
           "People Services (Human Resource)",
           "Marketing",
           "Social Media Marketing",
@@ -1217,22 +1224,22 @@
           "Content Writing",
           "Core Team (Minimum tenure of 12 months)"
         ],
-        "JD": {
+        "job_description": {
           "All Profiles": [
             "Require students to manage office accounts, do tendering work & manage invoices"
           ]
         },
         "perks": ["Eligibility -  Open to All Courses"],
-        "stallCoordinator": "Bhavanshi Dubey",
-        "coordinatorPhone": "9926687887",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F106.png?alt=media&token=f3f6532c-b0ae-4b48-8ca1-b95c4171a35e4"
+        "stall_coordinator": "Bhavanshi Dubey",
+        "coordinator_contact": "9926687887",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F106.png?alt=media&token=f3f6532c-b0ae-4b48-8ca1-b95c4171a35e4"
       },
       {
-        "companyId": 107,
-        "companyName": "Umeed- A drop of Hope",
-        "aboutCompany": "Umeed - A drop of hope is a youth club formed by youth of the nation, the basic motto of which is social service. Besides the main motto, the basic idea of such club is to help each and every human being who needs help. Umeed works for education for needy children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.",
-        "profilesOffered": ["HR", " Marketing", " Social Work"],
-        "JD": {
+        "id": 107,
+        "name": "Umeed- A drop of Hope",
+        "about": "Umeed - A drop of hope is a youth club formed by youth of the nation, the basic motto of which is social service. Besides the main motto, the basic idea of such club is to help each and every human being who needs help. Umeed works for education for needy children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.",
+        "open_role": ["HR", " Marketing", " Social Work"],
+        "job_description": {
           "Human Resources (HR)": [
             "Assisting departments with their recruitment needs through liaison with agencies/ advertisers",
             "Coordinating prospective candidates, interviewing them and administering offers.",
@@ -1262,16 +1269,16 @@
           "Location: offline Internship in Delhi and Online from anywhere.",
           "Selection Process : Resume Based Shortlisting"
         ],
-        "stallCoordinator": "Deeksha Chauhan",
-        "coordinatorPhone": "9315101163",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F107.jpeg?alt=media&token=2c57e2c7-f541-4879-882d-4852b2aa54b6"
+        "stall_coordinator": "Deeksha Chauhan",
+        "coordinator_contact": "9315101163",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F107.jpeg?alt=media&token=2c57e2c7-f541-4879-882d-4852b2aa54b6"
       },
       {
-        "companyId": 108,
-        "companyName": "Teach For India",
-        "aboutCompany": "The Teach For India Fellowship is an opportunity for India's brightest and most promising youth, from the nation's best universities and workplaces, to serve as full-time teachers to children from low-income communities in under-resourced schools. Through two years of teaching and working with key education stakeholders, our Fellows are exposed to the grassroot realities of India's education system and cultivate the knowledge, skills, and mindsets needed to attain positions of leadership in and beyond education, working collectively to build a vibrant movement for educational equity across India",
-        "profilesOffered": ["Teacher/Co-Teacher"],
-        "JD": {
+        "id": 108,
+        "name": "Teach For India",
+        "about": "The Teach For India Fellowship is an opportunity for India's brightest and most promising youth, from the nation's best universities and workplaces, to serve as full-time teachers to children from low-income communities in under-resourced schools. Through two years of teaching and working with key education stakeholders, our Fellows are exposed to the grassroot realities of India's education system and cultivate the knowledge, skills, and mindsets needed to attain positions of leadership in and beyond education, working collectively to build a vibrant movement for educational equity across India",
+        "open_role": ["Teacher/Co-Teacher"],
+        "job_description": {
           "Teacher/Co-Teacher": [
             "The intern works with the School team to ensure and enable regular instructional hours.",
             "The work will primarily involve teaching/co-teaching with Fellows.",
@@ -1292,16 +1299,16 @@
           "Certificate of Internship",
           "Perk : Training before internship starts"
         ],
-        "stallCoordinator": "Navya Agarwal",
-        "coordinatorPhone": "9354131799",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F108.jpeg?alt=media&token=c32445c2-1494-4e48-afb5-b2f1ce5a315b"
+        "stall_coordinator": "Navya Agarwal",
+        "coordinator_contact": "9354131799",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F108.jpeg?alt=media&token=c32445c2-1494-4e48-afb5-b2f1ce5a315b"
       },
       {
-        "companyId": 109,
-        "companyName": "Cequin",
-        "aboutCompany": "Cequin since 2009 has been working towards the empowerment of women and girls. It undertakes capacity building, research, advocacy and networking to achieve outcomes for gender equity. CEQUIN has a strong grassroots presence, and is committed to bring about transformative change within its communities. The learnings drawn from the ground informs its advocacy at the national and global stage. CEQUIN adopts a rights-based approach while working with the most marginalised (poor, minority, women), using innovative tools such as sports, and engaging men & boys in the gender equity discourse. They work with the government and other institutional stakeholders in this process.",
-        "profilesOffered": ["Intern"],
-        "JD": {
+        "id": 109,
+        "name": "Cequin",
+        "about": "Cequin since 2009 has been working towards the empowerment of women and girls. It undertakes capacity building, research, advocacy and networking to achieve outcomes for gender equity. CEQUIN has a strong grassroots presence, and is committed to bring about transformative change within its communities. The learnings drawn from the ground informs its advocacy at the national and global stage. CEQUIN adopts a rights-based approach while working with the most marginalised (poor, minority, women), using innovative tools such as sports, and engaging men & boys in the gender equity discourse. They work with the government and other institutional stakeholders in this process.",
+        "open_role": ["Intern"],
+        "job_description": {
           "Summary": [
             "The summary of the internship experiences last year has been given in points below"
           ],
@@ -1331,16 +1338,16 @@
           "Tentative date of commencement : Negotiable/Flexible",
           "Selection Process: Resume based shortlisting and Request in E-mail."
         ],
-        "stallCoordinator": "Shyonika Chatterjee",
-        "coordinatorPhone": "9754960707",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F109.jpg?alt=media&token=ddf79d1e-8283-497d-8849-65b7c82ec1bf"
+        "stall_coordinator": "Shyonika Chatterjee",
+        "coordinator_contact": "9754960707",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F109.jpg?alt=media&token=ddf79d1e-8283-497d-8849-65b7c82ec1bf"
       },
       {
-        "companyId": 110,
-        "companyName": "Now & Me",
-        "aboutCompany": "Now & Me primarily aims for spreading mental health awareness among people, help people to attain emotional stability by providing them a platform to express their feelings.",
-        "profilesOffered": ["Sales Associate", "Campus Ambassadors"],
-        "JD": {
+        "id": 110,
+        "name": "Now & Me",
+        "about": "Now & Me primarily aims for spreading mental health awareness among people, help people to attain emotional stability by providing them a platform to express their feelings.",
+        "open_role": ["Sales Associate", "Campus Ambassadors"],
+        "job_description": {
           "Both Profiles": [
             "Interns will have to support the campaign to spread mental health awareness among people.",
             "Tentative date of commencement: 1st week of March",
@@ -1355,15 +1362,15 @@
 
           "Duration : At least 3 months"
         ],
-        "stallCoordinator": "Aakriti",
-        "coordinatorPhone": "8527706386",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F110.jpeg?alt=media&token=55165ea8-ef30-4266-949e-5d6a9d183189"
+        "stall_coordinator": "Aakriti",
+        "coordinator_contact": "8527706386",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F110.jpeg?alt=media&token=55165ea8-ef30-4266-949e-5d6a9d183189"
       },
       {
-        "companyId": 111,
-        "companyName": "Saksham Foundation",
-        "aboutCompany": "SAKSHAM FOUNDATION is a charitable trust registered under Indian Trust Act. The main objective of the trust is come out from the name i.e. Saksham to become self dependent. Saksham Foundation's work is concentrated in the fields of Education, Health and Community Development which we believe are the areas of greatest need and deserve to be the foci of our attention. We believe the three are inter-related fields and together the only way to make a sustainable and impactful difference in the beneficiary population. We work for the upliftment of the poor and destitute by helping them achieve socio-economic independence, self - sustainability and health. We do everything from providing educational and health services to the needy, mainstreaming marginalized street children, making low-literate youth employable and empowering women. We help those in need with full respect, love and commitment, with the aim to not deliver charity but to empower them to better their own lot. Saksham Foundation is the grassroots NGO in India providing services spanning the development trifecta of Education, Health and Community Development.",
-        "profilesOffered": [
+        "id": 111,
+        "name": "Saksham Foundation",
+        "about": "SAKSHAM FOUNDATION is a charitable trust registered under Indian Trust Act. The main objective of the trust is come out from the name i.e. Saksham to become self dependent. Saksham Foundation's work is concentrated in the fields of Education, Health and Community Development which we believe are the areas of greatest need and deserve to be the foci of our attention. We believe the three are inter-related fields and together the only way to make a sustainable and impactful difference in the beneficiary population. We work for the upliftment of the poor and destitute by helping them achieve socio-economic independence, self - sustainability and health. We do everything from providing educational and health services to the needy, mainstreaming marginalized street children, making low-literate youth employable and empowering women. We help those in need with full respect, love and commitment, with the aim to not deliver charity but to empower them to better their own lot. Saksham Foundation is the grassroots NGO in India providing services spanning the development trifecta of Education, Health and Community Development.",
+        "open_role": [
           "Human Resources",
           "Event Management ",
           "Social Media Marketing",
@@ -1371,7 +1378,7 @@
           "Graphic Designing",
           "Fund Raising"
         ],
-        "JD": {
+        "job_description": {
           "Human Resources": ["Handle the recruitment process"],
           "Event Management": [
             "Manage the different events that are organised by the organisation"
@@ -1395,16 +1402,16 @@
           "Nature - Work From Home",
           "Certificate of Completion"
         ],
-        "stallCoordinator": "Ishita",
-        "coordinatorPhone": "9560708409",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F111.jpeg?alt=media&token=c3350aff-2c17-46da-9853-0195b37fc817"
+        "stall_coordinator": "Ishita",
+        "coordinator_contact": "9560708409",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F111.jpeg?alt=media&token=c3350aff-2c17-46da-9853-0195b37fc817"
       },
       {
-        "companyId": 112,
-        "companyName": "The Saviours",
-        "aboutCompany": "Those In Need is hiring interns to perform outreach roles for the upcoming collaborative events of the organization. The interns will also get involved in the operational work related to the ongoing events/projects.",
-        "profilesOffered": ["Outreach & Operations"],
-        "JD": {
+        "id": 112,
+        "name": "The Saviours",
+        "about": "Those In Need is hiring interns to perform outreach roles for the upcoming collaborative events of the organization. The interns will also get involved in the operational work related to the ongoing events/projects.",
+        "open_role": ["Outreach & Operations"],
+        "job_description": {
           "Outreach & Operations": [
             "Reaching out to people to spread the message related to the cause support outreach efforts through social media",
             "Engage in dialogue with the public",
@@ -1416,16 +1423,16 @@
           "Certificate and PPO",
           "Performance-based Letter of Recommendation"
         ],
-        "stallCoordinator": "Rishika Panwar",
-        "coordinatorPhone": "7982234116",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F112.jpeg?alt=media&token=4ef07b91-ed55-4cef-b8f6-910d43796677"
+        "stall_coordinator": "Rishika Panwar",
+        "coordinator_contact": "7982234116",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F112.jpeg?alt=media&token=4ef07b91-ed55-4cef-b8f6-910d43796677"
       },
       {
-        "companyId": 113,
-        "companyName": "Goonj",
-        "aboutCompany": "Interning at Goonj is fun if you want to explore and take yourself out of your comfort zone. Learning and absorbing will off course be a part of the process but we want you to take back something for a lifetime. At Goonj things are quite focused and goal oriented but we take our mantra of Masti mey kaam and kaam mey Masti very seriously!!. If you have an open mind, doer attitude and tons of excitement to experiment, this is the place for you..  Some days maybe mundane or repetitive but Think about it this way.. Behind every beautiful garden there are gardeners who are constantly at work, getting their hands dirty. Goonj is known pan India and worldwide because of its attention to minute details so that the last person's dignity is nurtured. Your activity, however mundane, adds value to what is reached out with dignity to the last person.",
-        "profilesOffered": ["Variety of Profiles Based on Interests"],
-        "JD": {
+        "id": 113,
+        "name": "Goonj",
+        "about": "Interning at Goonj is fun if you want to explore and take yourself out of your comfort zone. Learning and absorbing will off course be a part of the process but we want you to take back something for a lifetime. At Goonj things are quite focused and goal oriented but we take our mantra of Masti mey kaam and kaam mey Masti very seriously!!. If you have an open mind, doer attitude and tons of excitement to experiment, this is the place for you..  Some days maybe mundane or repetitive but Think about it this way.. Behind every beautiful garden there are gardeners who are constantly at work, getting their hands dirty. Goonj is known pan India and worldwide because of its attention to minute details so that the last person's dignity is nurtured. Your activity, however mundane, adds value to what is reached out with dignity to the last person.",
+        "open_role": ["Variety of Profiles Based on Interests"],
+        "job_description": {
           "All": [
             "For pro-active, multi-lingual and willing to learn interns, the sky is the limit...",
             "If you know any specific skill or you have a specific interest/wish list, do let us know.",
@@ -1443,20 +1450,20 @@
           "Selected applicants will be invited to an informal meeting at our Delhi Office. If can't make it for some reason we can talk through a skype/telephone call.",
           "People selected in the second round will be asked to share a task and an action plan to take up during your internship."
         ],
-        "stallCoordinator": "Mahesh R.",
-        "coordinatorPhone": "9717621037",
-        "companyLogo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F113.jpeg?alt=media&token=648b12b2-f014-4680-be6a-d5c860e3bd77"
+        "stall_coordinator": "Mahesh R.",
+        "coordinator_contact": "9717621037",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/ifair-portal.appspot.com/o/company-logos%2F113.jpeg?alt=media&token=648b12b2-f014-4680-be6a-d5c860e3bd77"
       },
       {
-        "companyId": 114,
-        "companyName": "Raah Foundation",
-        "aboutCompany": "Poverty is completely eradicable. It is basically a combination of mismanagement of existing resources, top down approach, excessive subsidies and lack of an integrated approach to growth and development. Over the past 6 years through multiple experiments, Raah Foundation has successfully addressed grassroot poverty and have managed to create and facilitate a better world for some of the most poor and underprivileged communities in Maharashtra. Through a combination of various interventions, an integrated and holistic approach, a systematic bottom up strategy that took cognisance of the existing resources and skills available and the gaps that need to be addressed to trigger a virtuous cycle of transformation and change and last but not the least empowering the communities to select the best path (raah) forward.  Started by three professionals in 2011 who decided to use their education and experience to contribute to making this world a better place, Raah Foundation now is a large group of like-minded passionate people who have come together to find a solution to some of the most pressing and complicated problems of the world and to make a sustainable difference to this beautiful planet.",
-        "profilesOffered": [
+        "id": 114,
+        "name": "Raah Foundation",
+        "about": "Poverty is completely eradicable. It is basically a combination of mismanagement of existing resources, top down approach, excessive subsidies and lack of an integrated approach to growth and development. Over the past 6 years through multiple experiments, Raah Foundation has successfully addressed grassroot poverty and have managed to create and facilitate a better world for some of the most poor and underprivileged communities in Maharashtra. Through a combination of various interventions, an integrated and holistic approach, a systematic bottom up strategy that took cognisance of the existing resources and skills available and the gaps that need to be addressed to trigger a virtuous cycle of transformation and change and last but not the least empowering the communities to select the best path (raah) forward.  Started by three professionals in 2011 who decided to use their education and experience to contribute to making this world a better place, Raah Foundation now is a large group of like-minded passionate people who have come together to find a solution to some of the most pressing and complicated problems of the world and to make a sustainable difference to this beautiful planet.",
+        "open_role": [
           "Social media and Communication",
           "Fellowship",
           "Report Writing"
         ],
-        "JD": {
+        "job_description": {
           "Fellowship": ["Students are required to work on gender issues."],
           "Social Media & Communication": [
             "Students should posses technical skills like graphic designing and video editing to work on various social media platforms."
@@ -1471,9 +1478,9 @@
           "Duration - 4 months",
           "Selection Process - CV based shortlisting and Personal Interview"
         ],
-        "stallCoordinator": "Rabbani Kaur",
-        "coordinatorPhone": "9911400013",
-        "companyLogo": "https://assets.letsendorse.com/le/2020/04/07/lfBOGngJTmoYPsJepJyL15862584640632.png"
+        "stall_coordinator": "Rabbani Kaur",
+        "coordinator_contact": "9911400013",
+        "logo": "https://assets.letsendorse.com/le/2020/04/07/lfBOGngJTmoYPsJepJyL15862584640632.png"
       }
     ]
   }
